@@ -1,0 +1,5839 @@
+Request: EIPP 0.1
+Architecture: armhf
+Architectures: armhf
+Install: raspi-config:armhf
+Planner: internal
+
+Package: libpam0g
+Architecture: armhf
+Version: 1.3.1-5+rpt1
+APT-ID: 62734
+Multi-Arch: same
+Status: installed
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.8), debconf (>= 0.5) | debconf-2.0
+
+Package: libmpc3
+Architecture: armhf
+Version: 1.1.0-1
+APT-ID: 28638
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgmp10, libmpfr6 (>= 4.0.0)
+
+Package: debconf
+Architecture: all
+Version: 1.5.71
+APT-ID: 3875
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: perl-base (>= 5.20.1-3~)
+Conflicts: apt (<< 0.3.12.1), cdebconf (<< 0.96), debconf-tiny, debconf-utils (<< 1.3.22), dialog (<< 0.9b-20020814-1), menu (<= 2.1.3-1), whiptail (<< 0.51.4-11), whiptail-utf8 (<= 0.50.17-13)
+Breaks: apt-listchanges (<< 3.14), ubiquity (<< 17.10.2), update-notifier-common (<< 3.187~)
+Provides: debconf-2.0
+
+Package: fdisk
+Architecture: armhf
+Version: 2.33.1-0.1
+APT-ID: 6167
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.28), libfdisk1 (>= 2.33), libmount1 (>= 2.24.2), libncursesw6 (>= 6), libsmartcols1 (>= 2.28~rc1), libtinfo6 (>= 6)
+Breaks: util-linux (<< 2.29.2-3~)
+
+Package: libpython3.7-minimal
+Architecture: armhf
+Version: 3.7.3-2
+APT-ID: 31520
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libssl1.1 (>= 1.1.1)
+Conflicts: binfmt-support (<< 1.1.2), libpython3.7-stdlib (<< 3.7.0~b2-1~)
+Breaks: libpython3.7-stdlib (<< 3.7.0~b2-1~)
+
+Package: libxdmcp6
+Architecture: armhf
+Version: 1:1.1.2-3
+APT-ID: 37134
+Multi-Arch: same
+Status: installed
+Depends: libbsd0 (>= 0.2.0), libc6 (>= 2.4)
+
+Package: info
+Architecture: armhf
+Version: 6.5.0.dfsg.1-4+b1
+APT-ID: 12170
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.15), libtinfo6 (>= 6), install-info
+
+Package: manpages
+Architecture: all
+Version: 4.16-2
+APT-ID: 38791
+Multi-Arch: foreign
+Status: installed
+Breaks: attr (<< 1:2.4.47-3), keyutils (<< 1.6-1), manpages-dev (<< 4.13-3)
+
+Package: perl-base
+Architecture: armhf
+Version: 5.28.1-6
+APT-ID: 43424
+Essential: yes
+Status: installed
+Pre-Depends: libc6 (>= 2.28), dpkg (>= 1.17.17)
+Conflicts: defoma (<< 0.11.12), doc-base (<< 0.10.3), mono-gac (<< 2.10.8.1-3), safe-rm (<< 0.8), update-inetd (<< 4.41)
+Breaks: amanda-common (<< 1:3.3.9-2), backuppc (<< 3.3.1-2), debconf (<< 1.5.61), dh-haskell (<< 0.3), intltool (<< 0.51.0-4), libexception-class-perl (<< 1.42), libfile-path-perl (<< 2.15), libfile-spec-perl (<< 3.7400), libfile-temp-perl (<< 0.2304), libio-socket-ip-perl (<< 0.39), libsbuild-perl (<< 0.67.0-1), libscalar-list-utils-perl (<< 1:1.50), libsocket-perl (<< 2.027), libxsloader-perl (<< 0.30), mailagent (<< 1:3.1-81-2), perl (<< 5.28.1~), perl-modules (<< 5.28.1~), slic3r (<< 1.2.9+dfsg-6.1), slic3r-prusa (<< 1.37.0+dfsg-1.1), texinfo (<< 6.1.0.dfsg.1-8)
+Provides: perlapi-5.28.0, libxsloader-perl (= 0.30), libsocket-perl (= 2.027), libscalar-list-utils-perl (= 1:1.50), libio-socket-ip-perl (= 0.39), libfile-temp-perl (= 0.2304), libfile-path-perl (= 2.15)
+
+Package: init
+Architecture: armhf
+Version: 1.56+nmu1
+APT-ID: 12184
+Multi-Arch: foreign
+Status: installed
+Depends: init-system-helpers (>= 1.25)
+Pre-Depends: systemd-sysv | sysvinit-core | runit-init
+
+Package: libpolkit-gobject-1-0
+Architecture: armhf
+Version: 0.105-25
+APT-ID: 31168
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.37.3), libsystemd0 (>= 213)
+
+Package: python-six
+Architecture: all
+Version: 1.12.0-1
+APT-ID: 48627
+Multi-Arch: foreign
+Status: installed
+Depends: python:any (<< 2.8), python:any (>= 2.7~)
+
+Package: librtlsdr-dev
+Architecture: armhf
+Version: 0.6-1+rpt1
+APT-ID: 62761
+Status: installed
+Depends: librtlsdr0 (= 0.6-1+rpt1), libusb-1.0-0-dev
+
+Package: bluez
+Architecture: armhf
+Version: 5.50-1+rpt1
+APT-ID: 62178
+Multi-Arch: foreign
+Status: installed
+Depends: libasound2 (>= 1.0.17), libc6 (>= 2.28), libdbus-1-3 (>= 1.9.14), libdw1 (>= 0.127), libglib2.0-0 (>= 2.31.8), libreadline7 (>= 6.0), libudev1 (>= 196), kmod, udev, lsb-base, dbus
+Conflicts: bluez-audio (<= 3.36-3), bluez-utils (<= 3.36-3)
+Breaks: udev (<< 170-1)
+
+Package: init-system-helpers
+Architecture: all
+Version: 1.56+nmu1
+APT-ID: 12185
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Depends: perl-base (>= 5.20.1-3)
+Conflicts: file-rc (<< 0.8.17~), openrc (<= 0.18.3-1)
+Breaks: systemd (<< 228), sysvinit-utils (<< 2.88dsf-59.3~)
+
+Package: exim4-base
+Architecture: armhf
+Version: 4.92-8+deb10u3
+APT-ID: 5902
+Status: installed
+Depends: adduser, cron | cron-daemon | anacron, exim4-config (>= 4.82) | exim4-config-2, lsb-base (>= 3.0-6), netbase, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), libdb5.3
+Conflicts: exim, exim-tls
+Breaks: exim4-daemon-custom (<< 4.92), exim4-daemon-heavy (<< 4.92), exim4-daemon-light (<< 4.92)
+
+Package: libdevmapper1.02.1
+Architecture: armhf
+Version: 2:1.02.155-3
+APT-ID: 17926
+Multi-Arch: same
+Status: installed
+Depends: libblkid1 (>= 2.16), libc6 (>= 2.28), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.155-3)
+Conflicts: libdevmapper1.02
+Breaks: liblvm2app2.2 (<< 2.02.122), lvm2 (<< 2.02.122)
+
+Package: libltdl-dev
+Architecture: armhf
+Version: 2.4.6-9
+APT-ID: 27382
+Multi-Arch: same
+Status: installed
+Depends: libltdl7 (= 2.4.6-9), automake-1.16
+Conflicts: libltdl3-dev, libltdl7-dev, libtool (<< 1.5.20), libtool1.4
+Provides: libltdl7-dev, libltdl3-dev
+
+Package: python3-distro-info
+Architecture: all
+Version: 0.21
+APT-ID: 49825
+Status: installed
+Depends: distro-info-data, python3:any
+
+Package: iso-codes
+Architecture: all
+Version: 4.2-1
+APT-ID: 12411
+Multi-Arch: foreign
+Status: installed
+
+Package: libssh2-1
+Architecture: armhf
+Version: 1.8.0-2.1
+APT-ID: 34501
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), zlib1g (>= 1:1.1.4)
+
+Package: python3-dev
+Architecture: armhf
+Version: 3.7.3-1
+APT-ID: 49800
+Multi-Arch: allowed
+Status: installed
+Depends: python3 (= 3.7.3-1), libpython3-dev (= 3.7.3-1), python3.7-dev (>= 3.7.3-1~), python3-distutils (>= 3.7.2-1~), dh-python
+
+Package: libcroco3
+Architecture: armhf
+Version: 0.6.12-3
+APT-ID: 17240
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.16.0), libxml2 (>= 2.7.4)
+
+Package: libusb-1.0-0
+Architecture: armhf
+Version: 2:1.0.22-2
+APT-ID: 36160
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.17), libudev1 (>= 183)
+
+Package: dmsetup
+Architecture: armhf
+Version: 2:1.02.155-3
+APT-ID: 4544
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.8), libdevmapper1.02.1 (>= 2:1.02.138)
+
+Package: libjs-eonasdan-bootstrap-datetimepicker
+Architecture: all
+Version: 4.17.47-3
+APT-ID: 25714
+Status: installed
+Depends: libjs-bootstrap, libjs-jquery, libjs-moment
+
+Package: libnl-route-3-200
+Architecture: armhf
+Version: 3.4.0-1
+APT-ID: 29424
+Multi-Arch: same
+Status: installed
+Depends: libnl-3-200 (= 3.4.0-1), libc6 (>= 2.8)
+
+Package: fuse
+Architecture: armhf
+Version: 2.9.9-1
+APT-ID: 7416
+Status: installed
+Depends: libc6 (>= 2.28), libfuse2 (= 2.9.9-1), adduser, mount (>= 2.19.1), sed (>= 4)
+
+Package: libkrb5-3
+Architecture: armhf
+Version: 1.17-3
+APT-ID: 26836
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.15~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.17-3), libssl1.1 (>= 1.1.0)
+Breaks: libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)
+
+Package: dosfstools
+Architecture: armhf
+Version: 4.1-2
+APT-ID: 4672
+Status: installed
+Depends: libc6 (>= 2.7), libudev1 (>= 183)
+
+Package: autotools-dev
+Architecture: all
+Version: 20180224.1
+APT-ID: 1203
+Multi-Arch: foreign
+Status: installed
+
+Package: libraspberrypi-bin
+Architecture: armhf
+Version: 1.20200114-1
+APT-ID: 62751
+Status: installed
+Depends: libraspberrypi0 (= 1.20200114-1), device-tree-compiler
+
+Package: libgssapi-krb5-2
+Architecture: armhf
+Version: 1.17-3
+APT-ID: 24007
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.27), libcom-err2 (>= 1.43.9), libk5crypto3 (>= 1.16), libkeyutils1 (>= 1.4), libkrb5-3 (= 1.17-3), libkrb5support0 (>= 1.15~beta1)
+Breaks: moonshot-gss-eap (<= 1.0)
+
+Package: python2.7-dev
+Architecture: armhf
+Version: 2.7.16-2+deb10u1
+APT-ID: 49316
+Multi-Arch: allowed
+Status: installed
+Depends: python2.7 (= 2.7.16-2+deb10u1), libpython2.7-dev (= 2.7.16-2+deb10u1), libpython2.7 (= 2.7.16-2+deb10u1), libexpat1-dev
+
+Package: libjs-rickshaw
+Architecture: all
+Version: 1.5.1.dfsg-2
+APT-ID: 25935
+Status: installed
+Depends: libjs-d3 (>= 3.3.6)
+
+Package: libnghttp2-14
+Architecture: armhf
+Version: 1.36.0-2+deb10u1
+APT-ID: 29356
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libseccomp2
+Architecture: armhf
+Version: 2.3.3-4
+APT-ID: 33790
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libpackagekit-glib2-18
+Architecture: armhf
+Version: 1.1.12-5
+APT-ID: 30326
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.46), libsqlite3-0 (>= 3.5.9)
+
+Package: firmware-realtek
+Architecture: all
+Version: 1:20190114-1+rpt4
+APT-ID: 62285
+Multi-Arch: foreign
+Status: installed
+
+Package: diffutils
+Architecture: armhf
+Version: 1:3.7-3
+APT-ID: 4422
+Essential: yes
+Status: installed
+Pre-Depends: libc6 (>= 2.17)
+
+Package: libaudit-common
+Architecture: all
+Version: 1:2.8.4-3
+APT-ID: 15017
+Multi-Arch: foreign
+Status: installed
+Breaks: libaudit0, libaudit1 (<< 1:2.2.1-2)
+
+Package: libcom-err2
+Architecture: armhf
+Version: 1.44.5-1+deb10u2
+APT-ID: 16906
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+Breaks: libcomerr2 (<< 1.43.9-1~)
+Provides: libcomerr2 (= 1.44.5-1+deb10u2)
+
+Package: libpopt0
+Architecture: armhf
+Version: 1.16-12
+APT-ID: 31210
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.27)
+Conflicts: libpopt-dev (<= 1.4-1), popt, rpm (<= 4.0.2-3)
+
+Package: libisccfg163
+Architecture: armhf
+Version: 1:9.11.5.P4+dfsg-5.1
+APT-ID: 25108
+Multi-Arch: same
+Status: installed
+Depends: libdns1104 (= 1:9.11.5.P4+dfsg-5.1), libisc1100 (= 1:9.11.5.P4+dfsg-5.1), libisccc161 (= 1:9.11.5.P4+dfsg-5.1), libatomic1 (>= 4.8), libc6 (>= 2.4), libcap2 (>= 1:2.10), libcom-err2 (>= 1.43.9), libfstrm0 (>= 0.2.0), libgeoip1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libjson-c3 (>= 0.10), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), liblmdb0 (>= 0.9.6), libprotobuf-c1 (>= 1.0.0), libssl1.1 (>= 1.1.0), libxml2 (>= 2.6.27)
+
+Package: soapysdr0.6-module-uhd
+Architecture: armhf
+Version: 0.3.4-1+b5
+APT-ID: 56529
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libsoapysdr0.6, libstdc++6 (>= 5.2), libuhd3.13.1
+
+Package: libmail-sendmail-perl
+Architecture: all
+Version: 0.80-1
+APT-ID: 27580
+Status: installed
+Depends: perl, libsys-hostname-long-perl
+
+Package: libdbus-1-3
+Architecture: armhf
+Version: 1.12.16-1
+APT-ID: 17754
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libsystemd0
+Breaks: dbus (<< 1.9.16-1~)
+
+Package: libsemanage1
+Architecture: armhf
+Version: 2.8-2
+APT-ID: 33811
+Multi-Arch: same
+Status: installed
+Depends: libsemanage-common (= 2.8-2), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.28), libselinux1 (>= 2.8), libsepol1 (>= 2.8)
+Breaks: policycoreutils (<< 2.4), selinux-policy-default (<< 2:2.20140421-10~), selinux-policy-mls (<< 2:2.20140421-10~)
+
+Package: uuid-runtime
+Architecture: armhf
+Version: 2.33.1-0.1
+APT-ID: 59247
+Multi-Arch: foreign
+Status: installed
+Depends: adduser, libc6 (>= 2.28), libsmartcols1 (>= 2.27~rc1), libsystemd0, libuuid1 (>= 2.31.1)
+Pre-Depends: libuuid1 (>= 2.25-5~)
+
+Package: libraspberrypi-dev
+Architecture: armhf
+Version: 1.20200114-1
+APT-ID: 62752
+Status: installed
+Depends: libraspberrypi0 (= 1.20200114-1)
+
+Package: rpi-eeprom-images
+Architecture: all
+Version: 4.0-1
+APT-ID: 63076
+Status: installed
+
+Package: sysvinit-utils
+Architecture: armhf
+Version: 2.93-8
+APT-ID: 57352
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Depends: init-system-helpers (>= 1.25~), util-linux (>> 2.28-2~), libc6 (>= 2.4)
+Breaks: systemd (<< 215)
+
+Package: libfdisk1
+Architecture: armhf
+Version: 2.33.1-0.1
+APT-ID: 19044
+Multi-Arch: same
+Status: installed
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.28), libuuid1 (>= 2.16)
+
+Package: publicsuffix
+Architecture: all
+Version: 20190415.1030-1
+APT-ID: 45088
+Multi-Arch: foreign
+Status: installed
+
+Package: javascript-common
+Architecture: all
+Version: 11
+APT-ID: 12533
+Status: installed
+
+Package: iptables
+Architecture: armhf
+Version: 1.8.2-4
+APT-ID: 12308
+Multi-Arch: foreign
+Status: installed
+Depends: libip4tc0 (= 1.8.2-4), libip6tc0 (= 1.8.2-4), libiptc0 (= 1.8.2-4), libxtables12 (= 1.8.2-4), libc6 (>= 2.28), libmnl0 (>= 1.0.3-4~), libnetfilter-conntrack3, libnfnetlink0, libnftnl11 (>= 1.1.2)
+Breaks: iptables-nftables-compat (<< 1.6.2~)
+
+Package: libraspberrypi-doc
+Architecture: armhf
+Version: 1.20200114-1
+APT-ID: 62753
+Status: installed
+Depends: libraspberrypi0 (= 1.20200114-1)
+
+Package: flashrom
+Architecture: armhf
+Version: 1.0-1
+APT-ID: 6487
+Status: installed
+Depends: libc6 (>= 2.28), libftdi1-2 (>= 1.2), libpci3 (>= 1:3.5.2-1), libusb-0.1-4 (>= 2:0.1.12), libusb-1.0-0 (>= 2:1.0.9)
+
+Package: python3-distutils
+Architecture: all
+Version: 3.7.3-1
+APT-ID: 49826
+Multi-Arch: foreign
+Status: installed
+Depends: python3 (>= 3.7.1-1~), python3 (<< 3.8), python3-lib2to3 (>= 3.6.4)
+Breaks: libpython3.6-stdlib (<< 3.6.5~rc1-3), libpython3.7-stdlib (<< 3.7.0~b2-2)
+
+Package: gnupg-utils
+Architecture: armhf
+Version: 2.2.12-1+rpi1+deb10u1
+APT-ID: 9265
+Multi-Arch: foreign
+Status: installed
+Depends: libassuan0 (>= 2.5.0), libbz2-1.0, libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.26-2~), libksba8 (>= 1.3.4), libreadline7 (>= 6.0), zlib1g (>= 1:1.1.4)
+Breaks: gnupg (<< 2.1.21-4), gnupg-agent (<< 2.1.21-4)
+
+Package: libmtp9
+Architecture: armhf
+Version: 1.1.16-2
+APT-ID: 28757
+Multi-Arch: same
+Status: installed
+Depends: libmtp-common, libc6 (>= 2.7), libgcrypt20 (>= 1.7.0), libusb-1.0-0 (>= 2:1.0.9)
+
+Package: libpcsclite1
+Architecture: armhf
+Version: 1.8.24-1
+APT-ID: 30651
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15)
+Breaks: libpcsclite-dev (<< 1.8.24-1), pcscd (<< 1.8.24-1)
+
+Package: dc
+Architecture: armhf
+Version: 1.07.1-2
+APT-ID: 3812
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: ed
+Architecture: armhf
+Version: 1.15-1
+APT-ID: 5062
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.11)
+
+Package: iw
+Architecture: armhf
+Version: 5.0.1-1
+APT-ID: 12454
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.7), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7)
+Breaks: aircrack-ng (<< 1:1.0~rc2-1)
+
+Package: jq
+Architecture: armhf
+Version: 1.5+dfsg-2+b1
+APT-ID: 12677
+Multi-Arch: foreign
+Status: installed
+Depends: libjq1 (= 1.5+dfsg-2+b1), libc6 (>= 2.4), libonig5 (>= 6.8.1)
+
+Package: libsasl2-modules-db
+Architecture: armhf
+Version: 2.1.27+dfsg-1+deb10u1
+APT-ID: 33623
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libdb5.3
+
+Package: python-configparser
+Architecture: all
+Version: 3.5.0b2-1
+APT-ID: 45921
+Status: installed
+Depends: python (<< 2.8), python (>= 2.7), python:any (>= 2.6.6-7~), libjs-sphinxdoc (>= 1.0)
+
+Package: m4
+Architecture: armhf
+Version: 1.4.18-2
+APT-ID: 38655
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.17), libsigsegv2 (>= 2.9)
+
+Package: linux-libc-dev
+Architecture: armhf
+Version: 4.18.20-2+rpi1
+APT-ID: 37948
+Multi-Arch: same
+Status: installed
+
+Package: ifupdown
+Architecture: armhf
+Version: 0.8.35
+APT-ID: 12046
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.28), lsb-base, adduser, iproute2
+Breaks: systemd (<< 228-3~)
+
+Package: vim-common
+Architecture: all
+Version: 2:8.1.0875-5
+APT-ID: 59514
+Multi-Arch: foreign
+Status: installed
+Depends: xxd
+
+Package: libmnl-dev
+Architecture: armhf
+Version: 1.0.4-2
+APT-ID: 28155
+Status: installed
+Depends: libmnl0 (= 1.0.4-2)
+
+Package: dphys-swapfile
+Architecture: all
+Version: 20100506-5
+APT-ID: 4721
+Status: installed
+Depends: dc, lsb-base (>= 3.0-6)
+
+Package: libcurl4
+Architecture: armhf
+Version: 7.64.0-4
+APT-ID: 17406
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libcom-err2 (>= 1.43.9), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 0.6), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.1.4)
+Conflicts: libcurl3
+
+Package: libapt-inst2.0
+Architecture: armhf
+Version: 1.8.2
+APT-ID: 14720
+Multi-Arch: same
+Status: installed
+Depends: libapt-pkg5.0 (>= 1.1~exp9), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: gpg-wks-client
+Architecture: armhf
+Version: 2.2.12-1+rpi1+deb10u1
+APT-ID: 10707
+Multi-Arch: foreign
+Status: installed
+Depends: dirmngr (= 2.2.12-1+rpi1+deb10u1), gpg (= 2.2.12-1+rpi1+deb10u1), gpg-agent (= 2.2.12-1+rpi1+deb10u1), libassuan0 (>= 2.5.0), libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.26-2~)
+
+Package: libldap-2.4-2
+Architecture: armhf
+Version: 2.4.47+dfsg-3+rpi1+deb10u1
+APT-ID: 27013
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libgnutls30 (>= 3.6.6), libsasl2-2 (>= 2.1.27+dfsg), libldap-common
+Conflicts: ldap-utils (<= 2.1.23-1)
+
+Package: soapysdr0.6-module-rtlsdr
+Architecture: armhf
+Version: 0.2.5-1
+APT-ID: 56528
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), librtlsdr0, libsoapysdr0.6, libstdc++6 (>= 6)
+
+Package: python-xdg
+Architecture: all
+Version: 0.25-5
+APT-ID: 49200
+Status: installed
+Depends: python:any (<< 2.8), python:any (>= 2.7~)
+
+Package: libmpfr6
+Architecture: armhf
+Version: 4.0.2-1
+APT-ID: 28661
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libgmp10
+Breaks: libgmp3 (<< 4.1.4-3), libmpc3 (<< 1.1.0-1~)
+
+Package: libfstrm0
+Architecture: armhf
+Version: 0.4.0-1
+APT-ID: 19525
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: python3-software-properties
+Architecture: all
+Version: 0.96.20.2-2
+APT-ID: 51740
+Status: installed
+Depends: iso-codes, lsb-release, python3, python3-apt (>= 0.8.8.2), python3-pycurl, python3:any
+
+Package: libpam-modules
+Architecture: armhf
+Version: 1.3.1-5+rpt1
+APT-ID: 62729
+Multi-Arch: same
+Status: installed
+Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.28), libdb5.3, libpam0g (>= 1.3.1), libselinux1 (>= 2.1.9), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.3.1-5+rpt1)
+Conflicts: libpam-mkhomedir, libpam-motd, libpam-umask
+Provides: libpam-umask, libpam-motd, libpam-mkhomedir
+
+Package: openssl
+Architecture: armhf
+Version: 1.1.1d-0+deb10u2+rpt1
+APT-ID: 62868
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.15), libssl1.1 (>= 1.1.1)
+
+Package: strace
+Architecture: armhf
+Version: 4.26-0.2
+APT-ID: 56960
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: sntp
+Architecture: armhf
+Version: 1:4.2.8p12+dfsg-4
+APT-ID: 56498
+Status: installed
+Depends: libc6 (>= 2.28), libevent-core-2.1-6 (>= 2.1.8-stable), libevent-pthreads-2.1-6 (>= 2.1.8-stable), libopts25 (>= 1:5.18.12), libssl1.1 (>= 1.1.0)
+Breaks: ntp (<< 1:4.2.8p10+dfsg-3+exp3)
+
+Package: libdw1
+Architecture: armhf
+Version: 0.176-1.1
+APT-ID: 18267
+Multi-Arch: same
+Status: installed
+Depends: libbz2-1.0, libc6 (>= 2.23), libelf1 (= 0.176-1.1), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.2.3)
+
+Package: libgirepository-1.0-1
+Architecture: armhf
+Version: 1.58.3-2
+APT-ID: 23105
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libffi6 (>= 3.0.4), libglib2.0-0 (>= 2.58.0)
+
+Package: tasksel-data
+Architecture: all
+Version: 3.53
+APT-ID: 57657
+Status: installed
+Depends: tasksel (= 3.53)
+Conflicts: tasksel (<< 2.67)
+
+Package: gnupg-l10n
+Architecture: all
+Version: 2.2.12-1+rpi1+deb10u1
+APT-ID: 9262
+Multi-Arch: foreign
+Status: installed
+Breaks: gnupg (<< 2.1.14-2~), gnupg2 (<< 2.1.14-2~)
+
+Package: inotify-tools
+Architecture: armhf
+Version: 3.14-7
+APT-ID: 12208
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.8), libinotifytools0 (>= 3.11)
+
+Package: libc6-dbg
+Architecture: armhf
+Version: 2.28-10+rpi1
+APT-ID: 15849
+Multi-Arch: same
+Status: installed
+Depends: libc6 (= 2.28-10+rpi1)
+
+Package: libfakeroot
+Architecture: armhf
+Version: 1.23-1
+APT-ID: 18967
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+Breaks: fakeroot (<< 1.20-2~)
+
+Package: intltool-debian
+Architecture: all
+Version: 0.35.0+20060710.5
+APT-ID: 12247
+Status: installed
+Depends: gettext, perl:any
+
+Package: libc6-dev
+Architecture: armhf
+Version: 2.28-10+rpi1
+APT-ID: 15850
+Multi-Arch: same
+Status: installed
+Depends: libc6 (= 2.28-10+rpi1), libc-dev-bin (= 2.28-10+rpi1), linux-libc-dev
+Conflicts: libc0.1-dev, libc0.3-dev, libc6.1-dev
+Breaks: binutils (<< 2.26), binutils-gold (<< 2.20.1-11), cmake (<< 2.8.4+dfsg.1-5), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gcc-4.6 (<< 4.6.0-12), libhwloc-dev (<< 1.2-3), libjna-java (<< 3.2.7-4), liblouis-dev (<< 2.3.0-2), liblouisxml-dev (<< 2.4.0-2), libperl5.26 (<< 5.26.1-3), make (<< 3.81-8.1), pkg-config (<< 0.26-1)
+Provides: libc-dev
+
+Package: libargon2-1
+Architecture: armhf
+Version: 0~20171227-0.2
+APT-ID: 14755
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: lua5.1
+Architecture: armhf
+Version: 5.1.5-8.1+b1
+APT-ID: 38477
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.11), libreadline7 (>= 6.0)
+
+Package: libevent-core-2.1-6
+Architecture: armhf
+Version: 2.1.8-stable-4
+APT-ID: 18816
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.17)
+
+Package: librtaudio6
+Architecture: armhf
+Version: 5.0.0~ds-3
+APT-ID: 32580
+Multi-Arch: same
+Status: installed
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpulse0 (>= 0.99.1), libstdc++6 (>= 5.2)
+
+Package: ntfs-3g
+Architecture: armhf
+Version: 1:2017.3.23AR.3-3
+APT-ID: 42073
+Status: installed
+Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libgnutls30 (>= 3.6.5), libgpg-error0 (>= 1.14), libntfs-3g883 (= 1:2017.3.23AR.3-3)
+Pre-Depends: fuse
+
+Package: libnl-genl-3-200
+Architecture: armhf
+Version: 3.4.0-1
+APT-ID: 29418
+Multi-Arch: same
+Status: installed
+Depends: libnl-3-200 (= 3.4.0-1), libc6 (>= 2.4)
+
+Package: libwbclient0
+Architecture: armhf
+Version: 2:4.9.5+dfsg-5+deb10u1+rpi1
+APT-ID: 36660
+Multi-Arch: same
+Status: installed
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.28)
+Pre-Depends: dpkg (>= 1.15.6~)
+
+Package: libftdi1-2
+Architecture: armhf
+Version: 1.4-1+b2
+APT-ID: 19530
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libusb-1.0-0 (>= 2:1.0.9)
+
+Package: p7zip
+Architecture: armhf
+Version: 16.02+dfsg-6
+APT-ID: 42958
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5)
+
+Package: git-man
+Architecture: all
+Version: 1:2.20.1-2+deb10u1
+APT-ID: 8703
+Multi-Arch: foreign
+Status: installed
+Breaks: git (<< 1:1.7.4~rc1)
+
+Package: libsigc++-1.2-5c2
+Architecture: armhf
+Version: 1.2.7-2+b1
+APT-ID: 33965
+Status: installed
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0), libstdc++6 (>= 4.3.0)
+Conflicts: libsigc++-1.2-5, libsigc++-1.2-5c102
+
+Package: libsystemd0
+Architecture: armhf
+Version: 241-7~deb10u2+rpi1
+APT-ID: 34984
+Multi-Arch: same
+Status: installed
+Pre-Depends: libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614)
+
+Package: raspi-config
+Architecture: all
+Version: 20200203
+APT-ID: 63190
+Status: installed
+Depends: whiptail, parted, lua5.1, alsa-utils, psmisc, initramfs-tools
+
+Package: raspi-config
+Architecture: all
+Version: 20200205
+APT-ID: 63059
+Depends: whiptail, parted, lua5.1, alsa-utils, psmisc, initramfs-tools
+
+Package: libarchive-zip-perl
+Architecture: all
+Version: 1.64-1
+APT-ID: 14750
+Status: installed
+Depends: perl
+
+Package: libarchive-cpio-perl
+Architecture: all
+Version: 0.10-1
+APT-ID: 14744
+Status: installed
+Depends: perl
+
+Package: base-passwd
+Architecture: armhf
+Version: 3.5.46
+APT-ID: 1390
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.8), libdebconfclient0 (>= 0.145)
+
+Package: dash
+Architecture: armhf
+Version: 0.5.10.2-5
+APT-ID: 3749
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Depends: debianutils (>= 2.15), dpkg (>= 1.19.1), debconf (>= 0.5) | debconf-2.0
+Pre-Depends: libc6 (>= 2.28)
+
+Package: xdg-user-dirs
+Architecture: armhf
+Version: 0.17-2
+APT-ID: 60534
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libexpat1-dev
+Architecture: armhf
+Version: 2.2.6-2+deb10u1
+APT-ID: 18890
+Multi-Arch: same
+Status: installed
+Depends: libexpat1 (= 2.2.6-2+deb10u1), libc6-dev | libc-dev
+Conflicts: libexpat-dev
+Provides: libexpat-dev
+
+Package: debconf-utils
+Architecture: all
+Version: 1.5.71
+APT-ID: 3880
+Status: installed
+Depends: debconf (= 1.5.71)
+Conflicts: debconf (<< 0.1.0)
+
+Package: apt
+Architecture: armhf
+Version: 1.8.2
+APT-ID: 672
+Essential: yes
+Status: installed
+Depends: adduser, gpgv | gpgv2 | gpgv1, raspbian-archive-keyring, libapt-pkg5.0 (>= 1.7.0~alpha3~), libc6 (>= 2.15), libgcc1 (>= 1:3.5), libgnutls30 (>= 3.6.6), libseccomp2 (>= 1.0.1), libstdc++6 (>= 5.2)
+Breaks: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)
+Provides: apt-transport-https (= 1.8.2)
+
+Package: libacl1
+Architecture: armhf
+Version: 2.2.53-4
+APT-ID: 14166
+Multi-Arch: same
+Status: installed
+Depends: libattr1 (>= 1:2.4.44), libc6 (>= 2.4)
+
+Package: libparted2
+Architecture: armhf
+Version: 3.2-25
+APT-ID: 30543
+Multi-Arch: same
+Status: installed
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.8), libdevmapper1.02.1 (>= 2:1.02.97), libuuid1 (>= 2.16)
+Breaks: python-parted (<< 3.6-5)
+
+Package: libpython2-stdlib
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 31488
+Multi-Arch: same
+Status: installed
+Depends: libpython2.7-stdlib (>= 2.7.16-1~)
+Breaks: libpython-stdlib (<< 2.7.15-2)
+
+Package: libksba8
+Architecture: armhf
+Version: 1.3.5-2
+APT-ID: 26857
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgpg-error0 (>= 1.14)
+
+Package: wireless-tools
+Architecture: armhf
+Version: 30~pre9-13
+APT-ID: 60162
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.7), libiw30 (>= 30~pre1)
+
+Package: libboost-system-dev
+Architecture: armhf
+Version: 1.67.0.1+b1
+APT-ID: 15621
+Multi-Arch: same
+Status: installed
+Depends: libboost-system1.67-dev
+
+Package: prometheus
+Architecture: armhf
+Version: 2.7.1+ds-3
+APT-ID: 44969
+Status: installed
+Depends: adduser, daemon | systemd-sysv, libjs-bootstrap, libjs-eonasdan-bootstrap-datetimepicker, libjs-jquery (>= 1.11.3~), libjs-jquery-hotkeys, libjs-moment, libjs-moment-timezone, libjs-mustache (>= 2.3.0-1~), libjs-rickshaw, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.4)
+
+Package: raspbian-archive-keyring
+Architecture: all
+Version: 20120528.2
+APT-ID: 53600
+Status: installed
+Depends: gnupg
+
+Package: libjs-mustache
+Architecture: all
+Version: 2.3.2-1
+APT-ID: 25904
+Status: installed
+
+Package: cpp-8
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 3391
+Status: installed
+Depends: gcc-8-base (= 8.3.0-6+rpi1), libc6 (>= 2.28), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Breaks: hardening-wrapper (<< 2.8+nmu3), libmagics++-dev (<< 2.28.0-4)
+
+Package: dbus
+Architecture: armhf
+Version: 1.12.16-1
+APT-ID: 3802
+Multi-Arch: foreign
+Status: installed
+Depends: adduser, libapparmor1 (>= 2.8.94), libaudit1 (>= 1:2.2.1), libc6 (>= 2.28), libcap-ng0 (>= 0.7.9), libdbus-1-3 (= 1.12.16-1), libexpat1 (>= 2.1~beta3), libselinux1 (>= 2.0.65), libsystemd0
+
+Package: libpng-dev
+Architecture: armhf
+Version: 1.6.36-6
+APT-ID: 31054
+Multi-Arch: same
+Status: installed
+Depends: libpng16-16 (= 1.6.36-6), zlib1g-dev
+Conflicts: libpng12-0-dev, libpng12-dev, libpng2-dev, libpng3-dev
+Breaks: libpng16-dev (<< 1.6.20-3), libpng16-devtools (<< 1.6.21-1)
+
+Package: libkmod2
+Architecture: armhf
+Version: 26-1
+APT-ID: 26757
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.17), liblzma5 (>= 5.1.1alpha+20120614), libssl1.1 (>= 1.1.0)
+
+Package: dhcpcd5
+Architecture: armhf
+Version: 1:8.1.2-1+rpt1
+APT-ID: 62248
+Status: installed
+Depends: libc6 (>= 2.28), libudev1 (>= 183), lsb-base (>= 3.0-6)
+
+Package: libpsl5
+Architecture: armhf
+Version: 0.20.2-2
+APT-ID: 31398
+Multi-Arch: same
+Status: installed
+Depends: libidn2-0 (>= 0.16), libc6 (>= 2.4), libunistring2 (>= 0.9.7)
+
+Package: debconf-i18n
+Architecture: all
+Version: 1.5.71
+APT-ID: 3877
+Status: installed
+Depends: debconf (= 1.5.71), liblocale-gettext-perl, libtext-iconv-perl, libtext-wrapi18n-perl, libtext-charwidth-perl
+Conflicts: debconf-english, debconf-utils (<< 1.3.22)
+
+Package: mariadb-common
+Architecture: all
+Version: 1:10.3.17-0+deb10u1
+APT-ID: 38852
+Multi-Arch: foreign
+Status: installed
+Depends: mysql-common (>= 5.6.25)
+
+Package: libasound2-data
+Architecture: all
+Version: 1.1.8-1+rpt1
+APT-ID: 62510
+Multi-Arch: foreign
+Status: installed
+Breaks: libasound2 (<< 1.1.8-1+rpt1)
+
+Package: python2.7-minimal
+Architecture: armhf
+Version: 2.7.16-2+deb10u1
+APT-ID: 49319
+Multi-Arch: allowed
+Status: installed
+Depends: libpython2.7-minimal (= 2.7.16-2+deb10u1)
+Pre-Depends: libc6 (>= 2.28), zlib1g (>= 1:1.2.0)
+Conflicts: binfmt-support (<< 1.1.2)
+
+Package: libalgorithm-diff-perl
+Architecture: all
+Version: 1.19.03-2
+APT-ID: 14299
+Status: installed
+Depends: perl
+
+Package: libmount1
+Architecture: armhf
+Version: 2.33.1-0.1
+APT-ID: 28583
+Multi-Arch: same
+Status: installed
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.28), libselinux1 (>= 2.6-3~)
+
+Package: python-gi
+Architecture: armhf
+Version: 3.30.4-1
+APT-ID: 46622
+Status: installed
+Depends: gir1.2-glib-2.0 (>= 1.39.0), python (<< 2.8), python (>= 2.7~), python:any (<< 2.8), python:any (>= 2.7~), libc6 (>= 2.4), libffi6 (>= 3.0.4), libgirepository-1.0-1 (>= 1.44.0), libglib2.0-0 (>= 2.41.1)
+Breaks: python-aptdaemon (<< 1.0), software-center (<= 5.6.0-0ubuntu2)
+
+Package: gcc-8-base
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 7960
+Multi-Arch: same
+Status: installed
+Breaks: gnat (<< 7), gnat-6 (<< 6.4)
+
+Package: libsqlite3-0
+Architecture: armhf
+Version: 3.27.2-3
+APT-ID: 34451
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+Breaks: python-migrate (<< 0.11.0-4~), python3-migrate (<< 0.11.0-4~)
+
+Package: libalgorithm-merge-perl
+Architecture: all
+Version: 0.08-3
+APT-ID: 14304
+Status: installed
+Depends: perl, libalgorithm-diff-perl
+
+Package: libjs-jquery-hotkeys
+Architecture: all
+Version: 0~20130707+git2d51e3a9+dfsg-2
+APT-ID: 25786
+Status: installed
+Depends: libjs-jquery
+Pre-Depends: dpkg (>= 1.15.6~)
+
+Package: mlat-client
+Architecture: armhf
+Version: 0.2.11
+APT-ID: 63189
+Status: installed
+Depends: libc6 (>= 2.4), python3 (<< 3.8), python3 (>= 3.7~), python3.7:any, python3:any (>= 3.2~), debconf (>= 0.5) | debconf-2.0, adduser
+Breaks: piaware (= 2.0-1), piaware (= 2.0-2), piaware (= 2.0-3), piaware (= 2.0-4)
+
+Package: libbz2-1.0
+Architecture: armhf
+Version: 1.0.6-9.2~deb10u1
+APT-ID: 15811
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: soapysdr0.6-module-osmosdr
+Architecture: armhf
+Version: 0.2.5-1
+APT-ID: 56524
+Multi-Arch: same
+Status: installed
+Depends: soapyosmo-common0.6 (= 0.2.5-1), libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libosmosdr0, libsoapysdr0.6, libstdc++6 (>= 5.2)
+
+Package: python3-asn1crypto
+Architecture: all
+Version: 0.24.0-1
+APT-ID: 49417
+Status: installed
+Depends: python3:any (>= 3.3.2-2~)
+
+Package: libicu63
+Architecture: armhf
+Version: 63.1-6
+APT-ID: 24778
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+Breaks: libiculx63 (<< 63.1-5), openttd (<< 1.8.0-2~)
+
+Package: libelf1
+Architecture: armhf
+Version: 0.176-1.1
+APT-ID: 18550
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), zlib1g (>= 1:1.1.4)
+
+Package: python3-urllib3
+Architecture: all
+Version: 1.24.1-1
+APT-ID: 52022
+Status: installed
+Depends: python3:any, python3-six
+
+Package: binutils
+Architecture: armhf
+Version: 2.31.1-16+rpi1
+APT-ID: 1553
+Status: installed
+Depends: binutils-common (= 2.31.1-16+rpi1), libbinutils (= 2.31.1-16+rpi1), binutils-arm-linux-gnueabihf (= 2.31.1-16+rpi1)
+Conflicts: binutils-multiarch (<< 2.27-8), modutils (<< 2.4.19-1)
+Provides: binutils-gold
+
+Package: rpi-update
+Architecture: all
+Version: 20140705
+APT-ID: 63077
+Status: installed
+Depends: binutils, curl
+
+Package: rpi-eeprom
+Architecture: armhf
+Version: 4.0-1
+APT-ID: 63075
+Status: installed
+Depends: rpi-eeprom-images, libraspberrypi-bin, python, binutils, raspberrypi-bootloader (>= 1.20190819)
+
+Package: cpp
+Architecture: armhf
+Version: 4:8.3.0-1+rpi2
+APT-ID: 3386
+Multi-Arch: allowed
+Status: installed
+Depends: cpp-8 (>= 8.3.0-1~)
+Conflicts: cpp-doc (<< 1:2.95.3)
+
+Package: bsdmainutils
+Architecture: armhf
+Version: 11.1.2
+APT-ID: 1878
+Multi-Arch: foreign
+Status: installed
+Depends: libbsd0 (>= 0.2.0), libc6 (>= 2.8), libtinfo5 (>= 6), bsdutils (>= 3.0-0), debianutils (>= 1.8)
+Breaks: bsdutils (<< 1:2.13-11)
+
+Package: libogg0
+Architecture: armhf
+Version: 1.3.2-1+b2
+APT-ID: 29810
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: soapysdr0.6-module-redpitaya
+Architecture: armhf
+Version: 0.1.0-2
+APT-ID: 56525
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.5), libsoapysdr0.6, libstdc++6 (>= 5.2)
+
+Package: pi-bluetooth
+Architecture: all
+Version: 0.1.12
+APT-ID: 62876
+Status: installed
+Depends: bluez, bluez-firmware, raspberrypi-sys-mods
+
+Package: libgpg-error0
+Architecture: armhf
+Version: 1.35-1
+APT-ID: 23799
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: python-dbus
+Architecture: armhf
+Version: 1.2.8-3
+APT-ID: 46022
+Status: installed
+Depends: python (<< 2.8), python (>= 2.7~), python:any (<< 2.8), python:any (>= 2.7~), libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.40)
+Conflicts: python2.4-dbus
+Breaks: gajim (<< 0.11.1), gnome-osd (<< 0.12.0), python-qt4-dbus (<< 4.8.3-3)
+
+Package: libbsd0
+Architecture: armhf
+Version: 0.9.1-2
+APT-ID: 15736
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.25)
+
+Package: bind9-host
+Architecture: armhf
+Version: 1:9.11.5.P4+dfsg-5.1
+APT-ID: 1536
+Status: installed
+Depends: libbind9-161 (= 1:9.11.5.P4+dfsg-5.1), libdns1104 (= 1:9.11.5.P4+dfsg-5.1), libisc1100 (= 1:9.11.5.P4+dfsg-5.1), libisccfg163 (= 1:9.11.5.P4+dfsg-5.1), liblwres161 (= 1:9.11.5.P4+dfsg-5.1), libatomic1 (>= 4.8), libc6 (>= 2.4), libcap2 (>= 1:2.10), libcom-err2 (>= 1.43.9), libfstrm0 (>= 0.2.0), libgeoip1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libidn2-0 (>= 2.0.0), libjson-c3 (>= 0.10), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), liblmdb0 (>= 0.9.6), libprotobuf-c1 (>= 1.0.0), libssl1.1 (>= 1.1.0), libxml2 (>= 2.6.27)
+Provides: host
+
+Package: libarchive13
+Architecture: armhf
+Version: 3.3.3-4+deb10u1
+APT-ID: 14751
+Multi-Arch: same
+Status: installed
+Depends: libacl1 (>= 2.2.23), libbz2-1.0, libc6 (>= 2.28), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.2.2), libnettle6, libxml2 (>= 2.7.4), libzstd1 (>= 1.3.2), zlib1g (>= 1:1.1.4)
+
+Package: e2fsprogs
+Architecture: armhf
+Version: 1.44.5-1+deb10u2
+APT-ID: 4970
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.28), libcom-err2 (>= 1.43.9), libext2fs2 (= 1.44.5-1+deb10u2), libss2 (>= 1.38), libuuid1 (>= 2.16)
+
+Package: zlib1g
+Architecture: armhf
+Version: 1:1.2.11.dfsg-1
+APT-ID: 61495
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+Conflicts: zlib1 (<= 1:1.0.4-7)
+Breaks: libxml2 (<< 2.7.6.dfsg-2), texlive-binaries (<< 2009-12)
+
+Package: libwrap0
+Architecture: armhf
+Version: 7.6.q-28
+APT-ID: 36835
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.11)
+
+Package: dwz
+Architecture: armhf
+Version: 0.12-3
+APT-ID: 4945
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.11), libelf1 (>= 0.131)
+
+Package: libtirpc-common
+Architecture: all
+Version: 1.1.4-0.4
+APT-ID: 35684
+Multi-Arch: foreign
+Status: installed
+Breaks: libtirpc1, libtirpc3 (<< 1.1.4-0.1~)
+
+Package: libavahi-common-data
+Architecture: armhf
+Version: 0.7-4+b1
+APT-ID: 15082
+Multi-Arch: same
+Status: installed
+
+Package: dh-autoreconf
+Architecture: all
+Version: 19
+APT-ID: 4136
+Multi-Arch: foreign
+Status: installed
+Depends: perl, debhelper, autoconf, automake, autopoint, libtool (>= 2.4.2)
+Breaks: dpatch (<< 2.0.38+nmu1~), quilt (<< 0.63-8.2~)
+
+Package: libjq1
+Architecture: armhf
+Version: 1.5+dfsg-2+b1
+APT-ID: 25646
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libonig5 (>= 6.8.1)
+
+Package: libpython-all-dev
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 31482
+Multi-Arch: same
+Status: installed
+Depends: libpython-dev (= 2.7.16-1), libpython2.7-dev
+
+Package: geoip-database
+Architecture: all
+Version: 20181108-1
+APT-ID: 8254
+Status: installed
+
+Package: libgmp10
+Architecture: armhf
+Version: 2:6.1.2+dfsg-4
+APT-ID: 23396
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7)
+
+Package: librhash0
+Architecture: armhf
+Version: 1.3.8-1
+APT-ID: 32423
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: soapysdr0.6-module-hackrf
+Architecture: armhf
+Version: 0.3.3-1
+APT-ID: 56521
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libhackrf0, libsoapysdr0.6, libstdc++6 (>= 5.2)
+
+Package: g++
+Architecture: armhf
+Version: 4:8.3.0-1+rpi2
+APT-ID: 7609
+Status: installed
+Depends: cpp (= 4:8.3.0-1+rpi2), gcc (= 4:8.3.0-1+rpi2), g++-8 (>= 8.3.0-1~), gcc-8 (>= 8.3.0-1~)
+
+Package: perl-modules-5.28
+Architecture: all
+Version: 5.28.1-6
+APT-ID: 43431
+Multi-Arch: foreign
+Status: installed
+Depends: perl-base (>= 5.28.1-1)
+Pre-Depends: dpkg (>= 1.17.17)
+Conflicts: perl-modules (<< 5.22.0~)
+Breaks: libansicolor-perl (<< 4.06), libarchive-tar-perl (<< 2.30), libattribute-handlers-perl (<< 1.01), libautodie-perl (<< 2.29-2), libb-debug-perl (<< 1.26), libcpan-meta-perl (<< 2.150010), libcpan-meta-requirements-perl (<< 2.140), libcpan-meta-yaml-perl (<< 0.018), libdigest-perl (<< 1.17.01), libexperimental-perl (<< 0.019), libextutils-cbuilder-perl (<< 0.280230), libextutils-command-perl (<< 7.34), libextutils-install-perl (<< 2.14), libextutils-parsexs-perl (<< 3.390000), libfile-spec-perl (<< 3.7400), libhttp-tiny-perl (<< 0.070), libi18n-langtags-perl (<< 0.43), libio-zlib-perl (<< 1.10), libjson-pp-perl (<< 2.97001), liblocale-codes-perl (<< 3.56), liblocale-maketext-perl (<< 1.29), liblocale-maketext-simple-perl (<< 0.21.01), libmath-bigint-perl (<< 1.999811), libmath-complex-perl (<< 1.5901), libmodule-corelist-perl (<< 5.20181129.28), libmodule-load-conditional-perl (<< 0.68), libmodule-load-perl (<< 0.32), libmodule-metadata-perl (<< 1.000033), libnet-perl (<< 1:3.11), libnet-ping-perl (<< 2.62), libparams-check-perl (<< 0.38), libparent-perl (<< 0.236), libparse-cpan-meta-perl (<< 2.150010), libperl-ostype-perl (<< 1.010), libpod-escapes-perl (<< 1.07), libpod-parser-perl (<< 1.63), libpod-simple-perl (<< 3.35), libtest-harness-perl (<< 3.42), libtest-simple-perl (<< 1.302133), libtest-tester-perl (<< 1.302133), libtest-use-ok-perl (<< 1.302133), libthread-queue-perl (<< 3.12), libtime-local-perl (<< 1.2500), libunicode-collate-perl (<< 1.25), libversion-perl (<< 1:0.9923), maildirsync (<< 1.2-2.1), perl (<< 5.28.1~), podlators-perl (<< 4.10)
+Provides: perl-modules
+
+Package: raspi-copies-and-fills
+Architecture: armhf
+Version: 0.13
+APT-ID: 63060
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libavahi-common3
+Architecture: armhf
+Version: 0.7-4+b1
+APT-ID: 15084
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libavahi-common-data
+
+Package: libiw30
+Architecture: armhf
+Version: 30~pre9-13
+APT-ID: 25183
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7)
+
+Package: sudo
+Architecture: armhf
+Version: 1.8.27-1+deb10u1
+APT-ID: 57028
+Status: installed
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.28), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libpam-modules, lsb-base
+Conflicts: sudo-ldap
+
+Package: liblognorm5
+Architecture: armhf
+Version: 2.0.5-1
+APT-ID: 27322
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.8), libestr0 (>= 0.1.0), libfastjson4 (>= 0.99.3)
+
+Package: soapysdr-module-rtlsdr
+Architecture: armhf
+Version: 0.2.5-1
+APT-ID: 56514
+Multi-Arch: same
+Status: installed
+Depends: soapysdr0.6-module-rtlsdr (= 0.2.5-1)
+
+Package: libpython2.7
+Architecture: armhf
+Version: 2.7.16-2+deb10u1
+APT-ID: 31489
+Multi-Arch: same
+Status: installed
+Depends: libpython2.7-stdlib (= 2.7.16-2+deb10u1), libc6 (>= 2.28), zlib1g (>= 1:1.2.0)
+
+Package: libncurses6
+Architecture: armhf
+Version: 6.1+20181013-2+deb10u2
+APT-ID: 29016
+Multi-Arch: same
+Status: installed
+Depends: libtinfo6 (= 6.1+20181013-2+deb10u2), libc6 (>= 2.7)
+
+Package: python2.7
+Architecture: armhf
+Version: 2.7.16-2+deb10u1
+APT-ID: 49314
+Multi-Arch: allowed
+Status: installed
+Depends: python2.7-minimal (= 2.7.16-2+deb10u1), libpython2.7-stdlib (= 2.7.16-2+deb10u1), mime-support
+Conflicts: python-profiler (<= 2.7.1-2)
+Breaks: python-virtualenv (<< 1.7.1.2-2~), vim-athena (<< 2:7.3.547-4), vim-gnome (<< 2:7.3.547-4), vim-gtk (<< 2:7.3.547-4), vim-nox (<< 2:7.3.547-4)
+
+Package: python3-pip
+Architecture: all
+Version: 18.1-5+rpt1
+APT-ID: 63008
+Status: installed
+Depends: ca-certificates, python3-distutils, python-pip-whl (= 18.1-5+rpt1), python3:any
+
+Package: libbabeltrace1
+Architecture: armhf
+Version: 1.5.6-2+deb10u1
+APT-ID: 15180
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.22), libdw1 (>= 0.126), libelf1 (>= 0.131), libglib2.0-0 (>= 2.31.8), libpopt0 (>= 1.14), libuuid1 (>= 2.16)
+Breaks: libbabeltrace-ctf1 (<< 1.5.3-2~)
+Provides: libbabeltrace-ctf1 (= 1.5.6-2+deb10u1)
+
+Package: python3-keyring
+Architecture: all
+Version: 17.1.1-1
+APT-ID: 50478
+Status: installed
+Depends: python3-dbus, python3-entrypoints, python3-secretstorage, python3:any
+Breaks: python3-keyrings.alt (<< 3.1), python3-wheel (<< 0.27)
+
+Package: libc6
+Architecture: armhf
+Version: 2.28-10+rpi1
+APT-ID: 15842
+Multi-Arch: same
+Status: installed
+Depends: libgcc1
+Conflicts: openrc (<< 0.27-2~)
+Breaks: hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.28), locales-all (<< 2.28), nocache (<< 1.1-1~), nscd (<< 2.28), r-cran-later (<< 0.7.5+dfsg-2)
+
+Package: console-setup-linux
+Architecture: all
+Version: 1.193~deb10u1
+APT-ID: 3263
+Multi-Arch: foreign
+Status: installed
+Depends: kbd (>= 0.99-12) | console-tools (>= 1:0.2.3-16), keyboard-configuration (= 1.193~deb10u1), init-system-helpers (>= 1.29~) | initscripts
+Conflicts: console-setup-freebsd
+Breaks: console-cyrillic (<= 0.9-11), console-setup (<< 1.71), console-terminus
+Provides: console-terminus
+
+Package: nano
+Architecture: armhf
+Version: 3.2-3
+APT-ID: 40119
+Status: installed
+Depends: libc6 (>= 2.28), libncursesw6 (>= 6), libtinfo6 (>= 6), zlib1g (>= 1:1.1.4)
+Conflicts: pico
+Breaks: nano-tiny (<< 2.8.6-2)
+
+Package: linux-base
+Architecture: all
+Version: 4.6
+APT-ID: 37914
+Multi-Arch: foreign
+Status: installed
+Depends: debconf (>= 0.5) | debconf-2.0
+Breaks: kernel-common (<= 13.018+nmu1)
+
+Package: python3-wheel
+Architecture: all
+Version: 0.32.3-2
+APT-ID: 52088
+Status: installed
+Depends: python3:any
+
+Package: gpg-wks-server
+Architecture: armhf
+Version: 2.2.12-1+rpi1+deb10u1
+APT-ID: 10708
+Multi-Arch: foreign
+Status: installed
+Depends: gpg (= 2.2.12-1+rpi1+deb10u1), gpg-agent (= 2.2.12-1+rpi1+deb10u1), libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.26-2~)
+
+Package: netbase
+Architecture: all
+Version: 5.6
+APT-ID: 40270
+Multi-Arch: foreign
+Status: installed
+
+Package: util-linux
+Architecture: armhf
+Version: 2.33.1-0.1
+APT-ID: 59235
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Depends: fdisk, login (>= 1:4.5-1.1~)
+Pre-Depends: libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.31.1), libc6 (>= 2.28), libcap-ng0 (>= 0.7.9), libmount1 (>= 2.25), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.6-3~), libsmartcols1 (>= 2.33), libsystemd0, libtinfo6 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Breaks: bash-completion (<< 1:2.8), grml-debootstrap (<< 0.68), mount (<< 2.29.2-3~), s390-tools (<< 2.2.0-1~), setpriv (<< 2.32.1-0.2~), sysvinit-utils (<< 2.88dsf-59.4~)
+
+Package: automake
+Architecture: all
+Version: 1:1.16.1-4
+APT-ID: 1181
+Multi-Arch: foreign
+Status: installed
+Depends: autoconf (>= 2.65), autotools-dev (>= 20020320.1)
+Conflicts: automake (<< 1:1.4-p5-1), automake1.10-doc, automake1.5 (<< 1.5-2), automake1.6 (<< 1.6.1-4)
+Provides: automake-1.16
+
+Package: python3-entrypoints
+Architecture: all
+Version: 0.3-1
+APT-ID: 50028
+Status: installed
+Depends: python3:any
+
+Package: gcc-7-base
+Architecture: armhf
+Version: 7.3.0-19
+APT-ID: 7954
+Multi-Arch: same
+Status: installed
+Breaks: gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat (<< 7), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6 (<< 4.6.1-5~)
+
+Package: libpython3.7
+Architecture: armhf
+Version: 3.7.3-2
+APT-ID: 31517
+Multi-Arch: same
+Status: installed
+Depends: libpython3.7-stdlib (= 3.7.3-2), libc6 (>= 2.28), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+
+Package: python3.7
+Architecture: armhf
+Version: 3.7.3-2
+APT-ID: 52255
+Multi-Arch: allowed
+Status: installed
+Depends: python3.7-minimal (= 3.7.3-2), libpython3.7-stdlib (= 3.7.3-2), mime-support
+Breaks: diffoscope (<< 98), fail2ban (<= 0.10.2-2), gnome-builder (<< 3.28.3-1), gpodder (<< 3.10.3-2), libboost-python1.62.0 (<< 1.62.0+dfsg-6), linux-show-player (<= 0.5-1), oca-core (<= 11.0.20180420-1), openscap-daemon (<< 0.1.10-3), patroni (<< 1.4.4-2), python3-aiomeasures (<< 0.5.14-2), python3-aiopg (<= 0.14.0-1), python3-aiozmq (<= 0.7.1-2), python3-all (<< 3.6.5~rc1-1), python3-applicationinsights (<= 0.11.0-1), python3-astroid (<= 1.6.5-1), python3-astroquery (<= 0.3.8+dfsg-2), python3-async (<= 0.6.2-2), python3-azure (<= 20170915+git-1), python3-blist (<< 1.3.6-5), python3-celery (<= 4.2.0-1), python3-cs (<< 2.3.1-1), python3-cxx-dev (<< 7.0.3-2), python3-dev (<< 3.6.5~rc1-1), python3-django (<< 1:1.11.13-2), python3-dkim (<< 0.9.0), python3-dns (<< 3.2.0-1), python3-doublex (<= 1.8.2-1), python3-dropbox (<= 8.7.1-1), python3-engineio (<= 1.6.1-1), python3-exabgp (<< 4.0.8-1), python3-gbulb (<= 0.5.3-2), python3-glance (<= 2:16.0.1-6), python3-http-parser (<= 0.8.3-2+b3), python3-hug (<= 2.3.0-1.1), python3-jira (<= 1.0.10-1), python3-libcloud (<= 2.3.0-1), python3-mastodon (<= 1.2.2-1), python3-maxminddb (<< 1.4.1-1~), python3-morse-simulator (<= 1.4-3), python3-motor (<= 1.2.3-1.1), python3-murano (<= 1:5.0.0-1), python3-nova (<= 2:17.0.3-12), python3-opcua (<= 0.95.1-1), python3-opengl (<= 3.1.0+dfsg-1), python3-panoramisk (<= 1.0-1), python3-pexpect (<< 4.6.0-1~), python3-protobuf (<= 3.0.0-9.1+b1), python3-protorpc-standalone (<= 0.9.1-3), python3-psycopg2 (<< 2.7.5-2), python3-pyatspi (<= 2.26.0+dfsg-1), python3-pycsw (<< 2.2.0+dfsg-4), python3-pycuda (<= 2017.1.1-2+b1), python3-pylama (<= 7.4.3-1), python3-pysnmp4 (<= 4.4.3-1), python3-rpyc (<= 3.4.4-1), python3-signaller (<= 1.1.0-1), python3-sleekxmpp (<= 1.3.3-3), python3-slixmpp (<< 1.3.0+git20180724-1), python3-tango (<= 9.2.3-1), python3-trollius (<< 2.1~b1-5), python3-tweepy (<= 3.5.0-1), python3-twisted (<< 18.4.0-2), python3-txfixtures (<= 0.2.6-1), python3-ubjson (<= 0.8.5-2), python3-venv (<< 3.6.5-2), python3-websockets (<= 4.0.1-1), python3-ws4py (<= 0.4.2+dfsg1-2), python3-yowsup (<= 2.5.7-3), pyzo (<< 4.4.3-1.1~), salt-common (<= 2017.7.4+dfsg1-1), snakemake (<< 5.2.1-1), visidata (<= 1.0-1), voltron (<= 0.1.4-2), xapers (<< 0.8.2-1.1)
+
+Package: liblimesuite18.06-1
+Architecture: armhf
+Version: 18.06.0+dfsg-1+b1
+APT-ID: 27092
+Multi-Arch: same
+Status: installed
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.8), libgcc1 (>= 1:4.0), libstdc++6 (>= 6), libusb-1.0-0 (>= 2:1.0.16)
+
+Package: libjs-jquery
+Architecture: all
+Version: 3.3.1~dfsg-3
+APT-ID: 25754
+Multi-Arch: foreign
+Status: installed
+Conflicts: jquery
+Breaks: movabletype-opensource (<< 5.1.4+dfsg-3~)
+
+Package: python-apt-common
+Architecture: all
+Version: 1.8.4.1
+APT-ID: 45551
+Status: installed
+Breaks: python-apt (<< 0.7.98+nmu1)
+
+Package: gcc
+Architecture: armhf
+Version: 4:8.3.0-1+rpi2
+APT-ID: 7934
+Status: installed
+Depends: cpp (= 4:8.3.0-1+rpi2), gcc-8 (>= 8.3.0-1~)
+Conflicts: gcc-doc (<< 1:2.95.3)
+Provides: c-compiler
+
+Package: gdb
+Architecture: armhf
+Version: 8.2.1-2
+APT-ID: 8046
+Status: installed
+Depends: libbabeltrace1 (>= 1.2.1), libc6 (>= 2.28), libexpat1 (>= 2.0.1), liblzma5 (>= 5.1.1alpha+20110809), libncursesw6 (>= 6), libpython3.7 (>= 3.7.0), libreadline7 (>= 6.0), libtinfo6 (>= 6), zlib1g (>= 1:1.2.0)
+Conflicts: gdb
+
+Package: coreutils
+Architecture: armhf
+Version: 8.30-3
+APT-ID: 3306
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libc6 (>= 2.28), libselinux1 (>= 2.1.13)
+
+Package: libjs-underscore
+Architecture: all
+Version: 1.9.1~dfsg-1
+APT-ID: 25988
+Multi-Arch: foreign
+Status: installed
+
+Package: librtlsdr0
+Architecture: armhf
+Version: 0.6-1+rpt1
+APT-ID: 62762
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libusb-1.0-0 (>= 2:1.0.21)
+
+Package: liblocale-gettext-perl
+Architecture: armhf
+Version: 1.07-3+b3
+APT-ID: 27228
+Status: installed
+Depends: libc6 (>= 2.4)
+Pre-Depends: perl-base (>= 5.28.0-3), perlapi-5.28.0
+
+Package: git
+Architecture: armhf
+Version: 1:2.20.1-2+deb10u1
+APT-ID: 8677
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.32), zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.20.1), git-man (<< 1:2.20.1-.)
+Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-core (<< 1:1.7.0.4-1.), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), gitweb (<< 1:1.7.4~rc1), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
+Provides: git-core
+
+Package: exim4-daemon-light
+Architecture: armhf
+Version: 4.92-8+deb10u3
+APT-ID: 5905
+Status: installed
+Depends: exim4-base (>= 4.92), debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), libdb5.3, libgnutls-dane0 (>= 3.5.7), libgnutls30 (>= 3.6.6), libpcre3
+Conflicts: mail-transport-agent
+Provides: mail-transport-agent
+
+Package: gcc-4.9-base
+Architecture: armhf
+Version: 4.9.4-2+rpi1+b19
+APT-ID: 7936
+Multi-Arch: same
+Status: installed
+Breaks: dehydra (<= 0.9.hg20110609-2), gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6-base (<< 4.6.4)
+
+Package: openssh-sftp-server
+Architecture: armhf
+Version: 1:7.9p1-10+deb10u1
+APT-ID: 42728
+Status: installed
+Depends: openssh-client (= 1:7.9p1-10+deb10u1), libc6 (>= 2.28)
+Breaks: openssh-server (<< 1:6.5p1-5)
+
+Package: gpg
+Architecture: armhf
+Version: 2.2.12-1+rpi1+deb10u1
+APT-ID: 10704
+Multi-Arch: foreign
+Status: installed
+Depends: gpgconf (= 2.2.12-1+rpi1+deb10u1), libassuan0 (>= 2.5.0), libbz2-1.0, libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.26-2~), libreadline7 (>= 6.0), libsqlite3-0 (>= 3.7.15), zlib1g (>= 1:1.1.4)
+Breaks: gnupg (<< 2.1.21-4)
+
+Package: python2
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 49306
+Multi-Arch: allowed
+Status: installed
+Depends: python2.7 (>= 2.7.16-1~), libpython2-stdlib (= 2.7.16-1)
+Pre-Depends: python2-minimal (= 2.7.16-1)
+Conflicts: python-central (<< 0.5.5)
+Breaks: python (<< 2.7.15-2), update-manager-core (<< 0.200.5-2)
+Provides: python-profiler
+
+Package: python3
+Architecture: armhf
+Version: 3.7.3-1
+APT-ID: 49320
+Multi-Arch: allowed
+Status: installed
+Depends: python3.7 (>= 3.7.3-1~), libpython3-stdlib (= 3.7.3-1)
+Pre-Depends: python3-minimal (= 3.7.3-1)
+
+Package: libsoapysdr0.6
+Architecture: armhf
+Version: 0.6.1-4+b4
+APT-ID: 34187
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: libsepol1
+Architecture: armhf
+Version: 2.8-1
+APT-ID: 33824
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.8)
+
+Package: libpolkit-agent-1-0
+Architecture: armhf
+Version: 0.105-25
+APT-ID: 31164
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libexpat1 (>= 2.0.1), libglib2.0-0 (>= 2.37.3), libpolkit-gobject-1-0 (= 0.105-25)
+
+Package: libk5crypto3
+Architecture: armhf
+Version: 1.17-3
+APT-ID: 26144
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libkeyutils1 (>= 1.4), libkrb5support0 (>= 1.16)
+Breaks: libgssapi-krb5-2 (<= 1.10+dfsg~alpha1), libkrb5-3 (<= 1.8~aa)
+
+Package: python3-idna
+Architecture: all
+Version: 2.6-1
+APT-ID: 50359
+Status: installed
+Depends: python3:any (>= 3.3.2-2~)
+
+Package: ncdu
+Architecture: armhf
+Version: 1.13-1
+APT-ID: 40204
+Status: installed
+Depends: libc6 (>= 2.4), libncursesw5 (>= 6), libtinfo5 (>= 6)
+
+Package: libpython2.7-dev
+Architecture: armhf
+Version: 2.7.16-2+deb10u1
+APT-ID: 31491
+Multi-Arch: same
+Status: installed
+Depends: libpython2.7-stdlib (= 2.7.16-2+deb10u1), libpython2.7 (= 2.7.16-2+deb10u1), libexpat1-dev
+
+Package: libdaemon0
+Architecture: armhf
+Version: 0.14-7
+APT-ID: 17468
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15)
+
+Package: luajit
+Architecture: armhf
+Version: 2.1.0~beta3+dfsg-5.1
+APT-ID: 38487
+Multi-Arch: foreign
+Status: installed
+Depends: libluajit-5.1-2 (= 2.1.0~beta3+dfsg-5.1), libluajit-5.1-common (= 2.1.0~beta3+dfsg-5.1), libc6 (>= 2.4), libgcc1 (>= 1:3.5)
+
+Package: libevent-pthreads-2.1-6
+Architecture: armhf
+Version: 2.1.8-stable-4
+APT-ID: 18823
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libevent-core-2.1-6 (= 2.1.8-stable-4)
+
+Package: libip6tc0
+Architecture: armhf
+Version: 1.8.2-4
+APT-ID: 25046
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: udev
+Architecture: armhf
+Version: 241-7~deb10u2+rpi1
+APT-ID: 58971
+Multi-Arch: foreign
+Status: installed
+Depends: libacl1 (>= 2.2.23), libblkid1 (>= 2.24), libc6 (>= 2.28), libkmod2 (>= 5~), libselinux1 (>= 2.1.9), adduser, dpkg (>= 1.19.3) | systemd-sysv, libudev1 (= 241-7~deb10u2+rpi1), lsb-base (>= 3.0-6), util-linux (>= 2.27.1)
+Conflicts: hal
+Breaks: ifplugd (<< 0.28-19.1~), ifupdown (<< 0.8.5~), joystick (<< 1:1.4.9-1~), raspi-copies-and-fills (<< 0.12), systemd (<< 233-4)
+
+Package: locales
+Architecture: all
+Version: 2.28-10+rpi1
+APT-ID: 38165
+Status: installed
+Depends: libc-bin (>> 2.28), libc-l10n (>> 2.28), debconf (>= 0.5) | debconf-2.0
+
+Package: console-setup
+Architecture: all
+Version: 1.193~deb10u1
+APT-ID: 3261
+Multi-Arch: foreign
+Status: installed
+Depends: console-setup-linux | console-setup-freebsd | hurd, xkb-data (>= 0.9), keyboard-configuration (= 1.193~deb10u1)
+Pre-Depends: debconf (>= 1.5.34)
+Conflicts: console-setup-mini
+Breaks: lsb (<< 2.0-6), lsb-base (<< 3.0-6), lsb-core (<< 2.0-6)
+
+Package: mime-support
+Architecture: all
+Version: 3.62
+APT-ID: 39265
+Multi-Arch: foreign
+Status: installed
+
+Package: python3.7-dev
+Architecture: armhf
+Version: 3.7.3-2
+APT-ID: 52257
+Multi-Arch: allowed
+Status: installed
+Depends: python3.7 (= 3.7.3-2), libpython3.7-dev (= 3.7.3-2), libpython3.7 (= 3.7.3-2), libexpat1-dev
+
+Package: cmake-data
+Architecture: all
+Version: 3.13.4-1
+APT-ID: 2987
+Status: installed
+
+Package: libfastjson4
+Architecture: armhf
+Version: 0.99.8-2
+APT-ID: 19002
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.8)
+
+Package: passwd
+Architecture: armhf
+Version: 1:4.5-1.1
+APT-ID: 43116
+Multi-Arch: foreign
+Status: installed
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.8), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules
+
+Package: procps
+Architecture: armhf
+Version: 2:3.3.15-2
+APT-ID: 44909
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.27), libncurses6 (>= 6), libncursesw6 (>= 6), libprocps7 (>= 2:3.3.15-1), libtinfo6 (>= 6), lsb-base (>= 3.0-10), init-system-helpers (>= 1.29~)
+Conflicts: pgrep (<< 3.3-5), w-bassman (<< 1.0-3)
+Breaks: guymager (<= 0.5.9-1), open-vm-tools (<= 2011.12.20-562307-1)
+
+Package: python3-six
+Architecture: all
+Version: 1.12.0-1
+APT-ID: 51701
+Multi-Arch: foreign
+Status: installed
+Depends: python3:any
+
+Package: libsasl2-2
+Architecture: armhf
+Version: 2.1.27+dfsg-1+deb10u1
+APT-ID: 33620
+Multi-Arch: same
+Status: installed
+Depends: libsasl2-modules-db (>= 2.1.27+dfsg-1+deb10u1), libc6 (>= 2.28)
+Breaks: postfix (<= 2.8.3-1), slapd (<= 2.4.25-3)
+
+Package: alsa-utils
+Architecture: armhf
+Version: 1.1.8-2
+APT-ID: 304
+Multi-Arch: foreign
+Status: installed
+Depends: kmod (>= 17-1~), lsb-base (>= 3.0-9), whiptail | dialog, libasound2 (>= 1.1.1), libc6 (>= 2.28), libfftw3-single3 (>= 3.3.5), libncursesw6 (>= 6), libsamplerate0 (>= 0.1.7), libtinfo6 (>= 6)
+
+Package: zlib1g-dev
+Architecture: armhf
+Version: 1:1.2.11.dfsg-1
+APT-ID: 61497
+Multi-Arch: same
+Status: installed
+Depends: zlib1g (= 1:1.2.11.dfsg-1), libc6-dev | libc-dev
+Conflicts: zlib1-dev
+Provides: libz-dev
+
+Package: libnftnl11
+Architecture: armhf
+Version: 1.1.2-2
+APT-ID: 29355
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libmnl0 (>= 1.0.3-4~)
+
+Package: libasan5
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 14813
+Multi-Arch: same
+Status: installed
+Depends: gcc-8-base (= 8.3.0-6+rpi1), libc6 (>= 2.28), libgcc1 (>= 1:4.3), libstdc++6 (>= 4.1.1)
+
+Package: libpython2-dev
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 31487
+Multi-Arch: same
+Status: installed
+Depends: libpython2.7-dev (>= 2.7.16-1~)
+Breaks: libpython-dev (<< 2.7.15-2)
+
+Package: readline-common
+Architecture: all
+Version: 7.0-5
+APT-ID: 53673
+Multi-Arch: foreign
+Status: installed
+Depends: dpkg (>= 1.15.4) | install-info
+Conflicts: libreadline-common, libreadline5 (<< 5.0-11)
+
+Package: firmware-atheros
+Architecture: all
+Version: 1:20190114-1+rpt4
+APT-ID: 62265
+Multi-Arch: foreign
+Status: installed
+
+Package: libklibc
+Architecture: armhf
+Version: 2.0.6-1+rpi1
+APT-ID: 26731
+Multi-Arch: same
+Status: installed
+
+Package: libpam-runtime
+Architecture: all
+Version: 1.3.1-5+rpt1
+APT-ID: 62733
+Multi-Arch: foreign
+Status: installed
+Depends: debconf (>= 0.5) | debconf-2.0, debconf (>= 1.5.19) | cdebconf, libpam-modules (>= 1.0.1-6)
+Conflicts: libpam0g-util
+
+Package: libpipeline1
+Architecture: armhf
+Version: 1.5.1-2
+APT-ID: 30880
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: freetype2-doc
+Architecture: all
+Version: 2.9.1-3+deb10u1
+APT-ID: 7274
+Multi-Arch: foreign
+Status: installed
+Depends: libjs-jquery
+Breaks: libfreetype6-dev (<< 2.9.1)
+
+Package: isc-dhcp-common
+Architecture: armhf
+Version: 4.4.1-2
+APT-ID: 12388
+Status: installed
+Depends: debianutils (>= 2.8.2)
+
+Package: binutils-arm-linux-gnueabihf
+Architecture: armhf
+Version: 2.31.1-16+rpi1
+APT-ID: 1554
+Multi-Arch: allowed
+Status: installed
+Depends: binutils-common (= 2.31.1-16+rpi1), libbinutils (= 2.31.1-16+rpi1), libc6 (>= 2.27), zlib1g (>= 1:1.1.4)
+Breaks: binutils (<< 2.29-6)
+
+Package: libmagic1
+Architecture: armhf
+Version: 1:5.35-4+deb10u1
+APT-ID: 27529
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15), zlib1g (>= 1:1.1.4), libmagic-mgc (= 1:5.35-4+deb10u1)
+
+Package: libjs-moment
+Architecture: all
+Version: 2.24.0+ds-1
+APT-ID: 25899
+Multi-Arch: foreign
+Status: installed
+
+Package: xkb-data
+Architecture: all
+Version: 2.26-2
+APT-ID: 60777
+Multi-Arch: foreign
+Status: installed
+Breaks: libx11-6 (<< 2:1.4.3)
+
+Package: libisc-export1100
+Architecture: armhf
+Version: 1:9.11.5.P4+dfsg-5.1
+APT-ID: 25103
+Multi-Arch: same
+Status: installed
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.28), libssl1.1 (>= 1.1.0)
+
+Package: libboost-system1.67-dev
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15626
+Multi-Arch: same
+Status: installed
+Depends: libboost1.67-dev (= 1.67.0-13), libboost-system1.67.0 (= 1.67.0-13)
+Conflicts: libboost-system1.42-dev, libboost-system1.46-dev, libboost-system1.48-dev, libboost-system1.49-dev, libboost-system1.50-dev, libboost-system1.52-dev, libboost-system1.53-dev, libboost-system1.54-dev, libboost-system1.55-dev, libboost-system1.57-dev, libboost-system1.58-dev, libboost-system1.60-dev, libboost-system1.61-dev, libboost-system1.62-dev, libboost-system1.63-dev, libboost-system1.65-dev
+
+Package: libassuan0
+Architecture: armhf
+Version: 2.5.2-1
+APT-ID: 14874
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgpg-error0 (>= 1.17)
+
+Package: libapt-pkg5.0
+Architecture: armhf
+Version: 1.8.2
+APT-ID: 14724
+Multi-Arch: same
+Status: installed
+Depends: libbz2-1.0, libc6 (>= 2.28), libgcc1 (>= 1:3.5), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), libsystemd0 (>= 221), libudev1 (>= 183), libzstd1 (>= 1.3.2), zlib1g (>= 1:1.2.3.4)
+Breaks: appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), libapt-inst1.5 (<< 0.9.9~)
+
+Package: gcc-6-base
+Architecture: armhf
+Version: 6.5.0-1+rpi1+b1
+APT-ID: 7947
+Multi-Arch: same
+Status: installed
+Breaks: gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6 (<< 4.6.1-5~)
+
+Package: packagekit-tools
+Architecture: armhf
+Version: 1.1.12-5
+APT-ID: 42976
+Multi-Arch: foreign
+Status: installed
+Depends: packagekit (= 1.1.12-5), libc6 (>= 2.7), libglib2.0-0 (>= 2.46), libpackagekit-glib2-18 (>= 1.1.9)
+
+Package: libntfs-3g883
+Architecture: armhf
+Version: 1:2017.3.23AR.3-3
+APT-ID: 29529
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: python
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 45482
+Multi-Arch: allowed
+Status: installed
+Depends: python2.7 (>= 2.7.16-1~), libpython-stdlib (= 2.7.16-1), python2 (= 2.7.16-1)
+Pre-Depends: python-minimal (= 2.7.16-1)
+Conflicts: python-central (<< 0.5.5)
+Breaks: update-manager-core (<< 0.200.5-2)
+Provides: python-profiler
+
+Package: libmpdec2
+Architecture: armhf
+Version: 2.4.2-2
+APT-ID: 28648
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+Breaks: libmpdec2.3
+
+Package: kbd
+Architecture: armhf
+Version: 2.0.4-4
+APT-ID: 12888
+Status: installed
+Depends: libc6 (>= 2.7)
+Conflicts: console-utilities
+Provides: console-utilities
+
+Package: libboost-test1.67.0
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15634
+Multi-Arch: same
+Status: installed
+Depends: libboost-system1.67.0, libboost-timer1.67.0, libc6 (>= 2.11), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: rtl-sdr
+Architecture: armhf
+Version: 0.6-1+rpt1
+APT-ID: 63080
+Status: installed
+Depends: librtlsdr0 (= 0.6-1+rpt1), libc6 (>= 2.28), libusb-1.0-0 (>= 2:1.0.8)
+
+Package: libncursesw5
+Architecture: armhf
+Version: 6.1+20181013-2+deb10u2
+APT-ID: 29021
+Multi-Arch: same
+Status: installed
+Depends: libtinfo5 (= 6.1+20181013-2+deb10u2), libc6 (>= 2.7)
+
+Package: libncursesw6
+Architecture: armhf
+Version: 6.1+20181013-2+deb10u2
+APT-ID: 29023
+Multi-Arch: same
+Status: installed
+Depends: libtinfo6 (= 6.1+20181013-2+deb10u2), libc6 (>= 2.7)
+
+Package: fontconfig-config
+Architecture: all
+Version: 2.13.1-2
+APT-ID: 6579
+Multi-Arch: foreign
+Status: installed
+Depends: debconf (>= 0.5) | debconf-2.0, ucf (>= 0.29), fonts-dejavu-core | ttf-bitstream-vera | fonts-liberation | fonts-freefont
+Breaks: libfontconfig1 (<< 2.13.0)
+
+Package: libprocps7
+Architecture: armhf
+Version: 2:3.3.15-2
+APT-ID: 31349
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libsystemd0 (>= 209)
+
+Package: libx11-6
+Architecture: armhf
+Version: 2:1.6.7-1
+APT-ID: 36925
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15), libxcb1 (>= 1.11.1), libx11-data
+
+Package: libpython3.7-stdlib
+Architecture: armhf
+Version: 3.7.3-2
+APT-ID: 31521
+Multi-Arch: same
+Status: installed
+Depends: libpython3.7-minimal (= 3.7.3-2), mime-support, libbz2-1.0, libc6 (>= 2.28), libdb5.3, libffi6 (>= 3.0.4), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw6 (>= 6), libreadline7 (>= 7.0~beta), libsqlite3-0 (>= 3.7.15), libtinfo6 (>= 6), libuuid1 (>= 2.20.1)
+Breaks: libmpdec2 (<< 2.4.2), libpython3.7-testsuite (<< 3.7.2-3), python3-distutils (<< 3.6.5~rc1-2), python3-tk (<< 3.6.4~rc1-2)
+
+Package: firmware-libertas
+Architecture: all
+Version: 1:20190114-1+rpt4
+APT-ID: 62275
+Multi-Arch: foreign
+Status: installed
+Breaks: libertas-firmware (<< 9.70.7.p0.0-2)
+Provides: libertas-firmware
+
+Package: soapyosmo-common0.6
+Architecture: armhf
+Version: 0.2.5-1
+APT-ID: 56501
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: libopus0
+Architecture: armhf
+Version: 1.3-1
+APT-ID: 30133
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: python3-requests
+Architecture: all
+Version: 2.21.0-1
+APT-ID: 51525
+Status: installed
+Depends: python3-certifi, python3-chardet (<< 3.1.0), python3-idna, python3-urllib3 (<< 1.25), python3:any, ca-certificates, python3-chardet (>= 3.0.2), python3-urllib3 (>= 1.21.1)
+Breaks: awscli (<< 1.11.139)
+
+Package: libisl19
+Architecture: armhf
+Version: 0.20-2
+APT-ID: 25121
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgmp10
+Breaks: libisl-dbg (<< 0.19)
+
+Package: debianutils
+Architecture: armhf
+Version: 4.8.6.1
+APT-ID: 3961
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: libc6 (>= 2.15)
+
+Package: libexpat1
+Architecture: armhf
+Version: 2.2.6-2+deb10u1
+APT-ID: 18889
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.25), libgcc1 (>= 1:3.5)
+Conflicts: wink (<= 1.5.1060-4)
+
+Package: python-enum34
+Architecture: all
+Version: 1.1.6-2
+APT-ID: 46364
+Status: installed
+Depends: python:any (<< 2.8), python:any (>= 2.7.5-5~)
+Breaks: python-enum
+
+Package: dh-strip-nondeterminism
+Architecture: all
+Version: 1.1.2-1
+APT-ID: 4169
+Multi-Arch: foreign
+Status: installed
+Depends: debhelper (>= 9.20151004), libfile-stripnondeterminism-perl (= 1.1.2-1), perl:any
+
+Package: lighttpd
+Architecture: armhf
+Version: 1.4.53-4
+APT-ID: 37837
+Status: installed
+Depends: libattr1 (>= 1:2.4.44), libbz2-1.0, libc6 (>= 2.28), libfam0, libpcre3, libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.1.4), mime-support, lsb-base (>= 3.0-6)
+
+Package: kmod
+Architecture: armhf
+Version: 26-1
+APT-ID: 13314
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.17), liblzma5 (>= 5.1.1alpha+20120614), libssl1.1 (>= 1.1.0), libkmod2 (= 26-1), lsb-base
+Breaks: alsa-base (<= 1.0.25+3), oss-compat (= 4)
+
+Package: libudev0
+Architecture: armhf
+Version: 175-7.2
+APT-ID: 35972
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.13-28), libgcc1 (>= 1:4.4.0)
+Pre-Depends: multiarch-support
+
+Package: libudev1
+Architecture: armhf
+Version: 241-7~deb10u2+rpi1
+APT-ID: 35973
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: rsyslog
+Architecture: armhf
+Version: 8.1901.0-1
+APT-ID: 54065
+Status: installed
+Depends: libc6 (>= 2.28), libestr0 (>= 0.1.4), libfastjson4 (>= 0.99.7), liblognorm5 (>= 2.0.3), libsystemd0 (>= 209), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4), lsb-base (>= 3.2-14)
+Pre-Depends: init-system-helpers (>= 1.54~)
+Conflicts: linux-kernel-log-daemon, system-log-daemon
+Provides: system-log-daemon, linux-kernel-log-daemon
+
+Package: net-tools
+Architecture: armhf
+Version: 1.60+git20180626.aebd88e-1
+APT-ID: 40266
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4), libselinux1 (>= 1.32)
+
+Package: libboost-program-options1.67-dev
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15581
+Multi-Arch: same
+Status: installed
+Depends: libboost1.67-dev (= 1.67.0-13), libboost-program-options1.67.0 (= 1.67.0-13)
+Conflicts: libboost-program-options1.42-dev, libboost-program-options1.46-dev, libboost-program-options1.48-dev, libboost-program-options1.49-dev, libboost-program-options1.50-dev, libboost-program-options1.52-dev, libboost-program-options1.53-dev, libboost-program-options1.54-dev, libboost-program-options1.55-dev, libboost-program-options1.57-dev, libboost-program-options1.58-dev, libboost-program-options1.60-dev, libboost-program-options1.61-dev, libboost-program-options1.62-dev, libboost-program-options1.63-dev, libboost-program-options1.65-dev
+
+Package: libapparmor1
+Architecture: armhf
+Version: 2.13.2-10
+APT-ID: 14675
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.17)
+
+Package: python3.7-minimal
+Architecture: armhf
+Version: 3.7.3-2
+APT-ID: 52260
+Multi-Arch: allowed
+Status: installed
+Depends: libpython3.7-minimal (= 3.7.3-2), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Pre-Depends: libc6 (>= 2.28)
+Conflicts: binfmt-support (<< 1.1.2)
+
+Package: libisc1100
+Architecture: armhf
+Version: 1:9.11.5.P4+dfsg-5.1
+APT-ID: 25104
+Multi-Arch: same
+Status: installed
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.28), libcap2 (>= 1:2.10), libfstrm0 (>= 0.2.0), libgeoip1, libjson-c3 (>= 0.10), liblmdb0 (>= 0.9.6), libprotobuf-c1 (>= 1.0.0), libssl1.1 (>= 1.1.0), libxml2 (>= 2.7.4)
+
+Package: cifs-utils
+Architecture: armhf
+Version: 2:6.8-2
+APT-ID: 2583
+Status: installed
+Depends: libc6 (>= 2.17), libcap-ng0 (>= 0.7.9), libkeyutils1 (>= 1.4), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libtalloc2 (>= 2.0.4~git20101213), libwbclient0 (>= 2:4.0.3+dfsg1)
+
+Package: libtalloc2
+Architecture: armhf
+Version: 2.1.14-2
+APT-ID: 35045
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.16)
+Breaks: python3-talloc (<< 2.1.13-2~)
+
+Package: htop
+Architecture: armhf
+Version: 2.2.0-1
+APT-ID: 11542
+Status: installed
+Depends: libc6 (>= 2.15), libncursesw5 (>= 6), libtinfo5 (>= 6)
+
+Package: vl805fw
+Architecture: all
+Version: 0.2
+APT-ID: 63122
+Status: installed
+
+Package: adduser
+Architecture: all
+Version: 3.118
+APT-ID: 155
+Multi-Arch: foreign
+Status: installed
+Depends: passwd, debconf (>= 0.5) | debconf-2.0
+
+Package: libltdl7
+Architecture: armhf
+Version: 2.4.6-9
+APT-ID: 27383
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: build-essential
+Architecture: armhf
+Version: 12.6
+APT-ID: 1941
+Status: installed
+Depends: libc6-dev | libc-dev, gcc (>= 4:8.3), g++ (>= 4:8.3), make, dpkg-dev (>= 1.17.11)
+
+Package: libfile-fcntllock-perl
+Architecture: armhf
+Version: 0.22-3+b4
+APT-ID: 19133
+Status: installed
+Depends: perl (>= 5.28.0-3), perlapi-5.28.0, libc6 (>= 2.4)
+
+Package: soapysdr0.6-module-audio
+Architecture: armhf
+Version: 0~git20160607-3+b1
+APT-ID: 56519
+Multi-Arch: same
+Status: installed
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libhamlib2 (>= 3.1), libpulse0 (>= 0.99.1), librtaudio6, libsoapysdr0.6, libstdc++6 (>= 6)
+
+Package: libusb-1.0-0-dev
+Architecture: armhf
+Version: 2:1.0.22-2
+APT-ID: 36161
+Multi-Arch: same
+Status: installed
+Depends: libusb-1.0-0 (= 2:1.0.22-2)
+
+Package: liblmdb0
+Architecture: armhf
+Version: 0.9.22-1
+APT-ID: 27209
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.12)
+
+Package: libfile-stripnondeterminism-perl
+Architecture: all
+Version: 1.1.2-1
+APT-ID: 19190
+Status: installed
+Depends: libarchive-zip-perl, perl
+
+Package: raspberrypi-kernel
+Architecture: armhf
+Version: 1.20200114-1
+APT-ID: 63054
+Status: installed
+Breaks: raspberrypi-bootloader (<< 1.20160324-1)
+
+Package: libgcc1
+Architecture: armhf
+Version: 1:8.3.0-6+rpi1
+APT-ID: 19698
+Multi-Arch: same
+Status: installed
+Depends: gcc-8-base (= 8.3.0-6+rpi1), libc6 (>= 2.4)
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+
+Package: libsm6
+Architecture: armhf
+Version: 2:1.2.3-1
+APT-ID: 34100
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libice6 (>= 1:1.0.0), libuuid1 (>= 2.16)
+
+Package: python3-xdg
+Architecture: all
+Version: 0.25-5
+APT-ID: 52126
+Status: installed
+Depends: python3:any
+
+Package: dirmngr
+Architecture: armhf
+Version: 2.2.12-1+rpi1+deb10u1
+APT-ID: 4452
+Multi-Arch: foreign
+Status: installed
+Depends: adduser, gpgconf (= 2.2.12-1+rpi1+deb10u1), lsb-base (>= 3.2-13), libassuan0 (>= 2.5.0), libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), libgnutls30 (>= 3.6.6), libgpg-error0 (>= 1.26-2~), libksba8 (>= 1.3.4), libldap-2.4-2 (>= 2.4.7), libnpth0 (>= 0.90)
+Breaks: gnupg2 (<< 2.1.10-2)
+
+Package: libss2
+Architecture: armhf
+Version: 1.44.5-1+deb10u2
+APT-ID: 34491
+Multi-Arch: same
+Status: installed
+Depends: libcom-err2, libc6 (>= 2.17)
+
+Package: python3-pycurl
+Architecture: armhf
+Version: 7.43.0.2-0.1
+APT-ID: 51134
+Status: installed
+Depends: python3 (<< 3.8), python3 (>= 3.7~), python3:any, libc6 (>= 2.15), libcurl3-gnutls (>= 7.18.0), libgnutls30 (>= 3.6.5)
+
+Package: mount
+Architecture: armhf
+Version: 2.33.1-0.1
+APT-ID: 39661
+Multi-Arch: foreign
+Status: installed
+Depends: util-linux (>= 2.29.2-3~)
+Pre-Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.28), libmount1 (>= 2.33), libselinux1 (>= 2.6-3~), libsmartcols1 (>= 2.33)
+Breaks: bash-completion (<< 1:2.1-4.3~)
+
+Package: libjim0.77
+Architecture: armhf
+Version: 0.77+dfsg0-3
+APT-ID: 25535
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15)
+
+Package: libperl5.28
+Architecture: armhf
+Version: 5.28.1-6
+APT-ID: 30727
+Multi-Arch: same
+Status: installed
+Depends: libbz2-1.0, libc6 (>= 2.28), libdb5.3, libgdbm-compat4 (>= 1.18-3), libgdbm6 (>= 1.18-3), zlib1g (>= 1:1.2.2.3), perl-modules-5.28 (>= 5.28.1-6)
+Breaks: libcompress-raw-bzip2-perl (<< 2.074), libcompress-raw-zlib-perl (<< 2.076), libcompress-zlib-perl (<< 2.074), libdigest-md5-perl (<< 2.55), libdigest-sha-perl (<< 6.01), libencode-perl (<< 2.97), libfilter-perl (<< 1.58), libio-compress-base-perl (<< 2.074), libio-compress-bzip2-perl (<< 2.074), libio-compress-perl (<< 2.074), libio-compress-zlib-perl (<< 2.074), libmime-base64-perl (<< 3.15), libstorable-perl (<< 3.08), libsys-syslog-perl (<< 0.35), libthreads-perl (<< 2.22), libthreads-shared-perl (<< 1.58), libtime-hires-perl (<< 1.9759), libtime-piece-perl (<< 1.3204)
+
+Package: ntp
+Architecture: armhf
+Version: 1:4.2.8p12+dfsg-4
+APT-ID: 42081
+Status: installed
+Depends: adduser, lsb-base (>= 3.2-13), netbase, tzdata, libc6 (>= 2.28), libcap2 (>= 1:2.10), libedit2 (>= 2.11-20080614-0), libopts25 (>= 1:5.18.12), libssl1.1 (>= 1.1.0)
+Breaks: apparmor-profiles-extra (<< 1.8)
+
+Package: libsemanage-common
+Architecture: all
+Version: 2.8-2
+APT-ID: 33810
+Multi-Arch: foreign
+Status: installed
+Breaks: libsemanage1 (<= 2.0.41-1), libsemanage1-dev (<< 2.1.6-3~)
+
+Package: python-cryptography
+Architecture: armhf
+Version: 2.6.1-3+deb10u2
+APT-ID: 45965
+Status: installed
+Depends: python (<< 2.8), python (>= 2.7~), python-asn1crypto, python-cffi-backend-api-min (<= 9729), python-cffi-backend-api-max (>= 9729), python-enum34, python-ipaddress, python-six (>= 1.4.1), python:any (<< 2.8), python:any (>= 2.7~), libc6 (>= 2.4), libssl1.1 (>= 1.1.1)
+Breaks: python-openssl (<< 16.0.0)
+
+Package: po-debconf
+Architecture: all
+Version: 1.0.21
+APT-ID: 44573
+Multi-Arch: foreign
+Status: installed
+Depends: gettext (>= 0.16), intltool-debian (>= 0.34.2+20060512), perl, sensible-utils
+
+Package: python-crypto
+Architecture: armhf
+Version: 2.6.1-9+b1
+APT-ID: 45962
+Status: installed
+Depends: python (<< 2.8), python (>= 2.7~), python:any (<< 2.8), python:any (>= 2.7~), libc6 (>= 2.4), libgmp10
+
+Package: gcc-5-base
+Architecture: armhf
+Version: 5.5.0-8
+APT-ID: 7941
+Multi-Arch: same
+Status: installed
+Breaks: gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6 (<< 4.6.1-5~)
+
+Package: device-tree-compiler
+Architecture: armhf
+Version: 1.4.7-3+rpt1
+APT-ID: 62246
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.7)
+
+Package: libext2fs2
+Architecture: armhf
+Version: 1.44.5-1+deb10u2
+APT-ID: 18908
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+Breaks: e2fslibs (<< 1.43.9-1~)
+Provides: e2fslibs (= 1.44.5-1+deb10u2)
+
+Package: soapysdr0.6-module-lms7
+Architecture: armhf
+Version: 18.06.0+dfsg-1+b1
+APT-ID: 56522
+Multi-Arch: same
+Status: installed
+Depends: liblimesuite18.06-1 (>= 18.06.0+dfsg-1+b1), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libsoapysdr0.6, libstdc++6 (>= 5.2)
+
+Package: libpython-stdlib
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 31485
+Multi-Arch: same
+Status: installed
+Depends: libpython2.7-stdlib (>= 2.7.16-1~), libpython2-stdlib (= 2.7.16-1)
+
+Package: libattr1
+Architecture: armhf
+Version: 1:2.4.48-4
+APT-ID: 14985
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libiptc0
+Architecture: armhf
+Version: 1.8.2-4
+APT-ID: 25076
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libip4tc0 (>= 1.6.0+snapshot20161117), libip6tc0 (>= 1.6.0+snapshot2016111)
+
+Package: autoconf
+Architecture: all
+Version: 2.69-11
+APT-ID: 1151
+Multi-Arch: foreign
+Status: installed
+Depends: perl (>> 5.005), m4 (>= 1.4.13), debianutils (>= 1.8)
+Breaks: gettext (<< 0.10.39), pkg-config (<< 0.25-1.1)
+
+Package: raspberrypi-bootloader
+Architecture: armhf
+Version: 1.20200114-1
+APT-ID: 63053
+Status: installed
+
+Package: libgcc-8-dev
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 19672
+Multi-Arch: same
+Status: installed
+Depends: gcc-8-base (= 8.3.0-6+rpi1), libgcc1 (>= 1:8.3.0-6+rpi1), libgomp1 (>= 8.3.0-6+rpi1), libatomic1 (>= 8.3.0-6+rpi1), libasan5 (>= 8.3.0-6+rpi1), libubsan1 (>= 8.3.0-6+rpi1)
+
+Package: libnfnetlink0
+Architecture: armhf
+Version: 1.0.1-3
+APT-ID: 29340
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+Pre-Depends: multiarch-support
+
+Package: libmtp-runtime
+Architecture: armhf
+Version: 1.1.16-2
+APT-ID: 28756
+Status: installed
+Depends: libmtp-common, libmtp9 (= 1.1.16-2), libc6 (>= 2.4)
+
+Package: libboost1.67-dev
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15672
+Multi-Arch: same
+Status: installed
+Depends: libstdc++-dev
+Conflicts: bjam, boost-build, libboost1.42-dev, libboost1.46-dev, libboost1.48-dev, libboost1.49-dev, libboost1.50-dev, libboost1.52-dev, libboost1.53-dev, libboost1.54-dev, libboost1.55-dev, libboost1.57-dev, libboost1.58-dev, libboost1.60-dev, libboost1.61-dev, libboost1.62-dev, libboost1.63-dev, libboost1.65-dev
+
+Package: libblkid1
+Architecture: armhf
+Version: 2.33.1-0.1
+APT-ID: 15375
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libuuid1 (>= 2.16)
+
+Package: libunbound8
+Architecture: armhf
+Version: 1.9.0-2+deb10u1
+APT-ID: 36039
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libevent-2.1-6 (>= 2.1.8-stable), libgmp10, libhogweed4, libnettle6
+
+Package: dpkg
+Architecture: armhf
+Version: 1.19.7
+APT-ID: 4722
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Depends: tar (>= 1.28-1)
+Pre-Depends: libbz2-1.0, libc6 (>= 2.28), liblzma5 (>= 5.2.2), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4)
+Breaks: acidbase (<= 1.4.5-4), amule (<< 2.3.1+git1a369e47-3), beep (<< 1.3-4), im (<< 1:151-4), libapt-pkg5.0 (<< 1.7~b), libdpkg-perl (<< 1.18.11), lsb-base (<< 10.2019031300), netselect (<< 0.3.ds1-27), pconsole (<< 1.0-12), phpgacl (<< 3.3.7-7.3), pure-ftpd (<< 1.0.43-1), systemtap (<< 2.8-1), terminatorx (<< 4.0.1-1), xvt (<= 2.1-20.1)
+
+Package: libc-l10n
+Architecture: all
+Version: 2.28-10+rpi1
+APT-ID: 15839
+Multi-Arch: foreign
+Status: installed
+Breaks: locales (<< 2.21-1)
+
+Package: libuv1
+Architecture: armhf
+Version: 1.24.1-1
+APT-ID: 36227
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: groff-base
+Architecture: armhf
+Version: 1.22.4-3
+APT-ID: 10882
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.0), libstdc++6 (>= 4.3.0), libuchardet0 (>= 0.0.1)
+Breaks: groff (<< 1.22.4~rc2-2), jgroff (<< 1.17-1), pmake (<< 1.45-7), troffcvt (<< 1.04-14)
+
+Package: python-keyrings.alt
+Architecture: all
+Version: 3.1.1-1
+APT-ID: 46971
+Status: installed
+Depends: python-crypto, python-six, python:any (<< 2.8), python:any (>= 2.7~)
+
+Package: v4l-utils
+Architecture: armhf
+Version: 1.16.3-3
+APT-ID: 59309
+Status: installed
+Depends: libv4l-0 (= 1.16.3-3), libv4l2rds0 (= 1.16.3-3), libc6 (>= 2.28), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2), libudev1 (>= 183), libv4lconvert0 (>= 0.5.0)
+Breaks: ivtv-utils (<< 1.4.1-2), media-ctl
+
+Package: python-cffi-backend
+Architecture: armhf
+Version: 1.12.2-1
+APT-ID: 45825
+Status: installed
+Depends: python (<< 2.8), python (>= 2.7~), python:any (<< 2.8), python:any (>= 2.7~), libc6 (>= 2.4), libffi6 (>= 3.0.4)
+Breaks: python-cffi (<< 1)
+Provides: python-cffi-backend-api-min (= 9729), python-cffi-backend-api-max (= 10495)
+
+Package: python-ipaddress
+Architecture: all
+Version: 1.0.17-1
+APT-ID: 46842
+Status: installed
+Depends: python:any (<< 2.8), python:any (>= 2.7.5-5~)
+
+Package: python3-minimal
+Architecture: armhf
+Version: 3.7.3-1
+APT-ID: 50695
+Multi-Arch: allowed
+Status: installed
+Depends: dpkg (>= 1.13.20)
+Pre-Depends: python3.7-minimal (>= 3.7.3-1~)
+
+Package: libxau6
+Architecture: armhf
+Version: 1:1.0.8-1+b2
+APT-ID: 37021
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: soapysdr0.6-module-remote
+Architecture: armhf
+Version: 0.4.3-1
+APT-ID: 56526
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.5), libsoapysdr0.6, libstdc++6 (>= 7)
+
+Package: librtmp1
+Architecture: armhf
+Version: 2.4+20151223.gitfa8646d.1-2
+APT-ID: 32595
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libgmp10, libgnutls30 (>= 3.5.6), libhogweed4, libnettle6, zlib1g (>= 1:1.1.4)
+
+Package: mailutils-common
+Architecture: all
+Version: 1:3.5-3
+APT-ID: 38724
+Multi-Arch: foreign
+Status: installed
+
+Package: python3-cryptography
+Architecture: armhf
+Version: 2.6.1-3+deb10u2
+APT-ID: 49722
+Status: installed
+Depends: python3 (>= 3~), python3-asn1crypto (>= 0.21.0~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-six (>= 1.4.1), python3:any, libc6 (>= 2.4), libssl1.1 (>= 1.1.1)
+Breaks: python3-openssl (<< 16.0.0)
+
+Package: libboost-program-options-dev
+Architecture: armhf
+Version: 1.67.0.1+b1
+APT-ID: 15576
+Multi-Arch: same
+Status: installed
+Depends: libboost-program-options1.67-dev
+
+Package: libnss-mdns
+Architecture: armhf
+Version: 0.14.1-1+b5
+APT-ID: 29507
+Multi-Arch: same
+Status: installed
+Depends: avahi-daemon (>= 0.6.16-1), base-files (>= 3.1.10), libc6 (>= 2.4)
+
+Package: libc-bin
+Architecture: armhf
+Version: 2.28-10+rpi1
+APT-ID: 15831
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>> 2.28), libc6 (<< 2.29)
+
+Package: p7zip-full
+Architecture: armhf
+Version: 16.02+dfsg-6
+APT-ID: 42959
+Status: installed
+Depends: p7zip (= 16.02+dfsg-6), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5)
+Breaks: p7zip (<< 15.09+dfsg-3~)
+
+Package: libosmosdr0
+Architecture: armhf
+Version: 0.1.8.effcaa7-7
+APT-ID: 30236
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libusb-1.0-0 (>= 2:1.0.8)
+
+Package: man-db
+Architecture: armhf
+Version: 2.8.5-2
+APT-ID: 38773
+Multi-Arch: foreign
+Status: installed
+Depends: bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, groff-base (>= 1.18.1.1-15), libc6 (>= 2.28), libgdbm6 (>= 1.16), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)
+Pre-Depends: dpkg (>= 1.16.1~)
+Conflicts: man
+Breaks: manpages-tr (<< 1.0.5.1-3), manpages-zh (<< 1.5.2-1.1)
+Provides: man
+
+Package: libmagic-mgc
+Architecture: armhf
+Version: 1:5.35-4+deb10u1
+APT-ID: 27526
+Multi-Arch: foreign
+Status: installed
+Breaks: libmagic1 (<< 1:5.28-4~)
+
+Package: libubsan1
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 35943
+Multi-Arch: same
+Status: installed
+Depends: gcc-8-base (= 8.3.0-6+rpi1), libc6 (>= 2.28), libgcc1 (>= 1:4.3), libstdc++6 (>= 4.1.1)
+
+Package: libpulse0
+Architecture: armhf
+Version: 12.2-4+deb10u1
+APT-ID: 31444
+Multi-Arch: same
+Status: installed
+Depends: libasyncns0 (>= 0.3), libc6 (>= 2.28), libcap2 (>= 1:2.10), libdbus-1-3 (>= 1.9.14), libice6 (>= 1:1.0.0), libsm6, libsndfile1 (>= 1.0.20), libsystemd0, libwrap0 (>= 7.6-4~), libx11-6, libx11-xcb1, libxcb1, libxtst6
+
+Package: libgeoip1
+Architecture: armhf
+Version: 1.6.12-1
+APT-ID: 19941
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: python3-debconf
+Architecture: all
+Version: 1.5.71
+APT-ID: 49779
+Status: installed
+Depends: debconf (= 1.5.71), python3:any
+Breaks: debconf (<< 1.5.64)
+
+Package: libgsasl7
+Architecture: armhf
+Version: 1.8.0-8+b1
+APT-ID: 23970
+Status: installed
+Depends: libc6 (>= 2.8), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libntlm0 (>= 1.2)
+Conflicts: libgsasl1
+
+Package: psmisc
+Architecture: armhf
+Version: 23.2-1
+APT-ID: 45058
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.8), libselinux1 (>= 1.32), libtinfo6 (>= 6)
+
+Package: gir1.2-glib-2.0
+Architecture: armhf
+Version: 1.58.3-2
+APT-ID: 8516
+Multi-Arch: same
+Status: installed
+Depends: libgirepository-1.0-1 (>= 1.45.4), libglib2.0-0 (>= 2.58.2)
+
+Package: g++-8
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 7614
+Status: installed
+Depends: gcc-8-base (= 8.3.0-6+rpi1), gcc-8 (= 8.3.0-6+rpi1), libstdc++-8-dev (= 8.3.0-6+rpi1), libc6 (>= 2.28), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+
+Package: python2-dev
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 49308
+Multi-Arch: allowed
+Status: installed
+Depends: python2 (= 2.7.16-1), libpython2-dev (= 2.7.16-1), python2.7-dev (>= 2.7.16-1~)
+Breaks: python-dev (<< 2.7.15-2)
+
+Package: libjs-moment-timezone
+Architecture: all
+Version: 0.5.23+dfsg1-1
+APT-ID: 25900
+Multi-Arch: foreign
+Status: installed
+Depends: libjs-moment
+
+Package: gdbm-l10n
+Architecture: all
+Version: 1.18.1-4
+APT-ID: 8054
+Status: installed
+
+Package: libtinfo5
+Architecture: armhf
+Version: 6.1+20181013-2+deb10u2
+APT-ID: 35673
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.16)
+Breaks: dialog (<< 1.2-20130523)
+
+Package: libtinfo6
+Architecture: armhf
+Version: 6.1+20181013-2+deb10u2
+APT-ID: 35674
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.16)
+
+Package: exim4-config
+Architecture: all
+Version: 4.92-8+deb10u3
+APT-ID: 5903
+Status: installed
+Depends: adduser, debconf (>= 0.5) | debconf-2.0
+Conflicts: citadel-server, courier-mta, dma, esmtp-run, exim, exim-tls, exim4-config, exim4-config-2, hula-mta, masqmail, msmtp-mta, mta-dummy, nullmailer, opensmtpd, postfix, qmail-run, sendmail-bin, smail, ssmtp, xmail, zmailer
+Breaks: exim4-daemon-heavy (<< 4.91~RC1), exim4-daemon-light (<< 4.91~RC1)
+Provides: exim4-config-2
+
+Package: libxcb1
+Architecture: armhf
+Version: 1.13.1-2
+APT-ID: 37109
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libxau6, libxdmcp6
+Breaks: alsa-utils (<< 1.0.24.2-5)
+
+Package: firmware-brcm80211
+Architecture: all
+Version: 1:20190114-1+rpt4
+APT-ID: 62268
+Multi-Arch: foreign
+Status: installed
+
+Package: libxtst6
+Architecture: armhf
+Version: 2:1.2.3-1
+APT-ID: 37509
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.6.0), libxext6, libxi6, x11-common
+
+Package: fonts-glyphicons-halflings
+Architecture: all
+Version: 1.009~3.4.1+dfsg-1
+APT-ID: 6709
+Multi-Arch: foreign
+Status: installed
+
+Package: python2-minimal
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 49310
+Multi-Arch: allowed
+Status: installed
+Depends: python2.7-minimal (>= 2.7.16-1~), dpkg (>= 1.13.20)
+Conflicts: python-central (<< 0.5.5)
+Breaks: idle (<< 2.6), python (<= 2.7.3-1~), python-all (<< 2.6), python-all-dbg (<< 2.6), python-all-dev (<< 2.6), python-dbg (<< 2.6), python-dev (<< 2.6), python-examples (<< 2.6), python-minimal (<< 2.7.15-2), python-support (<< 1.0.10ubuntu2), python2.5-minimal (<< 2.5.5-7), python2.6-minimal (<< 2.6.5~rc2-2), python3.1-minimal (<< 3.1.2~rc1-2)
+
+Package: libxi6
+Architecture: armhf
+Version: 2:1.7.9-1
+APT-ID: 37197
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.6.0), libxext6
+
+Package: libboost-chrono1.67.0
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15470
+Multi-Arch: same
+Status: installed
+Depends: libboost-system1.67.0, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: pkg-config
+Architecture: armhf
+Version: 0.29-6
+APT-ID: 44397
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.16.0), libdpkg-perl
+Conflicts: pkg-config-bin
+
+Package: libkrb5support0
+Architecture: armhf
+Version: 1.17-3
+APT-ID: 26839
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.8), libkeyutils1 (>= 1.4)
+Breaks: libgssapi-krb5-2 (<< 1.13~alpha1-1), libk5crypto3 (<< 1.16), libkadm5clnt-mit9 (<< 1.13~alpha1-1), libkadm5srv-mit9 (<< 1.13~alpha1-1), libkdb5-8 (<< 1.16)
+
+Package: libpcre3
+Architecture: armhf
+Version: 2:8.39-12
+APT-ID: 30642
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+Conflicts: libpcre3-dev (<= 4.3-3)
+Breaks: approx (<< 4.4-1~), cduce (<< 0.5.3-2~), cmigrep (<< 1.5-7~), galax (<< 1.1-7~), libpcre-ocaml (<< 6.0.1~), liquidsoap (<< 0.9.2-3~), ocsigen (<< 1.3.3-1~)
+
+Package: sed
+Architecture: armhf
+Version: 4.7-1
+APT-ID: 55937
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: libacl1 (>= 2.2.51-8), libc6 (>= 2.7), libselinux1 (>= 1.32)
+
+Package: libusb-0.1-4
+Architecture: armhf
+Version: 2:0.1.12-32
+APT-ID: 36159
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15)
+
+Package: whiptail
+Architecture: armhf
+Version: 0.52.20-8
+APT-ID: 60078
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4), libnewt0.52 (>= 0.52.20), libpopt0 (>= 1.14), libslang2 (>= 2.2.4)
+
+Package: libpython-dev
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 31484
+Multi-Arch: same
+Status: installed
+Depends: libpython2.7-dev (>= 2.7.16-1~), libpython2-dev (= 2.7.16-1)
+
+Package: avahi-daemon
+Architecture: armhf
+Version: 0.7-4+b1
+APT-ID: 1207
+Multi-Arch: foreign
+Status: installed
+Depends: libavahi-common3 (>= 0.6.16), libavahi-core7 (>= 0.6.24), libc6 (>= 2.27), libcap2 (>= 1:2.10), libdaemon0 (>= 0.14), libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.0.1), adduser, dbus (>= 0.60), lsb-base (>= 3.0-6), bind9-host | host
+
+Package: libvorbisenc2
+Architecture: armhf
+Version: 1.3.6-2
+APT-ID: 36548
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libogg0 (>= 1.0rc3), libvorbis0a (= 1.3.6-2)
+
+Package: libjs-d3
+Architecture: all
+Version: 3.5.17-2
+APT-ID: 25697
+Status: installed
+
+Package: libnewt0.52
+Architecture: armhf
+Version: 0.52.20-8
+APT-ID: 29323
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15), libslang2 (>= 2.2.4)
+
+Package: libcap2
+Architecture: armhf
+Version: 1:2.25-2
+APT-ID: 16086
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libpython3-stdlib
+Architecture: armhf
+Version: 3.7.3-1
+APT-ID: 31499
+Multi-Arch: same
+Status: installed
+Depends: libpython3.7-stdlib (>= 3.7.3-1~)
+
+Package: python3-cffi-backend
+Architecture: armhf
+Version: 1.12.2-1
+APT-ID: 49627
+Status: installed
+Depends: python3 (<< 3.8), python3 (>= 3.7~), libc6 (>= 2.4), libffi6 (>= 3.0.4)
+Breaks: python3-cffi (<< 1)
+Provides: python3-cffi-backend-api-min (= 9729), python3-cffi-backend-api-max (= 10495)
+
+Package: libfuse2
+Architecture: armhf
+Version: 2.9.9-1
+APT-ID: 19547
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+Conflicts: fuse (<< 2.9.9-1)
+
+Package: libntlm0
+Architecture: armhf
+Version: 1.5-1
+APT-ID: 29534
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: ssh
+Architecture: all
+Version: 1:7.9p1-10+deb10u1
+APT-ID: 56803
+Status: installed
+Depends: openssh-client (>= 1:7.9p1-10+deb10u1), openssh-server (>= 1:7.9p1-10+deb10u1)
+Pre-Depends: dpkg (>= 1.17.5)
+
+Package: make
+Architecture: armhf
+Version: 4.2.1-1.2
+APT-ID: 38745
+Multi-Arch: allowed
+Status: installed
+Depends: libc6 (>= 2.27)
+Conflicts: make-guile
+
+Package: dmidecode
+Architecture: armhf
+Version: 3.2-1
+APT-ID: 4540
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libfreetype6-dev
+Architecture: armhf
+Version: 2.9.1-3+deb10u1
+APT-ID: 19474
+Multi-Arch: same
+Status: installed
+Depends: libfreetype6 (= 2.9.1-3+deb10u1), libc6-dev | libc-dev, zlib1g-dev | libz-dev, libpng-dev
+
+Package: soapysdr0.6-module-airspy
+Architecture: armhf
+Version: 0.1.1-1
+APT-ID: 56517
+Multi-Arch: same
+Status: installed
+Depends: libairspy0 (>= 1.0.9~), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libsoapysdr0.6, libstdc++6 (>= 5.2)
+
+Package: dh-systemd
+Architecture: all
+Version: 12.1.1
+APT-ID: 4170
+Multi-Arch: foreign
+Status: installed
+Depends: debhelper (>= 9.20160709)
+
+Package: tar
+Architecture: armhf
+Version: 1.30+dfsg-6
+APT-ID: 57425
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: libacl1 (>= 2.2.23), libc6 (>= 2.28), libselinux1 (>= 1.32)
+Conflicts: cpio (<= 2.4.2-38)
+Breaks: dpkg-dev (<< 1.14.26)
+
+Package: bluez-firmware
+Architecture: all
+Version: 1.2-4+rpt2
+APT-ID: 62182
+Status: installed
+
+Package: systemd-sysv
+Architecture: armhf
+Version: 241-7~deb10u2+rpi1
+APT-ID: 57331
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: systemd
+Conflicts: file-rc, openrc (<< 0.20.4-2.1), systemd-shim, sysvinit-core, upstart (<< 1.13.2-0ubuntu10~), upstart-sysv
+
+Package: fakeroot
+Architecture: armhf
+Version: 1.23-1
+APT-ID: 5988
+Multi-Arch: foreign
+Status: installed
+Depends: libfakeroot (>= 1.23-1), libc6 (>= 2.15)
+
+Package: mawk
+Architecture: armhf
+Version: 1.3.3-17
+APT-ID: 38986
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: libc6 (>= 2.11)
+Provides: awk
+
+Package: libcap2-bin
+Architecture: armhf
+Version: 1:2.25-2
+APT-ID: 16087
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10)
+Breaks: libcap-bin
+
+Package: libuuid1
+Architecture: armhf
+Version: 2.33.1-0.1
+APT-ID: 36219
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: guile-2.2-libs
+Architecture: armhf
+Version: 2.2.4+1-2
+APT-ID: 11117
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libffi6 (>= 3.0.4), libgc1c2 (>= 1:7.4.2), libgmp10, libltdl7 (>= 2.4.6), libncurses6 (>= 6), libreadline7 (>= 6.0), libtinfo6 (>= 6), libunistring2 (>= 0.9.7)
+
+Package: libnl-3-200
+Architecture: armhf
+Version: 3.4.0-1
+APT-ID: 29411
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.8)
+
+Package: libldap-common
+Architecture: all
+Version: 2.4.47+dfsg-3+rpi1+deb10u1
+APT-ID: 27014
+Multi-Arch: foreign
+Status: installed
+
+Package: libavahi-core7
+Architecture: armhf
+Version: 0.7-4+b1
+APT-ID: 15088
+Multi-Arch: same
+Status: installed
+Depends: libavahi-common3 (>= 0.6.16), libc6 (>= 2.15)
+
+Package: libgdbm6
+Architecture: armhf
+Version: 1.18.1-4
+APT-ID: 19820
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: mailutils
+Architecture: armhf
+Version: 1:3.5-3
+APT-ID: 38723
+Status: installed
+Depends: mailutils-common (= 1:3.5-3), guile-2.2-libs, libc6 (>= 2.4), libfribidi0 (>= 0.19.2), libgc1c2 (>= 1:7.2d), libgnutls30 (>= 3.6.5), libgsasl7 (>= 1.1), libkyotocabinet16v5 (>= 1.2.76), libldap-2.4-2 (>= 2.4.7), libmailutils5, libncurses6 (>= 6), libpam0g (>= 0.99.7.1), libpython2.7 (>= 2.7), libreadline7 (>= 6.0), libtinfo6 (>= 6), libwrap0 (>= 7.6-4~)
+Breaks: bsd-mailx (<< 8.1.2-0.20071201cvs-1), bsdmainutils (<< 8.0.6), elm-me+ (<< 2.4pl25ME+99c-3), heirloom-mailx (<< 12.3-3)
+
+Package: gcc-8
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 7959
+Status: installed
+Depends: cpp-8 (= 8.3.0-6+rpi1), gcc-8-base (= 8.3.0-6+rpi1), libcc1-0 (>= 8.3.0-6+rpi1), binutils (>= 2.31.1), libgcc-8-dev (= 8.3.0-6+rpi1), libc6 (>= 2.28), libgcc1 (>= 1:3.5), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Provides: c-compiler
+
+Package: libgcrypt20
+Architecture: armhf
+Version: 1.8.4-5
+APT-ID: 19773
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libgpg-error0 (>= 1.25)
+
+Package: libtirpc3
+Architecture: armhf
+Version: 1.1.4-0.4
+APT-ID: 35686
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libcom-err2 (>= 1.43.9), libgssapi-krb5-2 (>= 1.14+dfsg), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libtirpc-common (>= 1.1.4-0.4)
+Breaks: nfs-common (<< 1:1.2.8-7), nfs-kernel-server (<< 1:1.2.8-7)
+
+Package: fonts-dejavu-core
+Architecture: all
+Version: 2.37-1
+APT-ID: 6660
+Multi-Arch: foreign
+Status: installed
+Breaks: ttf-dejavu (<< 2.20-1), ttf-dejavu-core (<< 2.33+svn2514-2~)
+
+Package: liblwres161
+Architecture: armhf
+Version: 1:9.11.5.P4+dfsg-5.1
+APT-ID: 27476
+Multi-Arch: same
+Status: installed
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.28), libcap2 (>= 1:2.10), libfstrm0 (>= 0.2.0), libgeoip1, libjson-c3 (>= 0.10), liblmdb0 (>= 0.9.6), libprotobuf-c1 (>= 1.0.0), libxml2 (>= 2.6.27)
+
+Package: libjack-jackd2-0
+Architecture: armhf
+Version: 1.9.12~dfsg-2
+APT-ID: 25195
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopus0 (>= 1.1), libsamplerate0 (>= 0.1.7), libstdc++6 (>= 5.2)
+Conflicts: jackd2 (>> 1.9.12~dfsg-2), jackd2 (<< 1.9.12~dfsg-2), libjack-0.116, libjack-0.125, libjack0
+Provides: libjack-0.125, libjack-0.116
+
+Package: ucf
+Architecture: all
+Version: 3.0038+nmu1
+APT-ID: 58952
+Multi-Arch: foreign
+Status: installed
+Depends: debconf (>= 1.5.19), coreutils (>= 5.91), sensible-utils
+
+Package: libglib2.0-bin
+Architecture: armhf
+Version: 2.58.3-2+deb10u2
+APT-ID: 23190
+Multi-Arch: foreign
+Status: installed
+Depends: libglib2.0-0 (= 2.58.3-2+deb10u2), libglib2.0-data, libc6 (>= 2.4), libelf1 (>= 0.142)
+
+Package: python-pkg-resources
+Architecture: all
+Version: 40.8.0-1
+APT-ID: 47754
+Multi-Arch: foreign
+Status: installed
+Depends: python:any (<< 2.8), python:any (>= 2.7~)
+
+Package: libkeyutils1
+Architecture: armhf
+Version: 1.6-6
+APT-ID: 26232
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7)
+
+Package: libxmuu1
+Architecture: armhf
+Version: 2:1.1.2-2+b3
+APT-ID: 37436
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libx11-6
+
+Package: libpam-chksshpwd
+Architecture: armhf
+Version: 1.3.1-5+rpt1
+APT-ID: 62724
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libpam0g (>= 0.99.7.1), libpam-runtime, gettext-base
+
+Package: libhackrf0
+Architecture: armhf
+Version: 2018.01.1-2
+APT-ID: 24295
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libusb-1.0-0 (>= 2:1.0.16)
+
+Package: libboost-regex1.67.0
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15603
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libicu63 (>= 63.1-1~), libstdc++6 (>= 5.2)
+Breaks: ceph-common (= 12.2.8+dfsg1-1), ceph-common (= 12.2.8+dfsg1-2), nheko (= 0.6.1-1)
+
+Package: limesuite-udev
+Architecture: all
+Version: 18.06.0+dfsg-1
+APT-ID: 37884
+Multi-Arch: foreign
+Status: installed
+
+Package: libprotobuf-c1
+Architecture: armhf
+Version: 1.3.1-1+b1
+APT-ID: 31366
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libnetfilter-conntrack3
+Architecture: armhf
+Version: 1.0.7-1
+APT-ID: 29271
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libmnl0 (>= 1.0.3-4~), libnfnetlink0
+
+Package: python-all
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 45521
+Multi-Arch: allowed
+Status: installed
+Depends: python (= 2.7.16-1), python2.7 (>= 2.7.2-3)
+
+Package: libident
+Architecture: armhf
+Version: 0.22-3.1
+APT-ID: 24785
+Status: installed
+Depends: libc6 (>= 2.7)
+
+Package: dump978-fa
+Architecture: armhf
+Version: 3.8.0
+APT-ID: 63187
+Status: installed
+Depends: libboost-filesystem1.67.0, libboost-program-options1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libc6 (>= 2.28), libgcc1 (>= 1:3.5), libsoapysdr0.6, libstdc++6 (>= 6), adduser
+
+Package: libselinux1
+Architecture: armhf
+Version: 2.8-1+b1
+APT-ID: 33808
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libpcre3
+
+Package: libpython3.7-dev
+Architecture: armhf
+Version: 3.7.3-2
+APT-ID: 31519
+Multi-Arch: same
+Status: installed
+Depends: libpython3.7-stdlib (= 3.7.3-2), libpython3.7 (= 3.7.3-2), libexpat1-dev
+
+Package: liblz4-1
+Architecture: armhf
+Version: 1.8.3-1
+APT-ID: 27496
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+Breaks: liblz4-1a
+
+Package: libpcre2-8-0
+Architecture: armhf
+Version: 10.32-5
+APT-ID: 30638
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: gpgv
+Architecture: armhf
+Version: 2.2.12-1+rpi1+deb10u1
+APT-ID: 10712
+Multi-Arch: foreign
+Status: installed
+Depends: libbz2-1.0, libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.26-2~), zlib1g (>= 1:1.1.4)
+Breaks: gnupg2 (<< 2.0.21-2), gpgv2 (<< 2.1.11-7+exp1), python-debian (<< 0.1.29)
+
+Package: libncurses5-dev
+Architecture: armhf
+Version: 6.1+20181013-2+deb10u2
+APT-ID: 29015
+Multi-Arch: same
+Status: installed
+Depends: libtinfo6 (= 6.1+20181013-2+deb10u2), libncurses-dev (= 6.1+20181013-2+deb10u2)
+
+Package: libpam-systemd
+Architecture: armhf
+Version: 241-7~deb10u2+rpi1
+APT-ID: 30421
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libpam0g (>= 0.99.7.1), systemd (= 241-7~deb10u2+rpi1), libpam-runtime (>= 1.0.1-6), dbus, systemd-sysv
+
+Package: distro-info-data
+Architecture: all
+Version: 0.41+deb10u1
+APT-ID: 4480
+Multi-Arch: foreign
+Status: installed
+Breaks: distro-info (<< 0.3~)
+
+Package: libsndfile1
+Architecture: armhf
+Version: 1.0.28-6
+APT-ID: 34157
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libflac8 (>= 1.3.0), libogg0 (>= 1.0rc3), libvorbis0a (>= 1.2.3), libvorbisenc2 (>= 1.2.3)
+
+Package: xz-utils
+Architecture: armhf
+Version: 5.2.4-1
+APT-ID: 61212
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.28), liblzma5 (>= 5.2.2)
+Conflicts: lzma (<< 9.22-1), xz-lzma
+Breaks: lzip (<< 1.8~rc2)
+Provides: lzma
+
+Package: soapysdr0.6-module-all
+Architecture: armhf
+Version: 0.6.1-4+b4
+APT-ID: 56518
+Multi-Arch: same
+Status: installed
+Depends: soapysdr0.6-module-airspy, soapysdr0.6-module-audio, soapysdr0.6-module-bladerf, soapysdr0.6-module-hackrf, soapysdr0.6-module-lms7, soapysdr0.6-module-osmosdr, soapysdr0.6-module-redpitaya, soapysdr0.6-module-remote, soapysdr0.6-module-rtlsdr, soapysdr0.6-module-uhd
+
+Package: parted
+Architecture: armhf
+Version: 3.2-25
+APT-ID: 43098
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.11), libparted2 (= 3.2-25), libreadline7 (>= 6.0), libtinfo6 (>= 6)
+Conflicts: fsresize, parted1.6
+
+Package: ncurses-term
+Architecture: all
+Version: 6.1+20181013-2+deb10u2
+APT-ID: 40221
+Multi-Arch: foreign
+Status: installed
+Depends: ncurses-base (>= 6.1+20180210-4)
+Breaks: bash-static (<< 4.4.18-1.1), dvtm (<< 0.15-3), libmono-corlib4.5-cil (<< 4.6.2.7+dfsg-2), libslang2 (<< 2.3.1a-3), libtinfo5 (<< 6.1), libunibilium0 (<< 2), libunibilium4 (<< 2.0.0-3), suckless-tools (<< 39), zsh-static (<< 5.4.2-4)
+
+Package: python3-lib2to3
+Architecture: all
+Version: 3.7.3-1
+APT-ID: 50525
+Multi-Arch: foreign
+Status: installed
+Depends: python3 (>= 3.7.1-1~), python3 (<< 3.8)
+Breaks: libpython3.6-stdlib (<< 3.6.4~rc1-2), libpython3.7-stdlib (<< 3.7.0~a3-3), python3.6-2to3 (<< 3.6.4-2), python3.7-2to3 (<< 3.7.0~a3-3)
+
+Package: libtext-wrapi18n-perl
+Architecture: all
+Version: 0.06-7.1
+APT-ID: 35519
+Status: installed
+Depends: libtext-charwidth-perl
+
+Package: spawn-fcgi
+Architecture: armhf
+Version: 1.6.4-2
+APT-ID: 56625
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: python3-pkg-resources
+Architecture: all
+Version: 40.8.0-1
+APT-ID: 51024
+Multi-Arch: foreign
+Status: installed
+Depends: python3:any
+
+Package: libboost-timer1.67.0
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15648
+Multi-Arch: same
+Status: installed
+Depends: libboost-chrono1.67.0, libboost-system1.67.0, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: libluajit-5.1-2
+Architecture: armhf
+Version: 2.1.0~beta3+dfsg-5.1
+APT-ID: 27418
+Multi-Arch: same
+Status: installed
+Depends: libluajit-5.1-common (= 2.1.0~beta3+dfsg-5.1), libc6 (>= 2.4), libgcc1 (>= 1:3.5)
+
+Package: packagekit
+Architecture: armhf
+Version: 1.1.12-5
+APT-ID: 42972
+Multi-Arch: foreign
+Status: installed
+Depends: libglib2.0-bin, policykit-1, libappstream4 (>= 0.10.0), libapt-inst2.0 (>= 1.8), libapt-pkg5.0 (>= 1.8), libc6 (>= 2.28), libgcc1 (>= 1:3.5), libglib2.0-0 (>= 2.46), libgstreamer1.0-0 (>= 1.0.0), libpackagekit-glib2-18 (>= 1.1.9), libpolkit-gobject-1-0 (>= 0.99), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5.2), libsystemd0 (>= 214)
+Breaks: libpackagekit-glib2-14 (<= 0.7.6-4), libpackagekit-qt2-2 (<= 0.7.6-4), packagekit-backend-apt (<< 1.0), packagekit-backend-aptcc (<< 1.0), packagekit-backend-smart (<< 1.0), packagekit-offline-update (<< 1.0), packagekit-plugin-click (<= 0.3.1)
+
+Package: shared-mime-info
+Architecture: armhf
+Version: 1.10-1
+APT-ID: 56048
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.35.9), libxml2 (>= 2.7.4)
+
+Package: systemd
+Architecture: armhf
+Version: 241-7~deb10u2+rpi1
+APT-ID: 57322
+Multi-Arch: foreign
+Status: installed
+Depends: libacl1 (>= 2.2.23), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libcap2 (>= 1:2.10), libcryptsetup12 (>= 2:1.6.0), libgnutls30 (>= 3.6.6), libgpg-error0 (>= 1.14), libidn11 (>= 1.13), libip4tc0 (>= 1.6.0+snapshot20161117), libkmod2 (>= 5~), liblz4-1 (>= 0.0~r130), libmount1 (>= 2.30), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.3.1), libsystemd0 (= 241-7~deb10u2+rpi1), util-linux (>= 2.27.1), mount (>= 2.26), adduser
+Pre-Depends: libblkid1 (>= 2.24), libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r122), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.1.9)
+Conflicts: consolekit, libpam-ck-connector
+Breaks: apparmor (<< 2.9.2-1), ifupdown (<< 0.8.5~), laptop-mode-tools (<< 1.68~), python-dbusmock (<< 0.18), python3-dbusmock (<< 0.18), raspi-copies-and-fills (<< 0.7), systemd-shim (<< 10-4~), udev (<< 228-5)
+
+Package: libgomp1
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 23714
+Multi-Arch: same
+Status: installed
+Depends: gcc-8-base (= 8.3.0-6+rpi1), libc6 (>= 2.17)
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+
+Package: usb.ids
+Architecture: all
+Version: 2019.07.27-0+deb10u1
+APT-ID: 59203
+Multi-Arch: foreign
+Status: installed
+Breaks: usbutils (<< 1:008-1)
+
+Package: libsmartcols1
+Architecture: armhf
+Version: 2.33.1-0.1
+APT-ID: 34105
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: rfkill
+Architecture: armhf
+Version: 2.33.1-0.1
+APT-ID: 53830
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.28), libsmartcols1 (>= 2.33)
+Breaks: bash-completion (<< 1:2.8~)
+
+Package: wpasupplicant
+Architecture: armhf
+Version: 2:2.7+git20190128+0c1e29f-6+deb10u1
+APT-ID: 60306
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.28), libdbus-1-3 (>= 1.9.14), libnl-3-200 (>= 3.2.21), libnl-genl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.4.0), libpcsclite1 (>= 1.0.0), libreadline7 (>= 6.0), libssl1.1 (>= 1.1.0), lsb-base, adduser
+Breaks: initscripts (<< 2.88dsf-13.3)
+
+Package: libuhd3.13.1
+Architecture: armhf
+Version: 3.13.1.0-3
+APT-ID: 35995
+Multi-Arch: same
+Status: installed
+Depends: libboost-atomic1.67.0, libboost-chrono1.67.0, libboost-date-time1.67.0, libboost-filesystem1.67.0, libboost-program-options1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-serialization1.67.0, libboost-system1.67.0, libboost-test1.67.0, libboost-thread1.67.0, libc6 (>= 2.28), libgcc1 (>= 1:3.5), libstdc++6 (>= 7), libusb-1.0-0 (>= 2:1.0.9)
+
+Package: dh-python
+Architecture: all
+Version: 3.20190308
+APT-ID: 4165
+Multi-Arch: foreign
+Status: installed
+Depends: python3:any, python3-distutils | python3 (<< 3.6.5~rc1-1)
+Breaks: python3 (<< 3.3.2-4~)
+
+Package: grep
+Architecture: armhf
+Version: 3.3-1
+APT-ID: 10839
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Depends: dpkg (>= 1.15.4) | install-info
+Pre-Depends: libc6 (>= 2.28), libpcre3
+Conflicts: rgrep
+Provides: rgrep
+
+Package: login
+Architecture: armhf
+Version: 1:4.5-1.1
+APT-ID: 38186
+Essential: yes
+Status: installed
+Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules (>= 1.1.8-1)
+Conflicts: amavisd-new (<< 2.3.3-8), backupninja (<< 0.9.3-5), echolot (<< 2.1.8-4), gnunet (<< 0.7.0c-2), python-4suite (<< 0.99cvs20060405-1)
+Breaks: util-linux (<< 2.32-0.2~)
+
+Package: lighttpd-modules-mysql
+Architecture: armhf
+Version: 1.4.53-4
+APT-ID: 37853
+Status: installed
+Depends: lighttpd (= 1.4.53-4), libc6 (>= 2.4), libgnutls30 (>= 3.6.5), libmariadb3 (>= 3.0.0), zlib1g (>= 1:1.1.4)
+Breaks: lighttpd (<< 1.4.52-2+exp1), lighttpd-mod-authn-mysql (<< 1.4.52-2+exp1), lighttpd-mod-mysql-vhost (<< 1.4.52-2+exp1)
+Provides: lighttpd-mod-mysql-vhost, lighttpd-mod-authn-mysql
+
+Package: usb-modeswitch-data
+Architecture: all
+Version: 20170806-2
+APT-ID: 59202
+Status: installed
+Conflicts: usb-modeswitch-data-packed
+Breaks: usb-modeswitch (<< 2.4.0)
+Provides: usb-modeswitch-data-packed
+
+Package: prometheus-node-exporter
+Architecture: armhf
+Version: 0.17.0+ds-3
+APT-ID: 44982
+Status: installed
+Depends: daemon | systemd-sysv, moreutils, libc6 (>= 2.4)
+
+Package: xxd
+Architecture: armhf
+Version: 2:8.1.0875-5
+APT-ID: 61197
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4)
+Breaks: vim-common (<< 2:7.4.2347-1~)
+
+Package: python-secretstorage
+Architecture: all
+Version: 2.3.1-2
+APT-ID: 48547
+Status: installed
+Depends: dbus, python-dbus, python-cryptography, python:any (<< 2.8), python:any (>= 2.7.5-5~)
+
+Package: python-dev
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 46054
+Multi-Arch: allowed
+Status: installed
+Depends: python (= 2.7.16-1), libpython-dev (= 2.7.16-1), python2.7-dev (>= 2.7.16-1~), python2-dev (= 2.7.16-1)
+
+Package: libairspy0
+Architecture: armhf
+Version: 1.0.9-3
+APT-ID: 14264
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libusb-1.0-0 (>= 2:1.0.9)
+Breaks: gr-osmosdr (<< 0.1.4-11), libgnuradio-osmosdr0.1.3 (<< 0.1.4-11), libgnuradio-osmosdr0.1.4 (<< 0.1.4-11)
+
+Package: libpolkit-backend-1-0
+Architecture: armhf
+Version: 0.105-25
+APT-ID: 31166
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libexpat1 (>= 2.0.1), libglib2.0-0 (>= 2.37.3), libpolkit-gobject-1-0 (= 0.105-25), libsystemd0 (>= 213)
+
+Package: debhelper
+Architecture: all
+Version: 12.1.1
+APT-ID: 3887
+Multi-Arch: foreign
+Status: installed
+Depends: autotools-dev, dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg (>= 1.18.0~), dpkg-dev (>= 1.18.2~), dwz, file (>= 3.23), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl
+Breaks: cmake (<< 3.9~), dh-systemd (<< 1.38), meson (<< 0.40.0~)
+
+Package: libhogweed4
+Architecture: armhf
+Version: 3.4.1-1
+APT-ID: 24470
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.4.1-1)
+
+Package: libraspberrypi0
+Architecture: armhf
+Version: 1.20200114-1
+APT-ID: 62754
+Status: installed
+Depends: raspberrypi-bootloader (= 1.20200114-1)
+
+Package: mysql-common
+Architecture: all
+Version: 5.8+1.0.5
+APT-ID: 40033
+Multi-Arch: foreign
+Status: installed
+Conflicts: mariadb-server-5.5, mysql-common-5.6, mysql-server-5.5, percona-xtradb-cluster-common-5.5
+Breaks: mariadb-common (<< 10.0.20-3~)
+Provides: mysql-common-5.6
+
+Package: libio-pty-perl
+Architecture: armhf
+Version: 1:1.08-1.1+b4
+APT-ID: 25023
+Status: installed
+Depends: libc6 (>= 2.4), perl (>= 5.28.0-3), perlapi-5.28.0
+
+Package: ncurses-bin
+Architecture: armhf
+Version: 6.1+20181013-2+deb10u2
+APT-ID: 40217
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: libc6 (>= 2.7), libtinfo6 (>= 6.1)
+
+Package: libestr0
+Architecture: armhf
+Version: 0.1.10-2.1
+APT-ID: 18770
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libfontconfig1
+Architecture: armhf
+Version: 2.13.1-2
+APT-ID: 19363
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.3.9), libuuid1 (>= 2.16), fontconfig-config (>= 2.13.1-2)
+Breaks: xpdf (<= 3.03-11)
+
+Package: python-setuptools
+Architecture: all
+Version: 40.8.0-1
+APT-ID: 48571
+Multi-Arch: foreign
+Status: installed
+Depends: python-pkg-resources (= 40.8.0-1), python:any (<< 2.8), python:any (>= 2.7~)
+
+Package: libpam-modules-bin
+Architecture: armhf
+Version: 1.3.1-5+rpt1
+APT-ID: 62730
+Multi-Arch: foreign
+Status: installed
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.4), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32)
+
+Package: libjs-bootstrap
+Architecture: all
+Version: 3.4.1+dfsg-1
+APT-ID: 25674
+Status: installed
+Depends: fonts-glyphicons-halflings
+
+Package: openssh-server
+Architecture: armhf
+Version: 1:7.9p1-10+deb10u1
+APT-ID: 42727
+Multi-Arch: foreign
+Status: installed
+Depends: adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:7.9p1-10+deb10u1), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, libaudit1 (>= 1:2.2.1), libc6 (>= 2.28), libcom-err2 (>= 1.43.9), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.1 (>= 1.1.1), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)
+Conflicts: sftp, ssh-socks, ssh2
+
+Package: libasyncns0
+Architecture: armhf
+Version: 0.8-6
+APT-ID: 14897
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15)
+
+Package: apt-utils
+Architecture: armhf
+Version: 1.8.2
+APT-ID: 707
+Status: installed
+Depends: apt (= 1.8.2), libapt-inst2.0 (>= 1.0.5), libapt-pkg5.0 (>= 1.3~rc2), libc6 (>= 2.4), libdb5.3, libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: libx11-data
+Architecture: all
+Version: 2:1.6.7-1
+APT-ID: 36926
+Multi-Arch: foreign
+Status: installed
+Breaks: libx11-6 (<< 2:1.4.1)
+
+Package: iproute2
+Architecture: armhf
+Version: 4.20.0-2
+APT-ID: 12301
+Multi-Arch: foreign
+Status: installed
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.27), libcap2 (>= 1:2.10), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 2.0.15), libxtables12 (>= 1.6.0+snapshot20161117), libcap2-bin
+Conflicts: arpd, iproute (<< 20130000-1)
+Provides: arpd
+
+Package: libfam0
+Architecture: armhf
+Version: 2.7.0-17.3
+APT-ID: 18970
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.5), libstdc++6 (>= 5)
+
+Package: libluajit-5.1-common
+Architecture: all
+Version: 2.1.0~beta3+dfsg-5.1
+APT-ID: 27419
+Multi-Arch: foreign
+Status: installed
+
+Package: python-keyring
+Architecture: all
+Version: 17.1.1-1
+APT-ID: 46970
+Status: installed
+Depends: python-dbus, python-entrypoints, python-secretstorage, python:any (<< 2.8), python:any (>= 2.7~)
+Breaks: kupfer (<< 0+v208-6), python-keyrings.alt (<< 3.1), python-mini-buildd (<< 1.0.0~gamma.3), python-wheel (<< 0.27)
+
+Package: libboost-atomic1.67.0
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15463
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.1.1)
+
+Package: libv4l2rds0
+Architecture: armhf
+Version: 1.16.3-3
+APT-ID: 36237
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libreadline6
+Architecture: armhf
+Version: 6.3-9
+APT-ID: 32105
+Multi-Arch: same
+Status: installed
+Depends: readline-common, libc6 (>= 2.15), libtinfo5 (>= 6)
+
+Package: libreadline7
+Architecture: armhf
+Version: 7.0-5
+APT-ID: 32107
+Multi-Arch: same
+Status: installed
+Depends: readline-common, libc6 (>= 2.15), libtinfo6 (>= 6)
+
+Package: fake-hwclock
+Architecture: all
+Version: 0.11+rpt1
+APT-ID: 62259
+Status: installed
+Depends: init-system-helpers (>= 1.18~)
+
+Package: lighttpd-modules-ldap
+Architecture: armhf
+Version: 1.4.53-4
+APT-ID: 37852
+Status: installed
+Depends: lighttpd (= 1.4.53-4), libc6 (>= 2.4), libldap-2.4-2 (>= 2.4.25)
+Breaks: lighttpd (<< 1.4.52-2+exp1), lighttpd-mod-authn-ldap (<< 1.4.52-2+exp1)
+Provides: lighttpd-mod-authn-ldap
+
+Package: unzip
+Architecture: armhf
+Version: 6.0-23+deb10u1
+APT-ID: 59176
+Multi-Arch: foreign
+Status: installed
+Depends: libbz2-1.0, libc6 (>= 2.4)
+
+Package: smartmontools
+Architecture: armhf
+Version: 6.6-1
+APT-ID: 56396
+Status: installed
+Depends: debianutils (>= 2.2), lsb-base (>= 3.2-14), libc6 (>= 2.27), libcap-ng0 (>= 0.7.9), libgcc1 (>= 1:3.5), libselinux1 (>= 1.32), libstdc++6 (>= 5.2)
+Conflicts: smartsuite, ucsc-smartsuite
+
+Package: openssh-client
+Architecture: armhf
+Version: 1:7.9p1-10+deb10u1
+APT-ID: 42724
+Multi-Arch: foreign
+Status: installed
+Depends: adduser (>= 3.10), dpkg (>= 1.7.0), passwd, libc6 (>= 2.28), libedit2 (>= 2.11-20080614-0), libgssapi-krb5-2 (>= 1.17), libselinux1 (>= 1.32), libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.1.4)
+Conflicts: sftp
+
+Package: libdb5.3
+Architecture: armhf
+Version: 5.3.28+dfsg1-0.5
+APT-ID: 17670
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: firmware-misc-nonfree
+Architecture: all
+Version: 1:20190114-1+rpt4
+APT-ID: 62278
+Multi-Arch: foreign
+Status: installed
+Breaks: firmware-adi (<< 20151018-1~), firmware-ivtv (<< 0.38~), firmware-linux (<< 0.19), firmware-linux-nonfree (<< 20151018-1~), firmware-ralink (<< 20151018-1~)
+Provides: firmware-ralink, firmware-adi
+
+Package: triggerhappy
+Architecture: armhf
+Version: 0.5.0-1
+APT-ID: 58585
+Status: installed
+Depends: libc6 (>= 2.15), libsystemd0, init-system-helpers (>= 1.18~)
+
+Package: libonig5
+Architecture: armhf
+Version: 6.9.1-1
+APT-ID: 29888
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: grafana
+Architecture: armhf
+Version: 6.6.0
+APT-ID: 63188
+Status: installed
+Depends: adduser, libfontconfig1
+
+Package: libdns-export1104
+Architecture: armhf
+Version: 1:9.11.5.P4+dfsg-5.1
+APT-ID: 18106
+Status: installed
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.4), libisc-export1100, libssl1.1 (>= 1.1.1)
+
+Package: libsoapysdr-dev
+Architecture: armhf
+Version: 0.6.1-4+b4
+APT-ID: 34185
+Multi-Arch: same
+Status: installed
+Depends: libsoapysdr0.6 (= 0.6.1-4+b4)
+
+Package: iputils-ping
+Architecture: armhf
+Version: 3:20180629-2
+APT-ID: 12323
+Status: installed
+Depends: libc6 (>= 2.11), libcap2 (>= 1:2.10), libidn2-0 (>= 0.6), libnettle6
+
+Package: manpages-dev
+Architecture: all
+Version: 4.16-2
+APT-ID: 38795
+Multi-Arch: foreign
+Status: installed
+Depends: manpages
+Breaks: libattr1-dev (<< 1:2.4.47-3), libbsd-dev (<< 0.8.4-1), manpages (<< 4.13-3)
+
+Package: bzip2
+Architecture: armhf
+Version: 1.0.6-9.2~deb10u1
+APT-ID: 1997
+Multi-Arch: foreign
+Status: installed
+Depends: libbz2-1.0 (= 1.0.6-9.2~deb10u1), libc6 (>= 2.4)
+
+Package: openresolv
+Architecture: armhf
+Version: 3.8.0-1
+APT-ID: 42691
+Status: installed
+Conflicts: resolvconf
+Provides: resolvconf
+
+Package: keyboard-configuration
+Architecture: all
+Version: 1.193~deb10u1
+APT-ID: 13159
+Multi-Arch: foreign
+Status: installed
+Depends: liblocale-gettext-perl
+Pre-Depends: debconf (>= 1.5.34)
+Breaks: console-setup (<< 1.71), console-setup-mini (<< 1.47)
+
+Package: bsdutils
+Architecture: armhf
+Version: 1:2.33.1-0.1
+APT-ID: 1881
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: libc6 (>= 2.28), libsystemd0
+Breaks: bash-completion (<< 1:2.1-4.1~)
+
+Package: python-rpi.gpio
+Architecture: armhf
+Version: 0.7.0~buster-1
+APT-ID: 62966
+Status: installed
+Depends: libc6 (>= 2.7), python (<< 2.8), python (>= 2.7~), python:any (<< 2.8), python:any (>= 2.7~), raspberrypi-sys-mods
+
+Package: binutils-common
+Architecture: armhf
+Version: 2.31.1-16+rpi1
+APT-ID: 1558
+Multi-Arch: same
+Status: installed
+Breaks: binutils (<< 2.29.1-3.1~)
+
+Package: python3-dbus
+Architecture: armhf
+Version: 1.2.8-3
+APT-ID: 49768
+Status: installed
+Depends: python3 (<< 3.8), python3 (>= 3.7~), python3:any, libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.40)
+
+Package: libasound2
+Architecture: armhf
+Version: 1.1.8-1+rpt1
+APT-ID: 62509
+Multi-Arch: same
+Status: installed
+Depends: libasound2-data (>= 1.1.8-1+rpt1), libc6 (>= 2.28)
+Breaks: bluez-alsa (<= 4.94-2), libasound2-plugin-equal (<= 0.6-1), libasound2-plugins (<< 1.0.24)
+
+Package: usbutils
+Architecture: armhf
+Version: 1:010-3
+APT-ID: 59216
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.7), libudev1 (>= 196), libusb-1.0-0 (>= 2:1.0.16), usb.ids
+
+Package: rng-tools
+Architecture: armhf
+Version: 2-unofficial-mt.14-1
+APT-ID: 53899
+Status: installed
+Depends: libc6 (>= 2.4), udev (>= 0.053) | makedev (>= 2.3.1-77)
+Conflicts: intel-rng-tools
+Provides: intel-rng-tools
+
+Package: libgpm2
+Architecture: armhf
+Version: 1.20.7-5
+APT-ID: 23848
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15)
+
+Package: libuchardet0
+Architecture: armhf
+Version: 0.0.6-3
+APT-ID: 35957
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5)
+
+Package: libmailutils5
+Architecture: armhf
+Version: 1:3.5-3
+APT-ID: 27591
+Multi-Arch: same
+Status: installed
+Depends: mailutils-common (= 1:3.5-3), guile-2.2-libs, libc6 (>= 2.28), libgc1c2 (>= 1:7.2d), libgnutls30 (>= 3.6.6), libgsasl7 (>= 1.1), libkyotocabinet16v5 (>= 1.2.76), libldap-2.4-2 (>= 2.4.7), libltdl7 (>= 2.4.6), libmariadb3 (>= 3.0.0), libpam0g (>= 0.99.7.1), libpython2.7 (>= 2.7)
+Conflicts: libmailutils4
+
+Package: libboost-program-options1.67.0
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15582
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: libglib2.0-data
+Architecture: all
+Version: 2.58.3-2+deb10u2
+APT-ID: 23193
+Multi-Arch: foreign
+Status: installed
+
+Package: libnettle6
+Architecture: armhf
+Version: 3.4.1-1
+APT-ID: 29297
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libbladerf1
+Architecture: armhf
+Version: 0.2017.12~rc1-2
+APT-ID: 15354
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.17), libusb-1.0-0 (>= 2:1.0.9)
+
+Package: libncurses-dev
+Architecture: armhf
+Version: 6.1+20181013-2+deb10u2
+APT-ID: 29012
+Multi-Arch: same
+Status: installed
+Depends: libtinfo6 (= 6.1+20181013-2+deb10u2), libncurses6 (= 6.1+20181013-2+deb10u2), libncursesw6 (= 6.1+20181013-2+deb10u2), libc6-dev | libc-dev, ncurses-bin (>= 6.0+20151017)
+Conflicts: ncurses-dev
+Breaks: libncurses5-dev (<< 6.1+20180210), libncursesw5-dev (<< 6.1+20180210), libtinfo-dev (<< 6.1+20180210)
+Provides: ncurses-dev, libtinfo-dev, libncursesw5-dev, libncurses5-dev
+
+Package: ncurses-base
+Architecture: all
+Version: 6.1+20181013-2+deb10u2
+APT-ID: 40216
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Breaks: bash-static (<< 4.4.18-1.1), libmono-corlib4.5-cil (<< 4.6.2.7+dfsg-2), libslang2 (<< 2.3.1a-3), libtinfo5 (<< 6.1), libunibilium0 (<< 2), libunibilium4 (<< 2.0.0-3), zsh-static (<< 5.4.2-4)
+
+Package: libxtables12
+Architecture: armhf
+Version: 1.8.2-4
+APT-ID: 37506
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+Breaks: iptables (<< 1.4.16.3-3), libxtables11 (>= 1.6.0+snapshot20161117-1)
+
+Package: bash
+Architecture: armhf
+Version: 5.0-4
+APT-ID: 1394
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Depends: base-files (>= 2.1.12), debianutils (>= 2.15)
+Pre-Depends: libc6 (>= 2.28), libtinfo6 (>= 6)
+Conflicts: bash-completion (<< 20060301-0)
+
+Package: policykit-1
+Architecture: armhf
+Version: 0.105-25
+APT-ID: 44602
+Multi-Arch: foreign
+Status: installed
+Depends: dbus, libpam-systemd, libc6 (>= 2.28), libglib2.0-0 (>= 2.37.3), libpam0g (>= 0.99.7.1), libpolkit-agent-1-0 (= 0.105-25), libpolkit-backend-1-0 (= 0.105-25), libpolkit-gobject-1-0 (= 0.105-25)
+
+Package: python3-keyrings.alt
+Architecture: all
+Version: 3.1.1-1
+APT-ID: 50479
+Status: installed
+Depends: python3-crypto, python3-six, python3:any
+
+Package: lsb-release
+Architecture: all
+Version: 10.2019051400+rpi1
+APT-ID: 38244
+Multi-Arch: foreign
+Status: installed
+Depends: python3:any, distro-info-data
+
+Package: tasksel
+Architecture: all
+Version: 3.53
+APT-ID: 57656
+Status: installed
+Depends: debconf (>= 0.5) | debconf-2.0, liblocale-gettext-perl, apt, tasksel-data, perl-base (>= 5.14.0-1)
+Pre-Depends: debconf (>= 1.5.34) | cdebconf (>= 0.106)
+Conflicts: base-config (<< 2.32), debconf (<< 1.4.27)
+
+Package: busybox
+Architecture: armhf
+Version: 1:1.30.1-4
+APT-ID: 1969
+Status: installed
+Depends: libc6 (>= 2.28)
+Conflicts: busybox-static
+Breaks: initramfs-tools (<< 0.99)
+
+Package: findutils
+Architecture: armhf
+Version: 4.6.0+git+20190209-2
+APT-ID: 6315
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: libc6 (>= 2.28), libselinux1 (>= 1.32)
+Breaks: binstats (<< 1.08-8.1), guilt (<< 0.36-0.2), libpython3.4-minimal (<< 3.4.4-2), libpython3.5-minimal (<< 3.5.1-3), lsat (<< 0.9.7.1-2.1), mc (<< 3:4.8.11-1), switchconf (<< 0.0.9-2.1)
+
+Package: libevent-2.1-6
+Architecture: armhf
+Version: 2.1.8-stable-4
+APT-ID: 18815
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.17)
+
+Package: libc-dev-bin
+Architecture: armhf
+Version: 2.28-10+rpi1
+APT-ID: 15834
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>> 2.28), libc6 (<< 2.29)
+
+Package: libcap-ng0
+Architecture: armhf
+Version: 0.7.9-2
+APT-ID: 16085
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.8)
+
+Package: libxml2
+Architecture: armhf
+Version: 2.9.4+dfsg1-7+b3
+APT-ID: 37357
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libicu63 (>= 63.1-1~), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3)
+
+Package: file
+Architecture: armhf
+Version: 1:5.35-4+deb10u1
+APT-ID: 6289
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4), libmagic1 (= 1:5.35-4+deb10u1), zlib1g (>= 1:1.1.4)
+
+Package: python3-gi
+Architecture: armhf
+Version: 3.30.4-1
+APT-ID: 50216
+Status: installed
+Depends: gir1.2-glib-2.0 (>= 1.39.0), python3 (<< 3.8), python3 (>= 3.6~), python3:any, libc6 (>= 2.4), libffi6 (>= 3.0.4), libgirepository-1.0-1 (>= 1.44.0), libglib2.0-0 (>= 2.41.1)
+
+Package: python3-crypto
+Architecture: armhf
+Version: 2.6.1-9+b1
+APT-ID: 49720
+Status: installed
+Depends: python3 (<< 3.8), python3 (>= 3.6~), python3:any (>= 3.0~), libc6 (>= 2.4), libgmp10
+
+Package: libmariadb3
+Architecture: armhf
+Version: 1:10.3.17-0+deb10u1
+APT-ID: 27651
+Multi-Arch: same
+Status: installed
+Depends: mariadb-common, libc6 (>= 2.28), libgnutls30 (>= 3.6.6), zlib1g (>= 1:1.1.4)
+Conflicts: mariadb-galera-server-10.0 (<< 10.0.5), mariadb-galera-server-5.5 (<< 5.5.33), mariadb-server-10.0 (<< 10.0.5), mariadb-server-5.1, mariadb-server-5.2, mariadb-server-5.3, mariadb-server-5.5 (<< 5.5.33)
+Breaks: libmariadbclient18
+
+Package: logrotate
+Architecture: armhf
+Version: 3.14.0-4
+APT-ID: 38192
+Multi-Arch: foreign
+Status: installed
+Depends: libacl1 (>= 2.2.51-8), libc6 (>= 2.27), libpopt0 (>= 1.14), libselinux1 (>= 1.32), cron | anacron | cron-daemon | systemd-sysv
+Breaks: postgresql-common (<= 126)
+
+Package: pciutils
+Architecture: armhf
+Version: 1:3.5.2-1
+APT-ID: 43190
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.7), libkmod2 (>= 5~), libpci3 (= 1:3.5.2-1)
+
+Package: gir1.2-packagekitglib-1.0
+Architecture: armhf
+Version: 1.1.12-5
+APT-ID: 8614
+Status: installed
+Depends: gir1.2-glib-2.0 (>= 1.36), libpackagekit-glib2-18 (>= 1.1.9)
+
+Package: libflac8
+Architecture: armhf
+Version: 1.3.2-3
+APT-ID: 19266
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libogg0 (>= 1.0rc3)
+
+Package: ethtool
+Architecture: armhf
+Version: 1:4.19-1
+APT-ID: 5831
+Status: installed
+Depends: libc6 (>= 2.7)
+
+Package: libidn11
+Architecture: armhf
+Version: 1.33-2.2
+APT-ID: 24790
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+Conflicts: libidn9-dev
+
+Package: libbinutils
+Architecture: armhf
+Version: 2.31.1-16+rpi1
+APT-ID: 15304
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), zlib1g (>= 1:1.2.0), binutils-common (= 2.31.1-16+rpi1)
+Breaks: binutils (<< 2.29-6)
+
+Package: cmake
+Architecture: armhf
+Version: 3.13.4-1
+APT-ID: 2985
+Multi-Arch: foreign
+Status: installed
+Depends: cmake-data (= 3.13.4-1), procps, libarchive13 (>= 3.0.4), libc6 (>= 2.28), libcurl4 (>= 7.16.2), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.5), libjsoncpp1 (>= 1.7.4), librhash0 (>= 1.2.6), libstdc++6 (>= 6), libuv1 (>= 1.11.0), zlib1g (>= 1:1.2.3.3)
+
+Package: libpcre2-posix0
+Architecture: armhf
+Version: 10.32-5
+APT-ID: 30641
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libpcre2-8-0 (>= 10.32)
+
+Package: libpython2.7-minimal
+Architecture: armhf
+Version: 2.7.16-2+deb10u1
+APT-ID: 31492
+Multi-Arch: same
+Status: installed
+Conflicts: binfmt-support (<< 1.1.2)
+Breaks: python2.7-minimal (<< 2.7.4~rc1-1~)
+
+Package: multiarch-support
+Architecture: armhf
+Version: 2.28-10+rpi1
+APT-ID: 39847
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.13-5)
+
+Package: cpio
+Architecture: armhf
+Version: 2.12+dfsg-9
+APT-ID: 3356
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.17)
+Conflicts: cpio-mt, mt-st (<< 0.6)
+
+Package: libgnutls30
+Architecture: armhf
+Version: 3.6.7-4
+APT-ID: 23654
+Multi-Arch: same
+Status: installed
+Depends: libgmp10 (>= 2:6.0.0), libc6 (>= 2.28), libhogweed4 (>= 3.4.1~rc1~), libidn2-0 (>= 2.0.0), libnettle6 (>= 3.4~), libp11-kit0 (>= 0.23.11), libtasn1-6 (>= 4.12), libunistring2 (>= 0.9.7)
+
+Package: unattended-upgrades
+Architecture: all
+Version: 1.11.2
+APT-ID: 59110
+Status: installed
+Depends: debconf (>= 0.5) | debconf-2.0, debconf, python3, python3-apt, python3-dbus, python3-distro-info, ucf, lsb-release, lsb-base, xz-utils
+
+Package: fbset
+Architecture: armhf
+Version: 2.1-30
+APT-ID: 6045
+Status: installed
+Depends: libc6 (>= 2.4), udev | makedev (>= 2.3.1-24)
+
+Package: libedit2
+Architecture: armhf
+Version: 3.1-20181209-1
+APT-ID: 18480
+Multi-Arch: same
+Status: installed
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.28), libtinfo6 (>= 6)
+
+Package: libfreetype6
+Architecture: armhf
+Version: 2.9.1-3+deb10u1
+APT-ID: 19473
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libpng16-16 (>= 1.6.2-1), zlib1g (>= 1:1.1.4)
+
+Package: ca-certificates
+Architecture: all
+Version: 20190110
+APT-ID: 2035
+Multi-Arch: foreign
+Status: installed
+Depends: openssl (>= 1.1.1), debconf (>= 0.5) | debconf-2.0
+Breaks: ca-certificates-java (<< 20121112+nmu1)
+
+Package: soapysdr0.6-module-bladerf
+Architecture: armhf
+Version: 0.3.5-1
+APT-ID: 56520
+Multi-Arch: same
+Status: installed
+Depends: libbladerf1, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libsoapysdr0.6, libstdc++6 (>= 5.2)
+
+Package: libicu-dev
+Architecture: armhf
+Version: 63.1-6
+APT-ID: 24770
+Multi-Arch: same
+Status: installed
+Depends: libicu63 (= 63.1-6), icu-devtools (>= 63.1-6), libc6-dev | libc-dev
+Breaks: icu-devtools (<< 63.1-1~)
+
+Package: perl
+Architecture: armhf
+Version: 5.28.1-6
+APT-ID: 43423
+Multi-Arch: allowed
+Status: installed
+Depends: perl-base (= 5.28.1-6), perl-modules-5.28 (>= 5.28.1-6), libperl5.28 (= 5.28.1-6)
+Pre-Depends: dpkg (>= 1.17.17)
+Conflicts: libjson-pp-perl (<< 2.27200-2)
+Breaks: apt-show-versions (<< 0.22.10), libdist-inkt-perl (<< 0.024-5), libmarc-charset-perl (<< 1.35-3), libperl-dev (<< 5.24.0~), perl-doc (<< 5.28.1-1)
+Provides: podlators-perl (= 4.10), libversion-perl (= 1:0.9923), libunicode-collate-perl (= 1.25), libtime-piece-perl (= 1.3204), libtime-local-perl (= 1.2500), libtime-hires-perl (= 1.9759), libthreads-shared-perl (= 1.58), libthreads-perl (= 2.22), libthread-queue-perl (= 3.12), libtest-use-ok-perl (= 1.302133), libtest-tester-perl (= 1.302133), libtest-simple-perl (= 1.302133), libtest-harness-perl (= 3.42), libsys-syslog-perl (= 0.35), libstorable-perl (= 3.08), libpod-simple-perl (= 3.35), libpod-parser-perl (= 1.63), libpod-escapes-perl (= 1.07), libperl-ostype-perl (= 1.010), libparse-cpan-meta-perl (= 2.150010), libparent-perl (= 0.236), libparams-check-perl (= 0.38), libnet-ping-perl (= 2.62), libnet-perl (= 1:3.11), libmodule-metadata-perl (= 1.000033), libmodule-load-perl (= 0.32), libmodule-load-conditional-perl (= 0.68), libmodule-corelist-perl (= 5.20181129.28), libmime-base64-perl (= 3.15), libmath-complex-perl (= 1.5901), libmath-bigint-perl (= 1.999811), liblocale-maketext-simple-perl (= 0.21.01), liblocale-maketext-perl (= 1.29), libjson-pp-perl (= 2.97001), libio-zlib-perl (= 1.10), libio-compress-zlib-perl (= 2.074), libio-compress-perl (= 2.074), libio-compress-bzip2-perl (= 2.074), libio-compress-base-perl (= 2.074), libi18n-langtags-perl (= 0.43), libhttp-tiny-perl (= 0.070), libfile-spec-perl (= 3.7400), libextutils-parsexs-perl (= 3.390000), libextutils-install-perl (= 2.14), libextutils-command-perl (= 7.34), libextutils-cbuilder-perl (= 0.280230), libexperimental-perl (= 0.019), libencode-perl (= 2.97), libdigest-sha-perl (= 6.01), libdigest-perl (= 1.17.01), libdigest-md5-perl (= 2.55), libcpan-meta-yaml-perl (= 0.018), libcpan-meta-requirements-perl (= 2.140), libcpan-meta-perl (= 2.150010), libcompress-zlib-perl (= 2.074), libcompress-raw-zlib-perl (= 2.076), libcompress-raw-bzip2-perl (= 2.074), libautodie-perl (= 2.29-2), libattribute-handlers-perl (= 1.01), libarchive-tar-perl (= 2.30), libansicolor-perl (= 4.06)
+
+Package: rsync
+Architecture: armhf
+Version: 3.1.3-6
+APT-ID: 54063
+Multi-Arch: foreign
+Status: installed
+Depends: base-files (>= 4.0.1), init-system-helpers (>= 1.18~), lsb-base (>= 3.2-14), libacl1 (>= 2.2.23), libattr1 (>= 1:2.4.44), libc6 (>= 2.28), libpopt0 (>= 1.14)
+Breaks: duplicity (<< 0.6.11)
+
+Package: xauth
+Architecture: armhf
+Version: 1:1.0.10-1
+APT-ID: 60450
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4), libx11-6, libxau6, libxext6, libxmuu1
+
+Package: libffi6
+Architecture: armhf
+Version: 3.2.1-9
+APT-ID: 19092
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:3.5)
+
+Package: vim-tiny
+Architecture: armhf
+Version: 2:8.1.0875-5
+APT-ID: 59545
+Status: installed
+Depends: vim-common (= 2:8.1.0875-5), libacl1 (>= 2.2.23), libc6 (>= 2.28), libselinux1 (>= 1.32), libtinfo6 (>= 6)
+
+Package: python-entrypoints
+Architecture: all
+Version: 0.3-1
+APT-ID: 46362
+Status: installed
+Depends: python:any (<< 2.8), python:any (>= 2.7~), python-configparser
+
+Package: libunistring2
+Architecture: armhf
+Version: 0.9.10-1
+APT-ID: 36078
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: ssh-import-id
+Architecture: all
+Version: 5.7-1
+APT-ID: 56813
+Status: installed
+Depends: ca-certificates, openssh-client, python3-requests (>= 1.1.0), wget, python3:any (>= 3.3.2-2~)
+
+Package: libp11-kit0
+Architecture: armhf
+Version: 0.23.15-2
+APT-ID: 30310
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libffi6 (>= 3.0.4)
+Breaks: opencryptoki (<= 3.6.1+dfsg-1)
+
+Package: libzstd1
+Architecture: armhf
+Version: 1.3.8+dfsg-3+rpi1
+APT-ID: 37723
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: lsb-base
+Architecture: all
+Version: 10.2019051400+rpi1
+APT-ID: 38243
+Multi-Arch: foreign
+Status: installed
+
+Package: apt-listchanges
+Architecture: all
+Version: 3.19
+APT-ID: 690
+Status: installed
+Depends: apt (>= 0.5.3), python3-apt (>= 0.7.93), python3-debconf, sensible-utils, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, python3:any (>= 3.5~)
+
+Package: libisccc161
+Architecture: armhf
+Version: 1:9.11.5.P4+dfsg-5.1
+APT-ID: 25106
+Multi-Arch: same
+Status: installed
+Depends: libisc1100 (= 1:9.11.5.P4+dfsg-5.1), libatomic1 (>= 4.8), libc6 (>= 2.4), libcap2 (>= 1:2.10), libfstrm0 (>= 0.2.0), libgeoip1, libjson-c3 (>= 0.10), liblmdb0 (>= 0.9.6), libprotobuf-c1 (>= 1.0.0), libxml2 (>= 2.6.27)
+
+Package: libpng-tools
+Architecture: armhf
+Version: 1.6.36-6
+APT-ID: 31057
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.11), libpng16-16 (= 1.6.36-6), zlib1g (>= 1:1.2.3.4)
+Breaks: libpng16-tools (<< 1.6.21-1)
+
+Package: netcat-traditional
+Architecture: armhf
+Version: 1.10-41.1
+APT-ID: 40274
+Status: installed
+Depends: libc6 (>= 2.15)
+Provides: netcat
+
+Package: wget
+Architecture: armhf
+Version: 1.20.1-1.1
+APT-ID: 60064
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.28), libgnutls30 (>= 3.6.6), libidn2-0 (>= 0.6), libnettle6, libpcre2-8-0 (>= 10.32), libpsl5 (>= 0.16.0), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Conflicts: wget-ssl
+
+Package: libgc1c2
+Architecture: armhf
+Version: 1:7.6.4-0.4
+APT-ID: 19652
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:3.5), libstdc++6 (>= 4.3.0)
+Conflicts: libgc1
+
+Package: libcryptsetup12
+Architecture: armhf
+Version: 2:2.1.0-5+deb10u2
+APT-ID: 17306
+Multi-Arch: same
+Status: installed
+Depends: libargon2-1 (>= 0~20171227), libblkid1 (>= 2.24.2), libc6 (>= 2.25), libdevmapper1.02.1 (>= 2:1.02.97), libjson-c3 (>= 0.11), libssl1.1 (>= 1.1.0), libuuid1 (>= 2.16)
+
+Package: crda
+Architecture: armhf
+Version: 3.18-1
+APT-ID: 3428
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.7), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl1.1 (>= 1.1.0), wireless-regdb, iw (>= 3.2-1~)
+
+Package: x11-common
+Architecture: all
+Version: 1:7.7+19
+APT-ID: 60362
+Multi-Arch: foreign
+Status: installed
+Depends: lsb-base (>= 1.3-9ubuntu2)
+
+Package: apt-transport-https
+Architecture: all
+Version: 1.8.2
+APT-ID: 703
+Status: installed
+Depends: apt (>= 1.5~alpha4)
+
+Package: libappstream4
+Architecture: armhf
+Version: 0.12.5-1
+APT-ID: 14695
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.53.2), libstemmer0d (>= 0+svn527), libxml2 (>= 2.7.4), libyaml-0-2
+
+Package: raspberrypi-net-mods
+Architecture: all
+Version: 1.3.0
+APT-ID: 63056
+Status: installed
+Depends: dhcpcd5 (>= 6.10.1-1+rpi2)
+
+Package: cron
+Architecture: armhf
+Version: 3.0pl1-134+deb10u1
+APT-ID: 3448
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.28), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.0.82), debianutils (>= 1.7), sensible-utils, adduser, lsb-base (>= 3.0-10), libpam-runtime (>= 1.0.1-11)
+Pre-Depends: init-system-helpers (>= 1.54~)
+Provides: cron-daemon
+
+Package: dbus-user-session
+Architecture: armhf
+Version: 1.12.16-1
+APT-ID: 3809
+Multi-Arch: foreign
+Status: installed
+Depends: dbus (>= 1.12.16-1), libpam-systemd, systemd
+Breaks: dbus-x11 (<< 1.9.10-2~), policykit-1 (<< 0.105-12~), udisks2 (<< 2.1.5-2~)
+
+Package: libboost-filesystem1.67.0
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15515
+Multi-Arch: same
+Status: installed
+Depends: libboost-system1.67.0, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: usb-modeswitch
+Architecture: armhf
+Version: 2.5.2+repack0-2
+APT-ID: 59201
+Status: installed
+Depends: libc6 (>= 2.4), libjim0.77 (>= 0.72), libusb-1.0-0 (>= 2:1.0.9), usb-modeswitch-data (>= 20140529)
+Breaks: usb-modeswitch-data (<< 20100127)
+
+Package: python-wheel
+Architecture: all
+Version: 0.32.3-2
+APT-ID: 49146
+Status: installed
+Depends: python:any (<< 2.8), python:any (>= 2.7~)
+
+Package: libboost-regex-dev
+Architecture: armhf
+Version: 1.67.0.1+b1
+APT-ID: 15597
+Multi-Arch: same
+Status: installed
+Depends: libboost-regex1.67-dev
+
+Package: libpython3-dev
+Architecture: armhf
+Version: 3.7.3-1
+APT-ID: 31498
+Multi-Arch: same
+Status: installed
+Depends: libpython3.7-dev (>= 3.7.3-1~)
+
+Package: libboost-filesystem-dev
+Architecture: armhf
+Version: 1.67.0.1+b1
+APT-ID: 15509
+Multi-Arch: same
+Status: installed
+Depends: libboost-filesystem1.67-dev
+
+Package: autopoint
+Architecture: all
+Version: 0.19.8.1-9
+APT-ID: 1192
+Multi-Arch: foreign
+Status: installed
+Depends: xz-utils
+
+Package: libatomic1
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 14937
+Multi-Arch: same
+Status: installed
+Depends: gcc-8-base (= 8.3.0-6+rpi1), libc6 (>= 2.4)
+
+Package: libboost-thread1.62.0
+Architecture: armhf
+Version: 1.62.0+dfsg-10+b3
+APT-ID: 15639
+Multi-Arch: same
+Status: installed
+Depends: libboost-system1.62.0, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: libvorbis0a
+Architecture: armhf
+Version: 1.3.6-2
+APT-ID: 36547
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15), libogg0 (>= 1.1.0)
+
+Package: libjsoncpp1
+Architecture: armhf
+Version: 1.7.4-3
+APT-ID: 26051
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: libssl1.1
+Architecture: armhf
+Version: 1.1.1d-0+deb10u2+rpt1
+APT-ID: 62779
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), debconf (>= 0.5) | debconf-2.0
+Breaks: isync (<< 1.3.0-2), lighttpd (<< 1.4.49-2), python-boto (<< 2.44.0-1.1), python-httplib2 (<< 0.11.3-1), python-imaplib2 (<< 2.57-5), python3-boto (<< 2.44.0-1.1), python3-imaplib2 (<< 2.57-5)
+
+Package: gzip
+Architecture: armhf
+Version: 1.9-3
+APT-ID: 11197
+Essential: yes
+Status: installed
+Depends: dpkg (>= 1.15.4) | install-info
+Pre-Depends: libc6 (>= 2.28)
+
+Package: libv4l-0
+Architecture: armhf
+Version: 1.16.3-3
+APT-ID: 36235
+Multi-Arch: same
+Status: installed
+Depends: libv4lconvert0 (= 1.16.3-3), libc6 (>= 2.27)
+
+Package: libbind9-161
+Architecture: armhf
+Version: 1:9.11.5.P4+dfsg-5.1
+APT-ID: 15296
+Multi-Arch: same
+Status: installed
+Depends: libdns1104 (= 1:9.11.5.P4+dfsg-5.1), libisc1100 (= 1:9.11.5.P4+dfsg-5.1), libisccfg163 (= 1:9.11.5.P4+dfsg-5.1), libatomic1 (>= 4.8), libc6 (>= 2.4), libcap2 (>= 1:2.10), libcom-err2 (>= 1.43.9), libfstrm0 (>= 0.2.0), libgeoip1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libjson-c3 (>= 0.10), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), liblmdb0 (>= 0.9.6), libprotobuf-c1 (>= 1.0.0), libssl1.1 (>= 1.1.0), libxml2 (>= 2.6.27)
+
+Package: hardlink
+Architecture: armhf
+Version: 0.3.2
+APT-ID: 11254
+Status: installed
+Depends: libc6 (>= 2.4), libpcre2-posix0 (>= 10.32)
+
+Package: libtasn1-6
+Architecture: armhf
+Version: 4.13-3
+APT-ID: 35094
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: gnupg
+Architecture: all
+Version: 2.2.12-1+rpi1+deb10u1
+APT-ID: 9258
+Multi-Arch: foreign
+Status: installed
+Depends: dirmngr (<< 2.2.12-1+rpi1+deb10u1.1~), dirmngr (>= 2.2.12-1+rpi1+deb10u1), gnupg-l10n (= 2.2.12-1+rpi1+deb10u1), gnupg-utils (<< 2.2.12-1+rpi1+deb10u1.1~), gnupg-utils (>= 2.2.12-1+rpi1+deb10u1), gpg (<< 2.2.12-1+rpi1+deb10u1.1~), gpg (>= 2.2.12-1+rpi1+deb10u1), gpg-agent (<< 2.2.12-1+rpi1+deb10u1.1~), gpg-agent (>= 2.2.12-1+rpi1+deb10u1), gpg-wks-client (<< 2.2.12-1+rpi1+deb10u1.1~), gpg-wks-client (>= 2.2.12-1+rpi1+deb10u1), gpg-wks-server (<< 2.2.12-1+rpi1+deb10u1.1~), gpg-wks-server (>= 2.2.12-1+rpi1+deb10u1), gpgsm (<< 2.2.12-1+rpi1+deb10u1.1~), gpgsm (>= 2.2.12-1+rpi1+deb10u1), gpgv (<< 2.2.12-1+rpi1+deb10u1.1~), gpgv (>= 2.2.12-1+rpi1+deb10u1)
+Breaks: debsig-verify (<< 0.15), dirmngr (<< 2.2.12-1+rpi1+deb10u1), gnupg2 (<< 2.1.11-7+exp1), libgnupg-interface-perl (<< 0.52-3), libgnupg-perl (<= 0.19-1), libmail-gnupg-perl (<= 0.22-1), monkeysphere (<< 0.38~), php-crypt-gpg (<= 1.4.1-1), python-apt (<= 1.1.0~beta4), python-gnupg (<< 0.3.8-3), python3-apt (<= 1.1.0~beta4)
+
+Package: libboost-iostreams1.58.0
+Architecture: armhf
+Version: 1.58.0+dfsg-5.1+rpi1+b4
+APT-ID: 15533
+Multi-Arch: same
+Status: installed
+Depends: libbz2-1.0, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+
+Package: libcc1-0
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 16239
+Multi-Arch: same
+Status: installed
+Depends: gcc-8-base (= 8.3.0-6+rpi1), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: moreutils
+Architecture: armhf
+Version: 0.62-1+b1
+APT-ID: 39643
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.7), perl:any, libipc-run-perl
+Conflicts: lckdo
+
+Package: libv4lconvert0
+Architecture: armhf
+Version: 1.16.3-3
+APT-ID: 36238
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.27), libjpeg62-turbo (>= 1.3.1)
+Breaks: libv4l-0 (<< 0.8.5-4)
+
+Package: libpci3
+Architecture: armhf
+Version: 1:3.5.2-1
+APT-ID: 30584
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libudev1 (>= 196), zlib1g (>= 1:1.1.4)
+Conflicts: libpci2
+Provides: libpci2
+
+Package: icu-devtools
+Architecture: armhf
+Version: 63.1-6
+APT-ID: 11982
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libicu63 (>= 63.1-1~), libstdc++6 (>= 5.2)
+Breaks: icu-tools (<< 63.1-1~), libicu-dev (<< 63.1-6)
+
+Package: libyaml-0-2
+Architecture: armhf
+Version: 0.2.1-1
+APT-ID: 37543
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libjson-c3
+Architecture: armhf
+Version: 0.12.1+ds-2
+APT-ID: 26025
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.8)
+
+Package: libgdbm-compat4
+Architecture: armhf
+Version: 1.18.1-4
+APT-ID: 19817
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libgdbm6 (>= 1.16)
+
+Package: libdns1104
+Architecture: armhf
+Version: 1:9.11.5.P4+dfsg-5.1
+APT-ID: 18108
+Multi-Arch: same
+Status: installed
+Depends: libisc1100 (= 1:9.11.5.P4+dfsg-5.1), libatomic1 (>= 4.8), libc6 (>= 2.4), libcap2 (>= 1:2.10), libcom-err2 (>= 1.43.9), libfstrm0 (>= 0.2.0), libgeoip1, libgssapi-krb5-2 (>= 1.17), libjson-c3 (>= 0.10), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), liblmdb0 (>= 0.9.7), libprotobuf-c1 (>= 1.0.1), libssl1.1 (>= 1.1.1), libxml2 (>= 2.7.4)
+
+Package: libopts25
+Architecture: armhf
+Version: 1:5.18.12-4
+APT-ID: 30126
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7)
+
+Package: netcat-openbsd
+Architecture: armhf
+Version: 1.195-2
+APT-ID: 40273
+Status: installed
+Depends: libbsd0 (>= 0.2.0), libc6 (>= 2.28)
+Breaks: netcat (<< 1.10-35)
+Provides: netcat
+
+Package: raspberrypi-sys-mods
+Architecture: armhf
+Version: 20191105
+APT-ID: 63057
+Status: installed
+Depends: libcap2-bin, systemd (>= 230), gettext-base
+
+Package: keyutils
+Architecture: armhf
+Version: 1.6-6
+APT-ID: 13171
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.28), libkeyutils1 (>= 1.6)
+
+Package: libice6
+Architecture: armhf
+Version: 2:1.0.9-2
+APT-ID: 24751
+Multi-Arch: same
+Status: installed
+Depends: libbsd0 (>= 0.2.0), libc6 (>= 2.11), x11-common
+
+Package: libstemmer0d
+Architecture: armhf
+Version: 0+svn585-1
+APT-ID: 34694
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+Pre-Depends: multiarch-support
+
+Package: gettext-base
+Architecture: armhf
+Version: 0.19.8.1-9
+APT-ID: 8283
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: gettext
+Architecture: armhf
+Version: 0.19.8.1-9
+APT-ID: 8282
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.17), libcroco3 (>= 0.6.2), libglib2.0-0 (>= 2.12.0), libgomp1 (>= 4.9), libncurses6 (>= 6), libtinfo6 (>= 6), libunistring2 (>= 0.9.7), libxml2 (>= 2.9.1), gettext-base, dpkg (>= 1.15.4) | install-info
+Breaks: autopoint (<= 0.17-11)
+
+Package: libpython2.7-stdlib
+Architecture: armhf
+Version: 2.7.16-2+deb10u1
+APT-ID: 31493
+Multi-Arch: same
+Status: installed
+Depends: libpython2.7-minimal (= 2.7.16-2+deb10u1), libssl1.1 (>= 1.1.1), mime-support, libbz2-1.0, libc6 (>= 2.28), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw6 (>= 6), libreadline7 (>= 7.0~beta), libsqlite3-0 (>= 3.5.9), libtinfo6 (>= 6)
+Breaks: cython (<< 0.26-2.1), epigrass (<= 2.4.7-1), invesalius-bin (<= 3.1.1-1), macs (<= 2.1.1.20160309-1), printrun (<= 0~20150310-5), pycorrfit (<= 1.0.0+dfsg-1), pyscanfcs (<= 0.2.3-3), python-acora (<= 2.0-2+b1), python-adios (<= 1.12.0-3), python-astroml-addons (<= 0.2.2-4), python-astropy (<= 2.0.1-2), python-astroscrappy (<= 1.0.5-1+b1), python-bcolz (<= 1.1.0+ds1-4+b1), python-breezy (<= 3.0.0~bzr6772-1), python-bzrlib (<= 2.7.0+bzr6622-7), python-cartopy (<= 0.14.2+dfsg1-2+b1), python-cogent (<= 1.9-11), python-cutadapt (<= 1.13-1+b1), python-cypari2 (<= 1.0.0-3), python-dipy-lib (<= 0.12.0-1), python-djvu (<= 0.8-2), python-fabio (<= 0.4.0+dfsg-2+b1), python-falcon (<= 1.0.0-2+b1), python-fiona (<= 1.7.9-1), python-fpylll (<= 0.2.4+ds-3), python-grib (<= 2.0.2-2), python-gssapi (<= 1.2.0-1+b1), python-h5py (<= 2.7.0-1+b1), python-healpy (<= 1.10.3-2+b1), python-htseq (<= 0.6.1p1-4), python-imobiledevice (<= 1.2.0+dfsg-3.1), python-kivy (<= 1.9.1-1+b1), python-libdiscid (<= 1.0-1+b1), python-liblo (<= 0.10.0-3+b1), python-llfuse (<= 1.2+dfsg-1+b1), python-lxml (<< 3.8.0-2), python-meliae (<= 0.4.0+bzr199-3), python-netcdf4 (<= 1.2.9-1+b1), python-nipy-lib (<= 0.4.1-1), python-numpy (<< 1:1.12.1-3.1), python-pandas-lib (<= 0.20.3-1), python-petsc4py (<= 3.7.0-3+b1), python-pybloomfiltermmap (<= 0.3.15-0.1+b1), python-pyfai (<= 0.13.0+dfsg-1+b1), python-pygame-sdl2 (<= 6.99.12.4-1), python-pygpu (<= 0.6.9-2), python-pymca5 (<= 5.1.3+dfsg-1+b1), python-pymssql (<= 2.1.3+dfsg-1+b1), python-pyresample (<= 1.5.0-3+b1), python-pysam (<= 0.11.2.2+ds-3), python-pysph (<= 0~20160514.git91867dc-4), python-pywt (<= 0.5.1-1.1+b1), python-rasterio (<= 0.36.0-2+b2), python-renpy (<= 6.99.12.4+dfsg-1), python-scipy (<< 0.18.1-2.1), python-sfepy (<= 2016.2-2), python-sfml (<= 2.2~git20150611.196c88+dfsg-4), python-shapely (<= 1.6.1-1), python-skimage-lib (<= 0.12.3-9+b1), python-sklearn-lib (<= 0.19.0-1), python-specutils (<= 0.2.2-1+b1), python-statsmodels-lib (<= 0.8.0-3), python-stemmer (<= 1.3.0+dfsg-1+b7), python-tables-lib (<= 3.3.0-5+b1), python-tinycss (<= 0.4-1+b1), python-tk (<< 2.7.14~rc1-1~), python-urllib3 (<< 1.9.1-3), python-wheezy.template (<= 0.1.167-1.1+b1), python-yt (<= 3.3.3-2+b1), sagemath (<= 8.0-5), xpra (<= 0.17.6+dfsg-1)
+
+Package: pinentry-curses
+Architecture: armhf
+Version: 1.1.0-2
+APT-ID: 44332
+Status: installed
+Depends: libassuan0 (>= 2.1.0), libc6 (>= 2.4), libgpg-error0 (>= 1.16), libncursesw6 (>= 6), libtinfo6 (>= 6)
+Provides: pinentry
+
+Package: pigz
+Architecture: armhf
+Version: 2.4-1
+APT-ID: 44298
+Status: installed
+Depends: libc6 (>= 2.11), zlib1g (>= 1:1.2.6)
+Pre-Depends: dpkg (>= 1.15.6)
+
+Package: libboost-system1.62.0
+Architecture: armhf
+Version: 1.62.0+dfsg-10+b3
+APT-ID: 15625
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: libgnutls-dane0
+Architecture: armhf
+Version: 3.6.7-4
+APT-ID: 23651
+Multi-Arch: same
+Status: installed
+Depends: libgnutls30 (= 3.6.7-4), libc6 (>= 2.4), libunbound8 (>= 1.8.0)
+
+Package: libtext-iconv-perl
+Architecture: armhf
+Version: 1.7-5+b10
+APT-ID: 35467
+Status: installed
+Depends: libc6 (>= 2.4), perl-base (>= 5.28.0-3), perlapi-5.28.0
+
+Package: libipc-run-perl
+Architecture: all
+Version: 20180523.0-1
+APT-ID: 25053
+Status: installed
+Depends: perl, libio-pty-perl
+
+Package: liblzma5
+Architecture: armhf
+Version: 5.2.4-1
+APT-ID: 27501
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.17)
+Breaks: liblzma2 (<< 5.1.1alpha+20110809-3~)
+
+Package: traceroute
+Architecture: armhf
+Version: 1:2.1.0-2
+APT-ID: 58525
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libstdc++6
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 34659
+Multi-Arch: same
+Status: installed
+Depends: gcc-8-base (= 8.3.0-6+rpi1), libc6 (>= 2.18), libgcc1 (>= 1:3.5)
+Conflicts: scim (<< 1.4.2-1)
+Breaks: blockattack (<= 1.4.1+ds1-2.1+b2), boo (<= 0.9.5~git20110729.r1.202a430-2), c++-annotations (<= 10.2.0-1), clustalx (<= 2.1+lgpl-3), dff (<= 1.3.0+dfsg.1-4.1+b3), digikam-private-libs (<= 4:4.4.0-1.1+b2), dnsdist (<< 1.3.3-3), emscripten (<= 1.22.1-1), ergo (<= 3.4.0-1), fceux (<= 2.2.2+dfsg0-1), fiona (<= 1.5.1-2), flush (<= 0.9.12-3.1), freeorion (<= 0.4.4+git20150327-2), fslview (<= 4.0.1-4), fwbuilder (<= 5.1.0-4), gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gnote (<= 3.16.2-1), gnudatalanguage (<= 0.9.5-2+b2), innoextract (<= 1.4-1+b1), lambda-align (<< 1.0.3-5), libantlr-dev (<= 2.7.7+dfsg-6), libapache2-mod-passenger (<= 5.0.7-1), libaqbanking34-plugins, libaqsis1 (<= 1.8.2-1), libassimp3 (<= 3.0~dfsg-4), libboost-date-time1.54.0, libboost-date-time1.55.0, libchemps2-1 (<= 1.5-1), libcpprest2.4 (<= 2.4.0-2), libdap17 (<= 3.14.0-2), libdapclient6 (<= 3.14.0-2), libdapserver7 (<= 3.14.0-2), libdavix0 (<= 0.4.0-1+b1), libdballe6 (<= 6.8-1), libdiet-admin2.8 (<= 2.8.0-1+b3), libdiet-client2.8 (<= 2.8.0-1+b3), libdiet-sed2.8 (<= 2.8.0-1+b3), libfreefem++ (<= 3.37.1-1), libgazebo5 (<= 5.0.1+dfsg-2.1), libgetfem4++ (<= 4.2.1~beta1~svn4635~dfsg-3+b1), libgmsh2 (<= 2.9.3+dfsg1-1), libinsighttoolkit4.7 (<= 4.7.2-2), libkolabxml1 (<= 1.1.0-3), libktoblzcheck1c2a, liblhapdf0, libllvm3.8, libllvm3.9, libllvm4.0, libmarisa0 (<= 0.2.4-8), libogre-1.8.0 (<= 1.8.0+dfsg1-7+b1), libogre-1.9.0 (<= 1.9.0+dfsg1-4), libopenwalnut1 (<= 1.4.0~rc1+hg3a3147463ee2-1+b1), libpqxx-4.0 (<= 4.0.1+dfsg-3), libpythia8, libreoffice-core (<= 1:4.4.5-2), librime1 (<= 1.2+dfsg-2), libsimgrid3.14, libusbguard0 (<< 0.7.4+ds-1), libwibble-dev (<= 1.1-1), libwreport2 (<= 2.14-1), libxapian30 (<= 1.4.1-1~bpo8+1), libxmltooling6 (<= 1.5.3-2.1), lightspark (<= 0.7.2+git20150512-2+b1), mednafen (<< 1.22.1+dfsg-1), mira-assembler (<= 4.9.5-1), mongodb (<= 1:2.4.14-2), mongodb-server (<= 1:2.4.14-2), ncbi-blast+ (<= 2.2.30-4), nghttp2-proxy (<< 1.36.0-2), openscad (<= 2014.03+dfsg-1+b1), osm2pgsql (<< 0.96.0+ds-2), osmcoastline (<< 2.2.4-1), osmium-tool (<< 1.10.0-1), passepartout (<= 0.7.1-1.1), pdf2djvu (<= 0.7.21-2), pdns-recursor (<< 4.1.11-1), photoprint (<= 0.4.2~pre2-2.3+b2), plastimatch (<= 1.6.2+dfsg-1), plee-the-bear (<= 0.6.0-3.1), poedit (<< 2.2.1-2), povray (<= 1:3.7.0.0-8), powertop (<= 2.6.1-1), printer-driver-brlaser (<= 3-3), psi4 (<= 4.0~beta5+dfsg-2+b1), python-fiona (<= 1.5.1-2), python-guiqwt (<= 2.3.1-1), python-healpy (<= 1.8.1-1+b1), python-htseq (<= 0.5.4p3-2), python-imposm (<= 2.5.0-3+b2), python-pyosmium (<< 2.15.1-1), python-pysph (<= 0~20150606.gitfa26de9-5), python-rasterio (<= 0.24.0-1), python-scipy (<= 0.14.1-1), python-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-fiona (<= 1.5.1-2), python3-pyosmium (<< 2.15.1-1), python3-scipy (<= 0.14.1-1), python3-sfml (<= 2.2~git20150611.196c88+dfsg-1+b1), python3-taglib (<= 0.3.6+dfsg-2+b2), realtimebattle (<= 1.0.8-14), ruby-passenger (<= 5.0.7-1), schroot (<= 1.6.10-1+b1), seer (<< 1.1.4-2), sqlitebrowser (<= 3.5.1-3), tecnoballz (<= 0.93.1-6), undertaker (<< 1.6.1-4.2), wesnoth-1.12-core (<= 1:1.12.4-1), widelands (<= 1:18-3+b1), xflr5 (<= 6.09.06-2)
+
+Package: libnpth0
+Architecture: armhf
+Version: 1.6-1
+APT-ID: 29485
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.17)
+
+Package: curl
+Architecture: armhf
+Version: 7.64.0-4
+APT-ID: 3588
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.28), libcurl4 (= 7.64.0-4), zlib1g (>= 1:1.1.4)
+
+Package: libdpkg-perl
+Architecture: all
+Version: 1.19.7
+APT-ID: 18150
+Multi-Arch: foreign
+Status: installed
+Depends: perl:any, dpkg (>= 1.18.11)
+Breaks: dgit (<< 3.13~), patch (<< 2.7), pkg-kde-tools (<< 0.15.28~)
+
+Package: paxctld
+Architecture: armhf
+Version: 1.2.1-1
+APT-ID: 43156
+Status: installed
+Depends: libc6 (>= 2.7), lsb-base
+
+Package: libjs-sphinxdoc
+Architecture: all
+Version: 1.8.4-1
+APT-ID: 25966
+Multi-Arch: foreign
+Status: installed
+Depends: libjs-jquery (>= 1.11.1), libjs-underscore (>= 1.3.1)
+
+Package: isc-dhcp-client
+Architecture: armhf
+Version: 4.4.1-2
+APT-ID: 12386
+Status: installed
+Depends: libc6 (>= 2.28), libdns-export1104, libisc-export1100, debianutils (>= 2.8.2), iproute2
+
+Package: libip4tc0
+Architecture: armhf
+Version: 1.8.2-4
+APT-ID: 25044
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: rpcbind
+Architecture: armhf
+Version: 1.2.5-0.3+deb10u1
+APT-ID: 54020
+Status: installed
+Depends: libc6 (>= 2.4), libsystemd0, libtirpc3 (>= 1.0.2), libwrap0 (>= 7.6-4~), lsb-base (>= 4.1+Debian3), adduser
+Conflicts: portmap
+Breaks: libc-bin (<< 2.16)
+Provides: portmap
+
+Package: klibc-utils
+Architecture: armhf
+Version: 2.0.6-1+rpi1
+APT-ID: 13289
+Multi-Arch: foreign
+Status: installed
+Depends: libklibc (= 2.0.6-1+rpi1)
+Breaks: initramfs-tools (<< 0.123~)
+
+Package: libkyotocabinet16v5
+Architecture: armhf
+Version: 1.2.76-4.2+rpi1
+APT-ID: 26893
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2, libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Conflicts: libkyotocabinet16
+
+Package: python3-certifi
+Architecture: all
+Version: 2018.8.24-1
+APT-ID: 49625
+Status: installed
+Depends: python3:any (>= 3.4~), ca-certificates
+
+Package: patch
+Architecture: armhf
+Version: 2.7.6-3+deb10u1
+APT-ID: 43126
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: gpg-agent
+Architecture: armhf
+Version: 2.2.12-1+rpi1+deb10u1
+APT-ID: 10705
+Multi-Arch: foreign
+Status: installed
+Depends: gpgconf (= 2.2.12-1+rpi1+deb10u1), pinentry-curses | pinentry, libassuan0 (>= 2.5.1), libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.26-2~), libnpth0 (>= 0.90)
+Breaks: gnupg-agent (<< 2.1.21-4)
+Provides: gnupg-agent
+
+Package: python3-secretstorage
+Architecture: all
+Version: 2.3.1-2
+APT-ID: 51634
+Status: installed
+Depends: dbus, python3-dbus, python3-cryptography, python3:any (>= 3.3.2-2~)
+
+Package: libinotifytools0
+Architecture: armhf
+Version: 3.14-7
+APT-ID: 24963
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15)
+
+Package: python3-chardet
+Architecture: all
+Version: 3.0.4-3
+APT-ID: 49635
+Multi-Arch: foreign
+Status: installed
+Depends: python3:any, python3-pkg-resources
+
+Package: libgstreamer1.0-0
+Architecture: armhf
+Version: 1.14.4-1
+APT-ID: 24027
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.15), libcap2 (>= 1:2.10), libglib2.0-0 (>= 2.41.1), libcap2-bin
+Breaks: gstreamer1.0-plugins-bad (<< 1.11.1), gstreamer1.0-plugins-base (<< 1.8.0), libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+
+Package: libalgorithm-diff-xs-perl
+Architecture: armhf
+Version: 0.04-5+b1
+APT-ID: 14302
+Status: installed
+Depends: perl (>= 5.28.0-3), perlapi-5.28.0, libc6 (>= 2.4), libalgorithm-diff-perl
+
+Package: libboost-regex1.67-dev
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15602
+Multi-Arch: same
+Status: installed
+Depends: libboost1.67-dev (= 1.67.0-13), libboost-regex1.67.0 (= 1.67.0-13), libicu-dev
+Conflicts: libboost-regex1.42-dev, libboost-regex1.46-dev, libboost-regex1.48-dev, libboost-regex1.49-dev, libboost-regex1.50-dev, libboost-regex1.52-dev, libboost-regex1.53-dev, libboost-regex1.54-dev, libboost-regex1.55-dev, libboost-regex1.57-dev, libboost-regex1.58-dev, libboost-regex1.60-dev, libboost-regex1.61-dev, libboost-regex1.62-dev, libboost-regex1.63-dev, libboost-regex1.65-dev
+
+Package: libsamplerate0
+Architecture: armhf
+Version: 0.1.9-2
+APT-ID: 33605
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: python-pip-whl
+Architecture: all
+Version: 18.1-5+rpt1
+APT-ID: 62962
+Status: installed
+Depends: ca-certificates
+Breaks: python-chardet-whl (<< 2.3.0-2), python-colorama-whl (<< 0.3.6-1), python-distlib-whl (<< 0.2.2-1), python-html5lib-whl (<< 0.999-4), python-requests-whl (<< 2.9.1-3), python-setuptools-whl (<< 20.1.1-1), python-six-whl (<< 1.10.0-3), python-urllib3-whl (<< 1.13.1-2), virtualenv (<< 14.0.5+ds-5)
+
+Package: libboost-date-time1.67.0
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15497
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: python-minimal
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 47259
+Multi-Arch: allowed
+Status: installed
+Depends: python2.7-minimal (>= 2.7.16-1~), dpkg (>= 1.13.20), python2-minimal (= 2.7.16-1)
+Conflicts: python-central
+Breaks: idle (<< 2.6), python (<= 2.7.3-1~), python-all (<< 2.6), python-all-dbg (<< 2.6), python-all-dev (<< 2.6), python-dbg (<< 2.6), python-dev (<< 2.6), python-examples (<< 2.6), python-support (<< 1.0.10ubuntu2), python2.5-minimal (<< 2.5.5-7), python2.6-minimal (<< 2.6.5~rc2-2), python3.1-minimal (<< 3.1.2~rc1-2)
+
+Package: libglib2.0-0
+Architecture: armhf
+Version: 2.58.3-2+deb10u2
+APT-ID: 23189
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libffi6 (>= 3.0.4), libmount1 (>= 2.28), libpcre3, libselinux1 (>= 1.32), zlib1g (>= 1:1.2.2)
+
+Package: wireless-regdb
+Architecture: all
+Version: 2018.05.09-0~rpt1
+APT-ID: 63153
+Multi-Arch: foreign
+Status: installed
+
+Package: libidn2-0
+Architecture: armhf
+Version: 2.0.5-1+deb10u1
+APT-ID: 24793
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libunistring2 (>= 0.9.7)
+
+Package: libjpeg62-turbo
+Architecture: armhf
+Version: 1:1.5.2-2+b1
+APT-ID: 25631
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7)
+Conflicts: libjpeg62
+Provides: libjpeg62 (= 1:1.5.2-2+b1)
+
+Package: install-info
+Architecture: armhf
+Version: 6.5.0.dfsg.1-4+b1
+APT-ID: 12222
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.4)
+Pre-Depends: dpkg (>= 1.16.1)
+Breaks: texinfo (<< 4.13a.dfsg.1-2)
+
+Package: libmtp-common
+Architecture: all
+Version: 1.1.16-2
+APT-ID: 28753
+Multi-Arch: foreign
+Status: installed
+
+Package: libsys-hostname-long-perl
+Architecture: all
+Version: 1.5-1
+APT-ID: 34959
+Status: installed
+Depends: perl
+
+Package: python-pip
+Architecture: all
+Version: 18.1-5+rpt1
+APT-ID: 62961
+Status: installed
+Depends: ca-certificates, python-pip-whl (= 18.1-5+rpt1), python:any (<< 2.8), python:any (>= 2.7~)
+
+Package: libboost-thread1.67.0
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15641
+Multi-Arch: same
+Status: installed
+Depends: libboost-atomic1.67.0, libboost-system1.67.0, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: libhamlib2
+Architecture: armhf
+Version: 3.3-5
+APT-ID: 24306
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libusb-1.0-0 (>= 2:1.0.16)
+
+Package: python-asn1crypto
+Architecture: all
+Version: 0.24.0-1
+APT-ID: 45576
+Status: installed
+Depends: python:any (<< 2.8), python:any (>= 2.7.5-5~)
+
+Package: libaudit1
+Architecture: armhf
+Version: 1:2.8.4-3
+APT-ID: 15019
+Multi-Arch: same
+Status: installed
+Depends: libaudit-common (>= 1:2.8.4-3), libc6 (>= 2.28), libcap-ng0 (>= 0.7.9)
+
+Package: nfs-common
+Architecture: armhf
+Version: 1:1.3.4-2.5
+APT-ID: 40435
+Status: installed
+Depends: libc6 (>= 2.28), libcap2 (>= 1:2.10), libcom-err2 (>= 1.43.9), libdevmapper1.02.1 (>= 2:1.02.97), libevent-2.1-6 (>= 2.1.8-stable), libgssapi-krb5-2 (>= 1.17), libk5crypto3 (>= 1.6.dfsg.2), libkeyutils1 (>= 1.5.9), libkrb5-3 (>= 1.6.dfsg.2), libmount1 (>= 2.19.1), libnfsidmap2, libtirpc3 (>= 1.0.2), libwrap0 (>= 7.6-4~), rpcbind, adduser, ucf, lsb-base (>= 1.3-9ubuntu3), keyutils
+Conflicts: nfs-client
+Breaks: nfs-kernel-server (<< 1:1.2.8-6~)
+Provides: nfs-client
+
+Package: libcurl3-gnutls
+Architecture: armhf
+Version: 7.64.0-4
+APT-ID: 17404
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28), libcom-err2 (>= 1.43.9), libgnutls30 (>= 3.6.6), libgssapi-krb5-2 (>= 1.17), libidn2-0 (>= 0.6), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libnettle6, libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.16.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), zlib1g (>= 1:1.1.4)
+
+Package: initramfs-tools-core
+Architecture: all
+Version: 0.133+deb10u1
+APT-ID: 12187
+Multi-Arch: foreign
+Status: installed
+Depends: klibc-utils (>= 2.0.4-8~), cpio (>= 2.12), kmod, udev, coreutils (>= 8.24), e2fsprogs
+Breaks: busybox (<< 1:1.22.0-17~), busybox-static (<< 1:1.22.0-17~), initramfs-tools (<< 0.121~)
+
+Package: sensible-utils
+Architecture: all
+Version: 0.0.12
+APT-ID: 55978
+Multi-Arch: foreign
+Status: installed
+
+Package: gpgconf
+Architecture: armhf
+Version: 2.2.12-1+rpi1+deb10u1
+APT-ID: 10709
+Multi-Arch: foreign
+Status: installed
+Depends: libassuan0 (>= 2.5.0), libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.26-2~), libreadline7 (>= 6.0)
+Breaks: gnupg (<< 2.1.21-4), gnupg-agent (<< 2.1.21-4)
+
+Package: libstdc++-8-dev
+Architecture: armhf
+Version: 8.3.0-6+rpi1
+APT-ID: 34605
+Multi-Arch: same
+Status: installed
+Depends: gcc-8-base (= 8.3.0-6+rpi1), libgcc-8-dev (= 8.3.0-6+rpi1), libstdc++6 (>= 8.3.0-6+rpi1), libc6-dev (>= 2.13-5)
+Conflicts: libg++2.8-dev, libg++27-dev, libg++272-dev (<< 2.7.2.8-1), libstdc++2.10-dev (<< 1:2.95.3-2), libstdc++2.8-dev, libstdc++2.9-dev, libstdc++2.9-glibc2.1-dev, libstdc++3.0-dev
+Provides: libstdc++-dev
+
+Package: initramfs-tools
+Architecture: all
+Version: 0.133+deb10u1
+APT-ID: 12186
+Multi-Arch: foreign
+Status: installed
+Depends: initramfs-tools-core (= 0.133+deb10u1), linux-base
+Conflicts: linux-initramfs-tool, usplash (<< 0.5.50)
+Breaks: e2fsprogs (<< 1.42.13), initscripts (<< 2.88dsf-59.3~), upstart
+Provides: linux-initramfs-tool
+
+Package: socat
+Architecture: armhf
+Version: 1.7.3.2-2
+APT-ID: 56530
+Status: installed
+Depends: libc6 (>= 2.15), libssl1.1 (>= 1.1.0), libwrap0 (>= 7.6-4~)
+
+Package: libboost-serialization1.67.0
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15610
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: less
+Architecture: armhf
+Version: 487-0.1
+APT-ID: 13820
+Multi-Arch: foreign
+Status: installed
+Depends: libc6 (>= 2.11), libtinfo5 (>= 6), debianutils (>= 1.8)
+
+Package: hostname
+Architecture: armhf
+Version: 3.21
+APT-ID: 11487
+Essential: yes
+Status: installed
+Pre-Depends: libc6 (>= 2.4)
+Breaks: nis (<< 3.17-30)
+
+Package: libx11-xcb1
+Architecture: armhf
+Version: 2:1.6.7-1
+APT-ID: 36937
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libmnl0
+Architecture: armhf
+Version: 1.0.4-2
+APT-ID: 28156
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libdebconfclient0
+Architecture: armhf
+Version: 0.249
+APT-ID: 17834
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: python3-apt
+Architecture: armhf
+Version: 1.8.4.1
+APT-ID: 49396
+Multi-Arch: allowed
+Status: installed
+Depends: python3 (<< 3.8), python3 (>= 3.7~), python3:any (>= 3.3~), libapt-inst2.0 (>= 1.7~alpha2ubuntu1~), libapt-pkg5.0 (>= 1.7.0~alpha3~), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2), python-apt-common
+Breaks: python-apt (<< 0.7.98+nmu1)
+
+Package: readsb
+Architecture: armhf
+Version: 3.8.1
+APT-ID: 63191
+Status: installed
+Depends: libc6 (>= 2.28), libncurses6 (>= 6), librtlsdr0, libtinfo6 (>= 6), libusb-1.0-0 (>= 2:1.0.8), adduser, lighttpd
+
+Package: libfribidi0
+Architecture: armhf
+Version: 1.0.5-3.1+deb10u1
+APT-ID: 19482
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libtool
+Architecture: all
+Version: 2.4.6-9
+APT-ID: 35746
+Multi-Arch: foreign
+Status: installed
+Depends: gcc | c-compiler, cpp, libc6-dev | libc-dev, file, autotools-dev
+Conflicts: autoconf (<= 2.12), automake (<= 1.3), libtool1.4
+
+Package: python3-setuptools
+Architecture: all
+Version: 40.8.0-1
+APT-ID: 51662
+Multi-Arch: foreign
+Status: installed
+Depends: python3-pkg-resources (= 40.8.0-1), python3-distutils, python3:any
+
+Package: libboost-filesystem1.67-dev
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15514
+Multi-Arch: same
+Status: installed
+Depends: libboost1.67-dev (= 1.67.0-13), libboost-filesystem1.67.0 (= 1.67.0-13), libboost-system1.67-dev (= 1.67.0-13)
+Conflicts: libboost-filesystem1.42-dev, libboost-filesystem1.46-dev, libboost-filesystem1.48-dev, libboost-filesystem1.49-dev, libboost-filesystem1.50-dev, libboost-filesystem1.52-dev, libboost-filesystem1.53-dev, libboost-filesystem1.54-dev, libboost-filesystem1.55-dev, libboost-filesystem1.57-dev, libboost-filesystem1.58-dev, libboost-filesystem1.60-dev, libboost-filesystem1.61-dev, libboost-filesystem1.62-dev, libboost-filesystem1.63-dev, libboost-filesystem1.65-dev
+
+Package: libusb-1.0-doc
+Architecture: all
+Version: 2:1.0.22-2
+APT-ID: 36162
+Multi-Arch: foreign
+Status: installed
+Conflicts: libusb-1.0-0-dev (<< 1.0.16)
+
+Package: base-files
+Architecture: armhf
+Version: 10.3+rpi1+deb10u2
+APT-ID: 1389
+Essential: yes
+Multi-Arch: foreign
+Status: installed
+Pre-Depends: awk
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+
+Package: gpgsm
+Architecture: armhf
+Version: 2.2.12-1+rpi1+deb10u1
+APT-ID: 10711
+Multi-Arch: foreign
+Status: installed
+Depends: gpgconf (= 2.2.12-1+rpi1+deb10u1), libassuan0 (>= 2.5.0), libc6 (>= 2.28), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.26-2~), libksba8 (>= 1.3.4), libreadline7 (>= 6.0)
+Breaks: gnupg2 (<< 2.1.10-2)
+
+Package: dpkg-dev
+Architecture: all
+Version: 1.19.7
+APT-ID: 4725
+Multi-Arch: foreign
+Status: installed
+Depends: perl:any, libdpkg-perl (= 1.19.7), tar (>= 1.28-1), bzip2, xz-utils, patch (>= 2.7), make, binutils
+Breaks: debhelper (<< 10.10.1~)
+
+Package: libtext-charwidth-perl
+Architecture: armhf
+Version: 0.04-7.1+b1
+APT-ID: 35446
+Status: installed
+Depends: libc6 (>= 2.4), perl-base (>= 5.28.0-3), perlapi-5.28.0
+
+Package: bash-completion
+Architecture: all
+Version: 1:2.8-6
+APT-ID: 1396
+Multi-Arch: foreign
+Status: installed
+
+Package: libfftw3-single3
+Architecture: armhf
+Version: 3.3.8-2
+APT-ID: 19107
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.16), libgomp1 (>= 4.9)
+Breaks: libfftw3-3 (<< 3.3.3-1)
+
+Package: libxext6
+Architecture: armhf
+Version: 2:1.3.3-1+b2
+APT-ID: 37159
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.6.0)
+
+Package: python-all-dev
+Architecture: armhf
+Version: 2.7.16-1
+APT-ID: 45523
+Multi-Arch: allowed
+Status: installed
+Depends: python (= 2.7.16-1), python-all (= 2.7.16-1), libpython-all-dev (= 2.7.16-1), python-dev (= 2.7.16-1), python2.7-dev (>= 2.7-7)
+
+Package: libsigsegv2
+Architecture: armhf
+Version: 2.12-2
+APT-ID: 33995
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: tzdata
+Architecture: all
+Version: 2019c-0+deb10u1
+APT-ID: 58900
+Multi-Arch: foreign
+Status: installed
+Depends: debconf (>= 0.5) | debconf-2.0
+
+Package: libnfsidmap2
+Architecture: armhf
+Version: 0.25-5.1
+APT-ID: 29351
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.7), libldap-2.4-2 (>= 2.4.7)
+Conflicts: libnfsidmap1
+Breaks: nfs-common (<< 1:1.2.2-1)
+
+Package: libboost-system1.67.0
+Architecture: armhf
+Version: 1.67.0-13
+APT-ID: 15627
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
+
+Package: liblzo2-2
+Architecture: armhf
+Version: 2.10-0.1
+APT-ID: 27502
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.4)
+
+Package: libslang2
+Architecture: armhf
+Version: 2.3.2-2
+APT-ID: 34068
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.28)
+
+Package: software-properties-common
+Architecture: all
+Version: 0.96.20.2-2
+APT-ID: 56550
+Status: installed
+Depends: ca-certificates, gir1.2-glib-2.0, gir1.2-packagekitglib-1.0 (>= 1.1.0-2), python-apt-common (>= 0.9), python3, python3-dbus, python3-gi, python3-software-properties (= 0.96.20.2-2), python3:any
+Breaks: python-software-properties (<< 0.85), python3-software-properties (<< 0.85)
+
+Package: liberror-perl
+Architecture: all
+Version: 0.17027-2
+APT-ID: 18750
+Multi-Arch: foreign
+Status: installed
+Depends: perl
+
+Package: libpng16-16
+Architecture: armhf
+Version: 1.6.36-6
+APT-ID: 31060
+Multi-Arch: same
+Status: installed
+Depends: libc6 (>= 2.11), zlib1g (>= 1:1.2.11.dfsg)
+

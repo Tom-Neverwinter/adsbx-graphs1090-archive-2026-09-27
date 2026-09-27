@@ -1,0 +1,1397 @@
+Sep 26 01:24:27 raspberrypi systemd-logind[366]: New seat seat0.
+Sep 26 01:24:42 raspberrypi sshd[612]: Server listening on 0.0.0.0 port 22.
+Sep 26 01:24:42 raspberrypi sshd[612]: Server listening on :: port 22.
+Feb  3 22:58:54 raspberrypi sshd[764]: Connection closed by <lan-ip> port 47132 [preauth]
+Feb  3 22:59:08 raspberrypi sshd[767]: Accepted password for <user> from <lan-ip> port 47134 ssh2
+Feb  3 22:59:08 raspberrypi sshd[767]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  3 22:59:08 raspberrypi systemd-logind[366]: New session c1 of user <user>
+Feb  3 22:59:08 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  3 22:59:22 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt update
+Feb  3 22:59:22 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 22:59:37 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:00:30 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt upgrade
+Feb  3 23:00:30 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:10:19 raspberrypi sshd[612]: Received signal 15; terminating.
+Feb  3 23:10:19 raspberrypi sshd[4837]: Server listening on 0.0.0.0 port 22.
+Feb  3 23:10:19 raspberrypi sshd[4837]: Server listening on :: port 22.
+Feb  3 23:10:34 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:15:28 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install build-essential rtl-sdr
+Feb  3 23:15:28 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:15:35 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:15:37 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install build-essential rtl-sdr-dev
+Feb  3 23:15:37 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:15:39 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:15:47 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install build-essential libusb
+Feb  3 23:15:47 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:15:49 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:15:51 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install build-essential lib-usb
+Feb  3 23:15:51 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:15:53 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:17:01 raspberrypi CRON[6495]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  3 23:17:01 raspberrypi CRON[6495]: pam_unix(cron:session): session closed for <user> root
+Feb  3 23:18:49 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install git make cmake
+Feb  3 23:18:49 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:19:16 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:21:35 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt-get install -y apt-transport-https
+Feb  3 23:21:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:21:42 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:22:37 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt-get install -y software-properties-common wget
+Feb  3 23:22:37 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:23:08 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:23:09 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt-key add -
+Feb  3 23:23:09 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:23:10 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:23:15 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt update
+Feb  3 23:23:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:23:22 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:23:29 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install grafana
+Feb  3 23:23:29 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:26:16 raspberrypi groupadd[10916]: group added to /etc/group: name=grafana, GID=114
+Feb  3 23:26:16 raspberrypi groupadd[10916]: group added to /etc/gshadow: name=grafana
+Feb  3 23:26:16 raspberrypi groupadd[10916]: new group: name=grafana, GID=114
+Feb  3 23:26:16 raspberrypi user<user>[10921]: new user: name=grafana, UID=109, GID=114, home=/var/lib/grafana, shell=/usr/sbin/nologin
+Feb  3 23:26:16 raspberrypi chage[10928]: changed password expiry for <user>
+Feb  3 23:26:28 raspberrypi groupadd[11351]: group added to /etc/group: name=geoclue, GID=115
+Feb  3 23:26:28 raspberrypi groupadd[11351]: group added to /etc/gshadow: name=geoclue
+Feb  3 23:26:28 raspberrypi groupadd[11351]: new group: name=geoclue, GID=115
+Feb  3 23:26:28 raspberrypi user<user>[11358]: new user: name=geoclue, UID=110, GID=115, home=/var/lib/geoclue, shell=/usr/sbin/nologin
+Feb  3 23:26:28 raspberrypi user<user>[11365]: change user 'geoclue' password
+Feb  3 23:26:28 raspberrypi chage[11371]: changed password expiry for <user>
+Feb  3 23:26:31 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:27:34 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install grafana
+Feb  3 23:27:34 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:27:36 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:27:41 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install prometheus
+Feb  3 23:27:41 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:28:51 raspberrypi groupadd[11966]: group added to /etc/group: name=Debian-exim, GID=116
+Feb  3 23:28:51 raspberrypi groupadd[11966]: group added to /etc/gshadow: name=Debian-exim
+Feb  3 23:28:51 raspberrypi groupadd[11966]: new group: name=Debian-exim, GID=116
+Feb  3 23:28:51 raspberrypi user<user>[11971]: new user: name=Debian-exim, UID=111, GID=116, home=/var/spool/exim4, shell=/usr/sbin/nologin
+Feb  3 23:28:51 raspberrypi chage[11978]: changed password expiry for <user>
+Feb  3 23:28:55 raspberrypi groupadd[12337]: group added to /etc/group: name=prometheus, GID=117
+Feb  3 23:28:55 raspberrypi groupadd[12337]: group added to /etc/gshadow: name=prometheus
+Feb  3 23:28:55 raspberrypi groupadd[12337]: new group: name=prometheus, GID=117
+Feb  3 23:28:55 raspberrypi user<user>[12342]: new user: name=prometheus, UID=112, GID=117, home=/var/lib/prometheus, shell=/usr/sbin/nologin
+Feb  3 23:28:55 raspberrypi user<user>[12349]: change user 'prometheus' password
+Feb  3 23:28:55 raspberrypi chage[12355]: changed password expiry for <user>
+Feb  3 23:28:55 raspberrypi chfn[12359]: changed user 'prometheus' information
+Feb  3 23:29:16 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:31:43 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/rm -R rpi_exporter/
+Feb  3 23:31:43 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:31:43 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:35:35 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/rm -R go
+Feb  3 23:35:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:35:35 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:35:47 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install prometheus-node-exporter
+Feb  3 23:35:47 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:35:50 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:36:04 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install dump1090-exporter
+Feb  3 23:36:04 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:36:06 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:36:44 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install pip3
+Feb  3 23:36:44 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:36:45 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:37:21 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install python3-pip
+Feb  3 23:37:21 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:37:24 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:37:26 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install python3-pip3
+Feb  3 23:37:26 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:37:28 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:37:30 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/apt install python3-pip
+Feb  3 23:37:30 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:38:25 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:50:50 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/.local/lib/python3.7/site-packages/dump1090exporter ; USER=<user> ; COMMAND=/usr/bin/apt install python2-pip
+Feb  3 23:50:50 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:50:52 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:50:55 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/.local/lib/python3.7/site-packages/dump1090exporter ; USER=<user> ; COMMAND=/usr/bin/apt install python-pip
+Feb  3 23:50:55 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:51:45 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:53:07 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/pip install dump1090exporter
+Feb  3 23:53:07 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:53:12 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:53:25 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/pip install dump1090exporter
+Feb  3 23:53:25 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:53:30 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:54:48 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/bin/pip3 install dump1090exporter
+Feb  3 23:54:48 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:55:15 raspberrypi sudo: <user> session closed for <user> root
+Feb  3 23:58:46 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/systemd/system/readsb.service
+Feb  3 23:58:46 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  3 23:59:42 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:00:13 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /boot/adsb-config.txt
+Feb  4 00:00:13 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:04:02 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:05:24 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install lib-ncurses
+Feb  4 00:05:24 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:05:25 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:05:29 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install lib-curses
+Feb  4 00:05:29 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:05:31 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:05:33 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install libcurses
+Feb  4 00:05:33 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:05:35 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:05:37 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install libcurses-dev
+Feb  4 00:05:37 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:05:39 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:05:43 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install lib-ncurses-dev
+Feb  4 00:05:43 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:05:44 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:05:47 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install libncurses-dev
+Feb  4 00:05:47 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:05:54 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:06:45 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=./readsb --net
+Feb  4 00:06:45 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:06:45 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:07:10 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt instal rtlsdr-dev
+Feb  4 00:07:10 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:07:10 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:07:13 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install rtlsdr-dev
+Feb  4 00:07:13 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:07:15 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:07:20 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install rtlsdr
+Feb  4 00:07:20 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:07:21 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:07:24 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install rtl-sdr
+Feb  4 00:07:24 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:07:27 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:07:29 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install rtl-sdr-dev
+Feb  4 00:07:29 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:07:31 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:08:13 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  4 00:08:13 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:08:13 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:08:13 raspberrypi sshd[4837]: Received signal 15; terminating.
+Feb  4 00:08:19 raspberrypi systemd-logind[344]: New seat seat0.
+Feb  4 00:08:26 raspberrypi sshd[795]: Server listening on 0.0.0.0 port 22.
+Feb  4 00:08:26 raspberrypi sshd[795]: Server listening on :: port 22.
+Feb  4 00:10:25 raspberrypi sshd[896]: pam_unix(sshd:auth): authentication failure; logname= <user>=0 euid=0 tty=ssh ruser= <user>=<lan-ip>  user=pi
+Feb  4 00:10:26 raspberrypi sshd[896]: Failed password for <user> from <lan-ip> port 49828 ssh2
+Feb  4 00:10:30 raspberrypi sshd[896]: Accepted password for <user> from <lan-ip> port 49828 ssh2
+Feb  4 00:10:30 raspberrypi sshd[896]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  4 00:10:30 raspberrypi systemd-logind[344]: New session c1 of user <user>
+Feb  4 00:10:30 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  4 00:11:14 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install librtlsdr
+Feb  4 00:11:14 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:11:16 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:11:48 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install rtlsdr
+Feb  4 00:11:48 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:11:50 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:11:53 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install rtl-sdr
+Feb  4 00:11:53 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:11:55 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:11:59 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install librtl-sdr
+Feb  4 00:11:59 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:12:00 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:13:04 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install librtlsdr-dev
+Feb  4 00:13:05 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:13:17 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:13:19 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install librtlsdr-dev
+Feb  4 00:13:19 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:13:21 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:14:03 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install -y git build-essential debhelper libusb-1.0-0-dev
+Feb  4 00:14:03 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:14:31 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:14:40 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install -y librtlsdr-dev librtlsdr0 pkg-config dh-systemd
+Feb  4 00:14:40 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:14:57 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:14:59 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/apt install -y libncurses5-dev lighttpd
+Feb  4 00:14:59 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:15:13 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:15:51 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/cp /tmp/rtl-sdr.rules /etc/udev/rules.d/
+Feb  4 00:15:51 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:15:51 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:17:01 raspberrypi CRON[4165]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 00:17:01 raspberrypi CRON[4165]: pam_unix(cron:session): session closed for <user> root
+Feb  4 00:18:24 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/usr/bin/dpkg -i ../readsb_3.8.1_armhf.deb
+Feb  4 00:18:24 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:18:28 raspberrypi user<user>[4359]: new user: name=readsb, UID=113, GID=65534, home=/usr/share/readsb, shell=/usr/sbin/nologin
+Feb  4 00:18:28 raspberrypi user<user>[4366]: change user 'readsb' password
+Feb  4 00:18:28 raspberrypi chage[4372]: changed password expiry for <user>
+Feb  4 00:18:28 raspberrypi gpasswd[4377]: user <user> added by <user> to group plugdev
+Feb  4 00:18:29 raspberrypi gpasswd[4383]: user <user> added by <user> to group dialout
+Feb  4 00:18:33 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:21:16 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/systemctl status readsb.service
+Feb  4 00:21:16 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:21:24 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:21:47 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/nano /etc/adduser.conf
+Feb  4 00:21:47 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:21:48 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:21:58 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/nano /boot/adsb-config.txt
+Feb  4 00:21:58 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:22:35 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:22:59 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/bash -c #!/bin/bash#012TMP=/tmp/adsbexchange-git#012if ! command -v git; then#012    apt-get update#012    apt-get install -y git#012fi#012rm -rf "$TMP"#012git clone --depth 1 https://github.com/adsbxchange/adsb-exchange.git "$TMP"#012cd "$TMP"#012bash setup.sh
+Feb  4 00:22:59 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:23:00 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:23:46 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/mv /boot/adsb-config.txt /boot/adsbx-config.txt
+Feb  4 00:23:46 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:23:46 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:23:49 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/bash -c #!/bin/bash#012TMP=/tmp/adsbexchange-git#012if ! command -v git; then#012    apt-get update#012    apt-get install -y git#012fi#012rm -rf "$TMP"#012git clone --depth 1 https://github.com/adsbxchange/adsb-exchange.git "$TMP"#012cd "$TMP"#012bash setup.sh
+Feb  4 00:23:49 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:24:26 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/usr/bin/apt-get install -y socat
+Feb  4 00:24:26 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:24:35 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:24:35 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/usr/bin/apt-get install -y ntp
+Feb  4 00:24:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:24:46 raspberrypi groupadd[5199]: group added to /etc/group: name=ntp, GID=118
+Feb  4 00:24:46 raspberrypi groupadd[5199]: group added to /etc/gshadow: name=ntp
+Feb  4 00:24:46 raspberrypi groupadd[5199]: new group: name=ntp, GID=118
+Feb  4 00:24:46 raspberrypi user<user>[5205]: new user: name=ntp, UID=114, GID=118, home=/nonexistent, shell=/usr/sbin/nologin
+Feb  4 00:24:46 raspberrypi user<user>[5212]: change user 'ntp' password
+Feb  4 00:24:46 raspberrypi chage[5218]: changed password expiry for <user>
+Feb  4 00:24:51 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:15 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/usr/local/bin/adsb-exchange ; USER=<user> ; COMMAND=/usr/bin/dpkg -i mlat-client_0.2.10*.deb
+Feb  4 00:25:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:15 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:16 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/sed -i -e /adsbexchange-mlat_maint.sh/d /etc/rc.local
+Feb  4 00:25:16 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:16 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:16 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/kill 5732
+Feb  4 00:25:16 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:16 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:16 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/kill -9 5732
+Feb  4 00:25:16 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:16 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:17 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/cp /tmp/adsbexchange-git/scripts/adsbexchange-mlat.service /lib/systemd/system
+Feb  4 00:25:17 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:17 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:17 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/systemctl daemon-reload
+Feb  4 00:25:17 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:17 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:18 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/systemctl enable adsbexchange-mlat
+Feb  4 00:25:18 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:18 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:19 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/mkdir -p /usr/local/bin
+Feb  4 00:25:19 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:19 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:19 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/cp /tmp/adsbexchange-git/scripts/adsbexchange-feed.sh /usr/local/bin
+Feb  4 00:25:19 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:19 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:19 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/cp /tmp/adsbexchange-git/scripts/adsbexchange-feed.service /lib/systemd/system
+Feb  4 00:25:19 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:19 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:19 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/usr/bin/tee /etc/default/adsbexchange
+Feb  4 00:25:19 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:19 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:19 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/chmod +x /usr/local/bin/adsbexchange-feed.sh
+Feb  4 00:25:19 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:19 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:20 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/sed -i -e /adsbexchange-netcat_maint.sh/d /etc/rc.local
+Feb  4 00:25:20 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:20 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:20 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/systemctl enable adsbexchange-feed
+Feb  4 00:25:20 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:20 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:21 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/kill 5895
+Feb  4 00:25:21 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:21 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:21 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/kill -9 5895
+Feb  4 00:25:21 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:21 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:21 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/systemctl daemon-reload
+Feb  4 00:25:21 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:22 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:22 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/systemctl restart adsbexchange-feed
+Feb  4 00:25:22 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:22 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:25:22 raspberrypi sudo:     <user> : TTY=pts/0 ; PWD=/tmp/adsbexchange-git ; USER=<user> ; COMMAND=/bin/systemctl restart adsbexchange-mlat
+Feb  4 00:25:22 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:25:22 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:26:04 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:26:15 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl disable adsbexchange-mlat.service
+Feb  4 00:26:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:26:16 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:26:20 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl disable adsbexchange-feed.service
+Feb  4 00:26:20 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:26:21 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:26:52 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange/adsbexchange-stats ; USER=<user> ; COMMAND=./install.sh
+Feb  4 00:26:52 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:27:07 raspberrypi groupadd[6259]: group added to /etc/group: name=uuidd, GID=119
+Feb  4 00:27:07 raspberrypi groupadd[6259]: group added to /etc/gshadow: name=uuidd
+Feb  4 00:27:07 raspberrypi groupadd[6259]: new group: name=uuidd, GID=119
+Feb  4 00:27:07 raspberrypi user<user>[6266]: new user: name=uuidd, UID=115, GID=119, home=/run/uuidd, shell=/usr/sbin/nologin
+Feb  4 00:27:07 raspberrypi user<user>[6273]: change user 'uuidd' password
+Feb  4 00:27:07 raspberrypi chage[6279]: changed password expiry for <user>
+Feb  4 00:27:18 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:28:23 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl disable adsbexchange-stats.service
+Feb  4 00:28:23 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:28:24 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:28:41 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/mv /boot/adsbx-config.txt /boot/adsb-config.txt
+Feb  4 00:28:41 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:28:41 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:29:45 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl enable adsbexchange-feed.service
+Feb  4 00:29:46 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:29:46 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:31:35 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/etc/systemd/system/default.target.wants ; USER=<user> ; COMMAND=/bin/nano adsbexchange-feed.service
+Feb  4 00:31:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:31:59 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:32:12 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/etc/systemd/system/default.target.wants ; USER=<user> ; COMMAND=/bin/nano /usr/local/bin/adsbexchange-feed.sh
+Feb  4 00:32:12 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:52:03 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:52:16 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/etc/systemd/system/default.target.wants ; USER=<user> ; COMMAND=/bin/systemctl disableadsbexchange-feed.service
+Feb  4 00:52:16 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:52:16 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:52:20 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/etc/systemd/system/default.target.wants ; USER=<user> ; COMMAND=/bin/systemctl disable adsbexchange-feed.service
+Feb  4 00:52:20 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:52:20 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:52:29 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/etc/systemd/system/default.target.wants ; USER=<user> ; COMMAND=/bin/systemctl enable adsbexchange-feed.service
+Feb  4 00:52:29 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:52:30 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:52:45 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/etc/systemd/system/default.target.wants ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  4 00:52:45 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  4 00:52:45 raspberrypi sshd[896]: pam_unix(sshd:session): session closed for <user> pi
+Feb  4 00:52:45 raspberrypi sudo: <user> session closed for <user> root
+Feb  4 00:52:45 raspberrypi sshd[795]: Received signal 15; terminating.
+Feb  4 00:52:52 raspberrypi systemd-logind[328]: New seat seat0.
+Feb  4 00:53:00 raspberrypi sshd[848]: Server listening on 0.0.0.0 port 22.
+Feb  4 00:53:00 raspberrypi sshd[848]: Server listening on :: port 22.
+Feb  4 01:17:01 raspberrypi CRON[1131]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 01:17:01 raspberrypi CRON[1131]: pam_unix(cron:session): session closed for <user> root
+Feb  4 02:17:01 raspberrypi CRON[1702]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 02:17:01 raspberrypi CRON[1702]: pam_unix(cron:session): session closed for <user> root
+Feb  4 03:17:01 raspberrypi CRON[2303]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 03:17:01 raspberrypi CRON[2303]: pam_unix(cron:session): session closed for <user> root
+Feb  4 04:17:01 raspberrypi CRON[2873]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 04:17:01 raspberrypi CRON[2873]: pam_unix(cron:session): session closed for <user> root
+Feb  4 05:17:01 raspberrypi CRON[3430]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 05:17:01 raspberrypi CRON[3430]: pam_unix(cron:session): session closed for <user> root
+Feb  4 06:17:01 raspberrypi CRON[4087]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 06:17:01 raspberrypi CRON[4087]: pam_unix(cron:session): session closed for <user> root
+Feb  4 06:25:02 raspberrypi CRON[4179]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 06:25:02 raspberrypi su: (to www-data) root on none
+Feb  4 06:25:02 raspberrypi su: pam_unix(su:session): session opened for <user> www-data by (<user>=0)
+Feb  4 06:25:02 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> www-data by (<user>=0)
+Feb  4 06:25:02 raspberrypi su: pam_unix(su:session): session closed for <user> www-data
+Feb  4 06:25:02 raspberrypi su: (to www-data) root on none
+Feb  4 06:25:02 raspberrypi su: pam_unix(su:session): session opened for <user> www-data by (<user>=0)
+Feb  4 06:25:03 raspberrypi su: pam_unix(su:session): session closed for <user> www-data
+Feb  4 06:25:03 raspberrypi CRON[4179]: pam_unix(cron:session): session closed for <user> root
+Feb  4 06:25:13 raspberrypi systemd: pam_unix(systemd-user:session): session closed for <user> www-data
+Feb  4 07:17:01 raspberrypi CRON[4796]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 07:17:01 raspberrypi CRON[4796]: pam_unix(cron:session): session closed for <user> root
+Feb  4 08:17:01 raspberrypi CRON[5368]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 08:17:01 raspberrypi CRON[5368]: pam_unix(cron:session): session closed for <user> root
+Feb  4 09:17:01 raspberrypi CRON[5929]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 09:17:01 raspberrypi CRON[5929]: pam_unix(cron:session): session closed for <user> root
+Feb  4 10:17:01 raspberrypi CRON[6471]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 10:17:01 raspberrypi CRON[6471]: pam_unix(cron:session): session closed for <user> root
+Feb  4 11:17:01 raspberrypi CRON[7030]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 11:17:01 raspberrypi CRON[7030]: pam_unix(cron:session): session closed for <user> root
+Feb  4 12:17:01 raspberrypi CRON[7601]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 12:17:01 raspberrypi CRON[7601]: pam_unix(cron:session): session closed for <user> root
+Feb  4 13:17:01 raspberrypi CRON[8654]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 13:17:02 raspberrypi CRON[8654]: pam_unix(cron:session): session closed for <user> root
+Feb  4 14:17:01 raspberrypi CRON[9241]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 14:17:01 raspberrypi CRON[9241]: pam_unix(cron:session): session closed for <user> root
+Feb  4 15:17:01 raspberrypi CRON[9987]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 15:17:01 raspberrypi CRON[9987]: pam_unix(cron:session): session closed for <user> root
+Feb  4 16:17:01 raspberrypi CRON[10557]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 16:17:01 raspberrypi CRON[10557]: pam_unix(cron:session): session closed for <user> root
+Feb  4 17:17:01 raspberrypi CRON[11131]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 17:17:01 raspberrypi CRON[11131]: pam_unix(cron:session): session closed for <user> root
+Feb  4 18:17:01 raspberrypi CRON[11722]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 18:17:01 raspberrypi CRON[11722]: pam_unix(cron:session): session closed for <user> root
+Feb  4 19:17:01 raspberrypi CRON[12276]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 19:17:01 raspberrypi CRON[12276]: pam_unix(cron:session): session closed for <user> root
+Feb  4 20:17:01 raspberrypi CRON[12848]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 20:17:01 raspberrypi CRON[12848]: pam_unix(cron:session): session closed for <user> root
+Feb  4 21:17:01 raspberrypi CRON[13432]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 21:17:01 raspberrypi CRON[13432]: pam_unix(cron:session): session closed for <user> root
+Feb  4 22:17:02 raspberrypi CRON[14023]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 22:17:02 raspberrypi CRON[14023]: pam_unix(cron:session): session closed for <user> root
+Feb  4 23:17:01 raspberrypi CRON[14593]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  4 23:17:01 raspberrypi CRON[14593]: pam_unix(cron:session): session closed for <user> root
+Feb  5 00:17:01 raspberrypi CRON[15172]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 00:17:01 raspberrypi CRON[15172]: pam_unix(cron:session): session closed for <user> root
+Feb  5 01:17:01 raspberrypi CRON[15879]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 01:17:01 raspberrypi CRON[15879]: pam_unix(cron:session): session closed for <user> root
+Feb  5 02:17:01 raspberrypi CRON[16629]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 02:17:01 raspberrypi CRON[16629]: pam_unix(cron:session): session closed for <user> root
+Feb  5 03:17:01 raspberrypi CRON[17205]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 03:17:01 raspberrypi CRON[17205]: pam_unix(cron:session): session closed for <user> root
+Feb  5 04:17:01 raspberrypi CRON[17773]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 04:17:01 raspberrypi CRON[17773]: pam_unix(cron:session): session closed for <user> root
+Feb  5 05:17:01 raspberrypi CRON[18344]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 05:17:01 raspberrypi CRON[18344]: pam_unix(cron:session): session closed for <user> root
+Feb  5 06:17:01 raspberrypi CRON[18914]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 06:17:02 raspberrypi CRON[18914]: pam_unix(cron:session): session closed for <user> root
+Feb  5 06:25:01 raspberrypi CRON[19070]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 06:25:01 raspberrypi su: (to www-data) root on none
+Feb  5 06:25:01 raspberrypi su: pam_unix(su:session): session opened for <user> www-data by (<user>=0)
+Feb  5 06:25:01 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> www-data by (<user>=0)
+Feb  5 06:25:01 raspberrypi su: pam_unix(su:session): session closed for <user> www-data
+Feb  5 06:25:02 raspberrypi su: (to www-data) root on none
+Feb  5 06:25:02 raspberrypi su: pam_unix(su:session): session opened for <user> www-data by (<user>=0)
+Feb  5 06:25:02 raspberrypi su: pam_unix(su:session): session closed for <user> www-data
+Feb  5 06:25:02 raspberrypi CRON[19070]: pam_unix(cron:session): session closed for <user> root
+Feb  5 06:25:12 raspberrypi systemd: pam_unix(systemd-user:session): session closed for <user> www-data
+Feb  5 07:17:01 raspberrypi CRON[19656]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 07:17:01 raspberrypi CRON[19656]: pam_unix(cron:session): session closed for <user> root
+Feb  5 08:17:01 raspberrypi CRON[20225]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 08:17:01 raspberrypi CRON[20225]: pam_unix(cron:session): session closed for <user> root
+Feb  5 09:17:01 raspberrypi CRON[20796]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 09:17:01 raspberrypi CRON[20796]: pam_unix(cron:session): session closed for <user> root
+Feb  5 10:17:01 raspberrypi CRON[21398]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 10:17:01 raspberrypi CRON[21398]: pam_unix(cron:session): session closed for <user> root
+Feb  5 11:17:01 raspberrypi CRON[21984]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 11:17:01 raspberrypi CRON[21984]: pam_unix(cron:session): session closed for <user> root
+Feb  5 12:17:01 raspberrypi CRON[22532]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 12:17:01 raspberrypi CRON[22532]: pam_unix(cron:session): session closed for <user> root
+Feb  5 13:17:02 raspberrypi CRON[23567]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 13:17:02 raspberrypi CRON[23567]: pam_unix(cron:session): session closed for <user> root
+Feb  5 14:17:01 raspberrypi CRON[24134]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 14:17:01 raspberrypi CRON[24134]: pam_unix(cron:session): session closed for <user> root
+Feb  5 14:30:06 raspberrypi sshd[24284]: Accepted password for <user> from <lan-ip> port 55206 ssh2
+Feb  5 14:30:06 raspberrypi sshd[24284]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  5 14:30:06 raspberrypi systemd-logind[328]: New session c5 of user <user>
+Feb  5 14:30:06 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  5 14:31:04 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl status adsbexchange-feed.service
+Feb  5 14:31:04 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:31:04 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:31:29 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/mv readsb /usr/bin/adsbxfeeder
+Feb  5 14:31:29 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:31:29 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:31:44 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/systemctl status adsbexchange-mlat.service
+Feb  5 14:31:44 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:31:44 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:33:13 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/nano /boot/adsb-config.txt
+Feb  5 14:33:13 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:36:01 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:36:14 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/adsbexchange-mlat.service
+Feb  5 14:36:14 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:36:27 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:36:35 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/systemctl enable adsbexchange-mlat.service
+Feb  5 14:36:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:36:35 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:36:42 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/systemctl status adsbexchange-mlat.service
+Feb  5 14:36:42 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:36:42 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:36:48 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/systemctl start adsbexchange-mlat.service
+Feb  5 14:36:48 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:36:48 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:36:50 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/systemctl status adsbexchange-mlat.service
+Feb  5 14:36:50 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:37:06 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:37:08 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/readsb ; USER=<user> ; COMMAND=/bin/systemctl status adsbexchange-mlat.service
+Feb  5 14:37:08 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:37:23 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:48:17 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/bin/adsb-exchange ; USER=<user> ; COMMAND=/usr/bin/apt remove mlat-client
+Feb  5 14:48:17 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:48:18 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:48:22 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/bin/adsb-exchange ; USER=<user> ; COMMAND=/usr/bin/apt remove mlat
+Feb  5 14:48:22 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:48:24 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:48:26 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/bin/adsb-exchange ; USER=<user> ; COMMAND=/usr/bin/apt remove mlat-client mlat-client_0.2.11_armhf.buildinfo mlat-client_0.2.11_armhf.changes mlat-client_0.2.11_armhf.deb mlat-client-dbgsym_0.2.11_armhf.deb
+Feb  5 14:48:26 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:48:29 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:48:50 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/bin/adsb-exchange ; USER=<user> ; COMMAND=/usr/bin/dpkg -i mlat-client_0.2.11_armhf.deb
+Feb  5 14:48:50 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:48:52 raspberrypi user<user>[24936]: new user: name=mlat, UID=116, GID=65534, home=/usr/share/mlat-client, shell=/usr/sbin/nologin
+Feb  5 14:48:52 raspberrypi user<user>[24943]: change user 'mlat' password
+Feb  5 14:48:53 raspberrypi chage[24949]: changed password expiry for <user>
+Feb  5 14:48:56 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:49:29 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/bin/adsb-exchange ; USER=<user> ; COMMAND=/bin/systemctl status adsbexchange-mlat.service
+Feb  5 14:49:29 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:51:13 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:52:58 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/rm -R readsb readsb_3.8.1_armhf.buildinfo readsb_3.8.1_armhf.changes readsb_3.8.1_armhf.deb readsb-dbgsym_3.8.1_armhf.deb
+Feb  5 14:52:58 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:52:58 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:54:24 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  5 14:54:24 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 14:54:24 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 14:54:24 raspberrypi sshd[24284]: pam_unix(sshd:session): session closed for <user> pi
+Feb  5 14:54:24 raspberrypi sshd[848]: Received signal 15; terminating.
+Feb  5 14:54:29 raspberrypi systemd-logind[326]: New seat seat0.
+Feb  5 14:54:38 raspberrypi sshd[828]: Server listening on 0.0.0.0 port 22.
+Feb  5 14:54:38 raspberrypi sshd[828]: Server listening on :: port 22.
+Feb  5 14:56:56 raspberrypi sshd[948]: Accepted password for <user> from <lan-ip> port 55558 ssh2
+Feb  5 14:56:56 raspberrypi sshd[948]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  5 14:56:56 raspberrypi systemd-logind[326]: New session c1 of user <user>
+Feb  5 14:56:56 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  5 15:17:01 raspberrypi CRON[1057]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 15:17:01 raspberrypi CRON[1057]: pam_unix(cron:session): session closed for <user> root
+Feb  5 16:17:01 raspberrypi CRON[1255]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 16:17:01 raspberrypi CRON[1255]: pam_unix(cron:session): session closed for <user> root
+Feb  5 17:17:01 raspberrypi CRON[1485]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 17:17:01 raspberrypi CRON[1485]: pam_unix(cron:session): session closed for <user> root
+Feb  5 18:17:01 raspberrypi CRON[1727]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 18:17:01 raspberrypi CRON[1727]: pam_unix(cron:session): session closed for <user> root
+Feb  5 19:17:01 raspberrypi CRON[1943]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 19:17:01 raspberrypi CRON[1943]: pam_unix(cron:session): session closed for <user> root
+Feb  5 20:17:01 raspberrypi CRON[2178]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 20:17:02 raspberrypi CRON[2178]: pam_unix(cron:session): session closed for <user> root
+Feb  5 21:17:01 raspberrypi CRON[2437]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 21:17:01 raspberrypi CRON[2437]: pam_unix(cron:session): session closed for <user> root
+Feb  5 22:17:01 raspberrypi CRON[2677]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 22:17:01 raspberrypi CRON[2677]: pam_unix(cron:session): session closed for <user> root
+Feb  5 23:03:39 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/bash -c #!/bin/bash#012set -e#012#012name="adsb-exchange-978"#012repo="https://github.com/wiedehopf/$name"#012ipath="/usr/local/share/$name"#012#012mkdir -p $ipath#012#012current_path=$(pwd)#012#012if ! id -u "$name" &>/dev/null#012then#012    adduser --system --home "$ipath" --no-create-home --quiet "$name"#012fi#012#012#012commands="git socat gcc make ld"#012packages="git socat build-essential"#012install=""#012#012for CMD in $commands; do#012#011if ! command -v "$CMD" &>/dev/null#012#011then#012        install=1#012#011fi#012done#012#012if [[ -n "$install" ]]#012then#012#011echo "Installing required packages: $packages"#012#011apt-get update || true#012#011if ! apt-get install -y $packages#012#011then#012#011#011echo "Failed to install required packages: $install"#012#011#011echo "Exiting ..."#012#011#011exit 1#012#011fi#012#011hash -r || true#012fi#012#012if ! [ -f $ipath/uat2esnt ]; then#012#011rm -rf /tmp/dump978 &>/dev/null || true#012#011git clone --single-branch --depth 1 --branch master https://github.com/flightaware/dump978.git /tmp/dump978#012#011cd
+Feb  5 23:03:39 raspberrypi sudo:       <user> : (command continued) /tmp/dump978/legacy#012#011make uat2esnt#012#011cp uat2esnt $ipath#012fi#012#012if ! [ -f $ipath/readsb ]; then#012#011rm -rf /tmp/readsb &>/dev/null || true#012#011git clone --single-branch --depth 1 --branch net-only https://github.com/wiedehopf/readsb.git /tmp/readsb#012#011cd /tmp/readsb#012    apt install libncurses5-dev#012#011make#012#011cp readsb $ipath#012fi#012#012cd "$current_path"#012#012if [[ "$1" == "test" ]]#012then#012#011rm -r $ipath/test 2>/dev/null || true#012#011mkdir -p $ipath/test#012#011cp -r ./* $ipath/test#012#011cd $ipath/test#012#012elif git clone --depth 1 $repo $ipath/git 2>/dev/null || cd $ipath/git#012then#012#011cd $ipath/git#012#011git checkout -f master#012#011git fetch#012#011git reset --hard origin/master#012#012else#012#011echo "Unable to download files, exiting! (Maybe try again?)"#012#011exit 1#012fi#012#012cp -n default "/etc/default/$name"#012cp default convert.sh $ipath#012#012cp 1090.service "/lib/systemd/system/$name.service"#012cp convert.service "/lib/systemd/system/$name-convert.service"#012#012systemctl enable "$name"#012systemctl enable
+Feb  5 23:03:39 raspberrypi sudo:       <user> : (command continued) "$name-convert"#012systemctl restart "$name"#012systemctl restart "$name-convert"
+Feb  5 23:03:39 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 23:03:40 raspberrypi user<user>[2861]: new user: name=adsb-exchange-978, UID=117, GID=65534, home=/usr/local/share/adsb-exchange-978, shell=/usr/sbin/nologin
+Feb  5 23:03:40 raspberrypi user<user>[2868]: change user 'adsb-exchange-978' password
+Feb  5 23:03:40 raspberrypi chage[2874]: changed password expiry for <user>
+Feb  5 23:04:23 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 23:05:06 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /boot/adsb-config.txt
+Feb  5 23:05:06 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 23:05:20 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 23:05:22 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  5 23:05:22 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 23:05:22 raspberrypi sshd[828]: Received signal 15; terminating.
+Feb  5 23:05:22 raspberrypi sshd[948]: pam_unix(sshd:session): session closed for <user> pi
+Feb  5 23:05:22 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 23:05:28 raspberrypi systemd-logind[303]: New seat seat0.
+Feb  5 23:05:37 raspberrypi sshd[864]: Server listening on 0.0.0.0 port 22.
+Feb  5 23:05:37 raspberrypi sshd[864]: Server listening on :: port 22.
+Feb  5 23:06:07 raspberrypi sshd[950]: Accepted password for <user> from <lan-ip> port 54782 ssh2
+Feb  5 23:06:07 raspberrypi sshd[950]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  5 23:06:07 raspberrypi systemd-logind[303]: New session c1 of user <user>
+Feb  5 23:06:07 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  5 23:07:53 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl status adsb-exchange-978
+Feb  5 23:07:53 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 23:08:02 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 23:11:51 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/apt-get install build-essential debhelper dh-systemd libboost-system-dev libboost-program-options-dev libboost-regex-dev libboost-filesystem-dev libsoapysdr-dev
+Feb  5 23:11:51 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 23:12:56 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 23:13:19 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/apt-get install soapysdr-module-rtlsdr
+Feb  5 23:13:19 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 23:13:26 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 23:17:01 raspberrypi CRON[2582]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  5 23:17:02 raspberrypi CRON[2582]: pam_unix(cron:session): session closed for <user> root
+Feb  5 23:27:52 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/dpkg -i dump978-fa_3.8.0_armhf.deb
+Feb  5 23:27:52 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 23:27:53 raspberrypi user<user>[3916]: new user: name=dump978, UID=118, GID=65534, home=/usr/share/dump978-fa, shell=/usr/sbin/nologin
+Feb  5 23:27:53 raspberrypi user<user>[3923]: change user 'dump978' password
+Feb  5 23:27:53 raspberrypi chage[3929]: changed password expiry for <user>
+Feb  5 23:27:54 raspberrypi gpasswd[3934]: user <user> added by <user> to group plugdev
+Feb  5 23:27:56 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 23:27:58 raspberrypi systemd-logind[303]: Failed to open /dev/input/event0: No such file or directory
+Feb  5 23:28:10 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/rm -R dump978
+Feb  5 23:28:10 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 23:28:10 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 23:28:22 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/rm -R dump978-fa_3.8.0_armhf.buildinfo dump978-fa_3.8.0_armhf.changes dump978-fa_3.8.0_armhf.deb dump978-fa-dbgsym_3.8.0_armhf.deb
+Feb  5 23:28:22 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 23:28:22 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 23:28:31 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/rm -R skyaware978_3.8.0_armhf.deb skyaware978-dbgsym_3.8.0_armhf.deb
+Feb  5 23:28:31 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 23:28:31 raspberrypi sudo: <user> session closed for <user> root
+Feb  5 23:28:38 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/rm -R skyview978_3.8.0_all.deb
+Feb  5 23:28:38 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  5 23:28:38 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 00:17:01 raspberrypi CRON[4284]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  6 00:17:01 raspberrypi CRON[4284]: pam_unix(cron:session): session closed for <user> root
+Feb  6 01:17:01 raspberrypi CRON[4654]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  6 01:17:01 raspberrypi CRON[4654]: pam_unix(cron:session): session closed for <user> root
+Feb  6 02:17:01 raspberrypi CRON[4859]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  6 02:17:01 raspberrypi CRON[4859]: pam_unix(cron:session): session closed for <user> root
+Feb  6 03:17:01 raspberrypi CRON[5110]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  6 03:17:01 raspberrypi CRON[5110]: pam_unix(cron:session): session closed for <user> root
+Feb  6 04:17:01 raspberrypi CRON[5335]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  6 04:17:01 raspberrypi CRON[5335]: pam_unix(cron:session): session closed for <user> root
+Feb  6 04:52:48 raspberrypi sshd[5489]: Accepted password for <user> from <lan-ip> port 35062 ssh2
+Feb  6 04:52:48 raspberrypi sshd[5489]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  6 04:52:48 raspberrypi systemd-logind[303]: New session c2 of user <user>
+Feb  6 04:57:34 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/prometheus/prometheus.yml
+Feb  6 04:57:34 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 04:57:44 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 04:58:23 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 04:58:23 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 04:58:26 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:02:45 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/prometheus
+Feb  6 05:02:45 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:02:51 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:02:58 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/prometheus-node-exporter
+Feb  6 05:02:58 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:05:47 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:06:10 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl reload prometheus.service
+Feb  6 05:06:10 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:06:10 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:08:15 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl reload prometheus-node-exporter.service
+Feb  6 05:08:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:08:15 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:08:22 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus-node-exporter.service
+Feb  6 05:08:22 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:08:22 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:08:32 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:08:32 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:09:15 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:09:29 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:09:29 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:09:29 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:09:31 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:09:31 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:09:31 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:09:43 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:09:43 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:09:43 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:09:53 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:09:53 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:09:53 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:11:06 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/prometheus
+Feb  6 05:11:06 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:11:26 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:11:28 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:11:28 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:11:28 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:11:30 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:11:30 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:11:30 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:13:11 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/prometheus
+Feb  6 05:13:11 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:13:33 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:13:42 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/prometheus
+Feb  6 05:13:42 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:13:48 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:13:50 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:13:50 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:13:50 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:13:52 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:13:52 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:13:52 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:14:39 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/prometheus
+Feb  6 05:14:39 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:14:47 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:14:48 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:14:49 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:14:49 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:14:50 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:14:50 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:14:50 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:14:52 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:14:52 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:14:52 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:15:42 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl disable prometheus.service
+Feb  6 05:15:42 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:15:44 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:15:52 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl enable prometheus.service
+Feb  6 05:15:52 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:15:54 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:15:58 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl start prometheus.service
+Feb  6 05:15:58 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:15:58 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:16:00 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:16:00 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:16:00 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:17:01 raspberrypi CRON[6758]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  6 05:17:01 raspberrypi CRON[6758]: pam_unix(cron:session): session closed for <user> root
+Feb  6 05:17:31 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/prometheus
+Feb  6 05:17:31 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:17:56 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:17:59 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl start prometheus.service
+Feb  6 05:17:59 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:17:59 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:18:02 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:18:02 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:18:02 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:18:20 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl reload prometheus.service
+Feb  6 05:18:20 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:18:20 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:18:26 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:18:26 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:18:26 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:18:28 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:18:28 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:18:28 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:19:27 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/prometheus --storage.tsdb.path=/run
+Feb  6 05:19:27 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:19:30 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:19:59 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/prometheus --storage.tsdb.path=/run --log.level=info
+Feb  6 05:19:59 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:20:03 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:20:37 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/prometheus --storage.tsdb.path=/run --log.level=info --storage.tsdb.retention.time=36h0m0s
+Feb  6 05:20:37 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:20:37 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:20:42 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/prometheus --storage.tsdb.path=/run --log.level=info --storage.tsdb.retention.time=36h
+Feb  6 05:20:42 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:20:45 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:20:57 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/prometheus --storage.tsdb.path=/run --log.level=error --storage.tsdb.retention.time=36h
+Feb  6 05:20:57 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:20:59 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:21:14 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/prometheus
+Feb  6 05:21:14 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:21:33 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:21:38 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:21:38 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:21:38 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:21:42 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:21:42 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:21:42 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:21:49 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/prometheus
+Feb  6 05:21:49 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:21:59 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:22:07 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/prometheus --storage.tsdb.path=/run --log.level=error --storage.tsdb.retention.time=36h
+Feb  6 05:22:07 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:22:10 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:22:13 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:22:13 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:22:13 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:22:15 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:22:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:22:15 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:22:17 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:22:17 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:22:17 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:22:25 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl disable prometheus.service
+Feb  6 05:22:25 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:22:27 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:23:35 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl enable prometheus.service
+Feb  6 05:23:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:23:37 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:23:39 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:23:39 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:23:40 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:24:47 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/prometheus --storage.tsdb.path=/run --log.level=error --storage.tsdb.retention.time=36h
+Feb  6 05:24:47 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:24:49 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:24:55 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/prometheus --storage.tsdb.path=/run --storage.tsdb.retention.time=36h
+Feb  6 05:24:56 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:24:57 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:25:05 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/systemd/system/multi-user.target.wants/prometheus.service
+Feb  6 05:25:05 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:25:24 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:25:27 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl enable prometheus.service
+Feb  6 05:25:27 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:25:29 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:25:32 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:25:32 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:25:32 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:25:38 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:25:38 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:25:38 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:25:58 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/prometheus
+Feb  6 05:25:58 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:26:51 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:26:52 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:26:52 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:26:52 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:26:58 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:26:58 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:26:59 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:27:43 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:27:43 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:27:43 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:27:54 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/prometheus
+Feb  6 05:27:54 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:28:05 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:28:11 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/systemd/system/multi-user.target.wants/prometheus.service
+Feb  6 05:28:11 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:29:10 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:29:11 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:29:11 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:29:11 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:29:13 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:29:13 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:29:13 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:29:21 raspberrypi polkitd(authority=local): Registered Authentication Agent for <user>:7702:2303044 (system bus name :1.5933 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8)
+Feb  6 05:29:24 raspberrypi polkitd(authority=local): Unregistered Authentication Agent for <user>:7702:2303044 (system bus name :1.5933, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8) (disconnected from bus)
+Feb  6 05:29:24 raspberrypi polkitd(authority=local): Operator of unix-process:7702:2303044 FAILED to authenticate to gain authorization for <user> org.freedesktop.systemd1.reload-daemon for <user>::1.5934 [<unknown>] (owned by <user>:pi)
+Feb  6 05:29:25 raspberrypi polkitd(authority=local): Registered Authentication Agent for <user>:7709:2303458 (system bus name :1.5935 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8)
+Feb  6 05:29:29 raspberrypi polkit-agent-helper-1[7714]: pam_unix(polkit-1:auth): authentication failure; logname= <user>=1000 euid=0 tty= ruser=<user> rhost=  user=root
+Feb  6 05:29:31 raspberrypi polkitd(authority=local): Operator of unix-process:7709:2303458 FAILED to authenticate to gain authorization for <user> org.freedesktop.systemd1.reload-daemon for <user>::1.5936 [systemctl daemon-reload] (owned by <user>:pi)
+Feb  6 05:29:31 raspberrypi polkitd(authority=local): Unregistered Authentication Agent for <user>:7709:2303458 (system bus name :1.5935, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8) (disconnected from bus)
+Feb  6 05:29:35 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl daemon-reload
+Feb  6 05:29:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:29:36 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:29:37 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:29:37 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:29:37 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:29:41 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:29:41 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:29:41 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:29:43 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:29:43 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:29:43 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:29:56 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/systemd/system/multi-user.target.wants/prometheus.service
+Feb  6 05:29:56 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:30:17 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:30:20 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl daemon-reload
+Feb  6 05:30:20 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:30:21 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:30:22 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:30:22 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:30:22 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:30:24 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:30:24 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:30:24 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:30:27 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:30:27 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:30:27 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:30:42 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/systemd/system/multi-user.target.wants/prometheus.service
+Feb  6 05:30:42 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:30:49 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:30:51 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl daemon-reload
+Feb  6 05:30:51 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:30:52 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:31:59 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:31:59 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:31:59 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:32:12 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:32:12 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:32:12 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:32:14 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:32:14 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:32:14 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:51:30 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/systemd/system/multi-user.target.wants/prometheus.service
+Feb  6 05:51:30 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:52:12 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:52:21 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl daemon-reload
+Feb  6 05:52:21 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:52:22 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:52:27 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 05:52:27 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:52:27 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:52:34 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 05:52:34 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:52:38 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:55:47 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=./pi-exporter.sh
+Feb  6 05:55:47 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:55:55 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:57:14 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=./pi-exporter.sh
+Feb  6 05:57:14 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:57:19 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:57:44 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=./adsbx-pi-exporter
+Feb  6 05:57:44 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:57:47 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:58:45 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/mv adsbx-pi-exporter /usr/bin/adsbx-pi-exporter
+Feb  6 05:58:45 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:58:45 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:59:05 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/apt install ntp
+Feb  6 05:59:05 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:59:07 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 05:59:19 raspberrypi polkitd(authority=local): Registered Authentication Agent for <user>:8721:2482876 (system bus name :1.6376 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8)
+Feb  6 05:59:22 raspberrypi polkitd(authority=local): Unregistered Authentication Agent for <user>:8721:2482876 (system bus name :1.6376, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8) (disconnected from bus)
+Feb  6 05:59:22 raspberrypi polkitd(authority=local): Operator of unix-process:8721:2482876 FAILED to authenticate to gain authorization for <user> org.freedesktop.systemd1.manage-units for <user>::1.6377 [<unknown>] (owned by <user>:pi)
+Feb  6 05:59:24 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=./fixntp.sh
+Feb  6 05:59:24 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 05:59:33 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:00:21 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=./fixntp.sh
+Feb  6 06:00:21 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:00:32 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:02:20 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/mv adsbx-ntp /usr/bin/adsbx-ntp
+Feb  6 06:02:20 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:02:20 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:03:25 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status adsbexchange-stats.service
+Feb  6 06:03:25 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:03:25 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:03:32 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl enable adsbexchange-stats.service
+Feb  6 06:03:32 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:03:32 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:03:39 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl start adsbexchange-stats.service
+Feb  6 06:03:39 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:03:39 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:03:41 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status adsbexchange-stats.service
+Feb  6 06:03:41 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:03:41 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:04:11 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status adsbexchange-stats.service
+Feb  6 06:04:11 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:04:11 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:08:39 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus.service
+Feb  6 06:08:39 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:08:53 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:08:59 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus-node-exporter.service
+Feb  6 06:08:59 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:08:59 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:09:17 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/prometheus-node-exporter.service
+Feb  6 06:09:17 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:09:31 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:09:40 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/prometheus-dump1090-exporter.service
+Feb  6 06:09:40 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:09:51 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:10:15 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/prometheus-dump1090-exporter.service
+Feb  6 06:10:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:11:06 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:11:31 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/cp /home/pi/.local/bin/dump1090exporter /usr/bin/dump1090exporter
+Feb  6 06:11:31 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:11:31 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:12:57 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/lighttpd/conf-enabled/89-readsb.conf
+Feb  6 06:12:57 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:13:09 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:14:24 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/rm /etc/lighttpd/conf-enabled/89-readsb.conf
+Feb  6 06:14:24 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:14:24 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:14:32 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/rm /etc/lighttpd/conf-enabled/88-readsb-statcache.conf
+Feb  6 06:14:32 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:14:32 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:14:40 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/lighttpd/conf-enabled/90-javascript-alias.conf
+Feb  6 06:14:40 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:14:42 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:15:08 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/bash -c #!/bin/bash#012set -e#012#012srcdir=/run/dump1090-fa#012repo="https://github.com/wiedehopf/tar1090"#012db_repo="https://github.com/wiedehopf/tar1090-db"#012ipath=/usr/local/share/tar1090#012lighttpd=no#012nginx=no#012#012mkdir -p $ipath#012#012if ! id -u tar1090 &>/dev/null#012then#012#011adduser --system --home $ipath --no-create-home --quiet tar1090#012fi#012#012command_package="git git/jq jq/7za p7zip-full/"#012packages=""#012#012while read -r -d '/' CMD PKG#012do#012#011if ! command -v "$CMD" &>/dev/null#012#011then#012#011#011echo "command $CMD not found, will try to install package $PKG"#012#011#011packages+="$PKG "#012#011fi#012done < <(echo "$command_package")#012#012if [[ -n "$packages" ]]#012then#012#011echo "Installing required packages: $packages"#012#011apt-get update || true#012#011if ! apt-get install -y $packages#012#011then#012#011#011echo "Failed to install required packages: $packages"#012#011#011echo "Exiting ..."#012#011#011exit 1#012#011fi#012#011hash -r || true#012fi#012#012if [ -d /etc/lighttpd/conf.d/ ] && ! [ -d
+Feb  6 06:15:08 raspberrypi sudo:       <user> : (command continued) /etc/lighttpd/conf-enabled/ ] && ! [ -d /etc/lighttpd/conf-available ] && command -v lighttpd &>/dev/null#012then#012    ln -s /etc/lighttpd/conf.d /etc/lighttpd/conf-enabled#012    mkdir -p /etc/lighttpd/conf-available#012fi#012#012if [ -d /etc/lighttpd/conf-enabled/ ] && [ -d /etc/lighttpd/conf-available ] && command -v lighttpd &>/dev/null#012then#012#011lighttpd=yes#012fi#012#012if command -v nginx &>/dev/null#012then#012#011nginx=yes#012fi#012#012dir=$(pwd)#012#012if { ! [ -d "$ipath/git-db" ] && git clone --depth 1 $db_repo $ipath/git-db; } || { cd $ipath/git-db && ! [[ "$1" == "test" ]] ; }#012then#012#011cd $ipath/git-db#012#011git fetch --depth 1 origin master#012#011git reset --hard origin/master#012fi#012#012cd "$dir"#012#012if [[ "$1" == "test" ]]#012then#012#011rm -r /tmp/tar1090-test 2>/dev/null || true#012#011mkdir -p /tmp/tar1090-test#012#011cp -r ./* /tmp/tar1090-test#012#011cd /tmp/tar1090-test#012#012elif { ! [ -d "$ipath/git" ] && git clone --single-branch -b master --depth 1 $repo $ipath/git; } || cd $ipath/git#012then#012#011cd
+Feb  6 06:15:08 raspberrypi sudo:       <user> : (command continued) $ipath/git#012#011git fetch origin master#012#011git reset --hard origin/master#012#012elif wget --timeout=30 -q -O /tmp/master.zip $repo/archive/master.zip && unzip -q -o master.zip#012then#012#011cd /tmp/tar1090-master#012else#012#011echo "Unable to download files, exiting! (Maybe try again?)"#012#011exit 1#012fi#012#012if [[ -n $1 ]] && [ "$1" != "test" ] ; then#012#011srcdir=$1#012elif ! [[ -d /run/dump1090-fa ]] ; then#012#011if [[ -d /run/readsb ]]; then#012#011#011srcdir=/run/readsb#012#011elif [[ -d /run/dump1090 ]]; then#012#011#011srcdir=/run/dump1090#012#011elif [[ -d /run/dump1090-mutability ]]; then#012#011#011srcdir=/run/dump1090-mutability#012#011elif [[ -d /run/skyaware978 ]]; then#012#011#011srcdir=/run/skyaware978#012#011fi#012fi#012#012if [ -f /etc/default/tar1090_instances ]; then#012#011instances=$(</etc/default/tar1090_instances)#011#012else#012#011instances="$srcdir tar1090"#012fi#012#012if ! diff tar1090.sh /usr/local/share/tar1090/tar1090.sh &>/dev/null; then#012#011changed=yes#012#011while read -r srcdir instance; do#012#011#011if [[ "$instance" != "tar1090" ]];
+Feb  6 06:15:08 raspberrypi sudo:       <user> : (command continued) then#012#011#011#011service="tar1090-$instance"#012#011#011else#012#011#011#011service="tar1090"#012#011#011fi#012#011#011systemctl stop $service 2>/dev/null || true#012#011done < <(echo "$instances")#012#011cp tar1090.sh $ipath#012fi#012#012#012# copy over base files#012cp default install.sh uninstall.sh LICENSE README.md \#012#01195-tar1090-otherport.conf $ipath#012#012#012services=""#012names=""#012while read -r srcdir instance#012do#012#011if [[ "$instance" != "tar1090" ]]; then#012#011#011html_path="$ipath/html-$instance"#012#011#011service="tar1090-$instance"#012#011else#012#011#011html_path="$ipath/html"#012#011#011service="tar1090"#012#011fi#012#011services+="$service "#012#011names+="$instance "#012#012#011# don't overwrite existing configuration#012#011cp -n default /etc/default/$service#012#011sed -i -e 's/skyview978/skyaware978/' /etc/default/$service#012#012    if [[ "$instance" == "webroot" ]]#012    then#012        sed -i.orig -e "s?SOURCE_DIR?$srcdir?g" -e "s?SERVICE?$service?g" \#012            -e "s?/INSTANCE??g" -e "s?HTMLPATH?$html_path?g" 88-tar1090.conf#012        sed -i.orig -e
+Feb  6 06:15:08 raspberrypi sudo:       <user> : (command continued) "s?SOURCE_DIR?$srcdir?g" -e "s?SERVICE?$service?g" \#012            -e "s?/INSTANCE/?/?g" -e "s?HTMLPATH?$html_path?g" nginx.conf#012        sed -i -e "s?/INSTANCE?/?g" nginx.conf#012#012    else#012#012        sed -i.orig -e "s?SOURCE_DIR?$srcdir?g" -e "s?SERVICE?$service?g" \#012            -e "s?INSTANCE?$instance?g" -e "s?HTMLPATH?$html_path?g" 88-tar1090.conf#012        sed -i.orig -e "s?SOURCE_DIR?$srcdir?g" -e "s?SERVICE?$service?g" \#012            -e "s?INSTANCE?$instance?g" -e "s?HTMLPATH?$html_path?g" nginx.conf#012#012    fi#012#012#011sed -i.orig -e "s?SOURCE_DIR?$srcdir?g" -e "s?SERVICE?$service?g" tar1090.service#012#012#011# keep some stuff around#012#011if [ -f $html_path/defaults*.js ]; then#012#011#011cp $html_path/config.js /tmp/tar1090_config.js 2>/dev/null || true#012#011fi#012#011cp $html_path/upintheair.json /tmp/tar1090_upintheair.json 2>/dev/null || true#012#011cp $html_path/color*.css /tmp/tar1090_colors.css 2>/dev/null || true#012#012#011rm -rf $html_path 2>/dev/null || true#012#011cp -r -T
+Feb  6 06:15:08 raspberrypi sudo:       <user> : (command continued) html $html_path#012    mkdir -p $html_path/db2#012    cp -r -T $ipath/git-db/db $html_path/db2#012#012#011mv /tmp/tar1090_config.js $html_path/config.js 2>/dev/null || true#012#011mv /tmp/tar1090_colors.css $html_path/colors.css 2>/dev/null || true#012#011mv /tmp/tar1090_upintheair.json $html_path/upintheair.json 2>/dev/null || true#012#012#011epoch=$(date +%s)#012#011# bust cache for <user> css and js files#012#012#011dir=$(pwd)#012#011cd $html_path#012#012#011sed -i \#012#011#011-e "s/dbloader.js/dbloader_$epoch.js/" \#012#011#011-e "s/defaults.js/defaults_$epoch.js/" \#012#011#011-e "s/early.js/early_$epoch.js/" \#012#011#011-e "s/flags.js/flags_$epoch.js/" \#012#011#011-e "s/for<user>/for<user>$epoch.js/" \#012#011#011-e "s/layers.js/layers_$epoch.js/" \#012#011#011-e "s/markers.js/markers_$epoch.js/" \#012#011#011-e "s/planeObject.js/planeObject_$epoch.js/" \#012#011#011-e "s/registrations.js/registrations_$epoch.js/" \#012#011#011-e "s/script.js/script_$epoch.js/" \#012#011#011-e "s/colors.css/colors_$epoch.css/" \#012#011#011-e "s/style.css/style_$epoch.css/" \#012#011#011index.html#012#012    sed
+Feb  6 06:15:08 raspberrypi sudo:       <user> : (command continued) -i -e "s/tar1090 on github/tar1090 on github ($(date +%y%m%d))/" index.html#012#012#011mv dbloader.js dbloader_$epoch.js#012#011mv defaults.js defaults_$epoch.js#012#011mv early.js early_$epoch.js#012#011mv flags.js flags_$epoch.js#012#011mv for<user> for<user>$epoch.js#012#011mv layers.js layers_$epoch.js#012#011mv markers.js markers_$epoch.js#012#011mv planeObject.js planeObject_$epoch.js#012#011mv registrations.js registrations_$epoch.js#012#011mv script.js script_$epoch.js#012#011mv colors.css colors_$epoch.css#012#011mv style.css style_$epoch.css#012#012    if [[ $nginx == yes ]]; then#012        gzip -k -9 dbloader_$epoch.js#012        gzip -k -9 defaults_$epoch.js#012        gzip -k -9 early_$epoch.js#012        gzip -k -9 flags_$epoch.js#012        gzip -k -9 for<user>$epoch.js#012        gzip -k -9 layers_$epoch.js#012        gzip -k -9 markers_$epoch.js#012        gzip -k -9 planeObject_$epoch.js#012        gzip -k -9 registrations_$epoch.js#012        gzip -k -9 script_$epoch.js#012        gzip -k -9
+Feb  6 06:15:08 raspberrypi sudo:       <user> : (command continued) colors_$epoch.css#012        gzip -k -9 style_$epoch.css#012#012        gzip -k -9 jquery/*.js#012        gzip -k -9 ol/*.js#012        #gzip -k -9 db2/*.json .... already exists compressed#012    fi#012#012#011cd "$dir"#012#012#011cp nginx.conf $ipath/nginx-$service.conf#012#012#011if [[ $lighttpd == yes ]] && diff 88-tar1090.conf /etc/lighttpd/conf-enabled/99-$service.conf &>/dev/null#012    then#012        true#012#011elif [[ $lighttpd == yes ]] && ! diff 88-tar1090.conf /etc/lighttpd/conf-enabled/88-$service.conf &>/dev/null#012#011then#012#011#011changed_lighttpd=yes#012        if [ -f /etc/lighttpd/conf.d/69-skybup.conf ] && [[ "$instance" == "webroot" ]]; then#012            true#012        elif [[ "$instance" == "webroot" ]]#012        then#012            cp 88-tar1090.conf /etc/lighttpd/conf-available/99-$service.conf#012            ln -f -s /etc/lighttpd/conf-available/99-$service.conf /etc/lighttpd/conf-enabled/99-$service.conf#012        else#012            cp 88-tar1090.conf
+Feb  6 06:15:08 raspberrypi sudo:       <user> : (command continued) /etc/lighttpd/conf-available/88-$service.conf#012            if [ -f /etc/lighttpd/conf.d/69-skybup.conf ]; then#012                ln -f -s /etc/lighttpd/conf-available/88-$service.conf /etc/lighttpd/conf-enabled/66-$service.conf#012            else#012                ln -f -s /etc/lighttpd/conf-available/88-$service.conf /etc/lighttpd/conf-enabled/88-$service.conf#012            fi#012        fi#012#011fi#012#012#011if [[ $changed == yes ]] || ! diff tar1090.service /lib/systemd/system/$service.service &>/dev/null#012#011then#012#011#011cp tar1090.service /lib/systemd/system/$service.service#012#011#011if systemctl enable $service#012        then#012            echo "Restarting $service ..."#012            systemctl restart $service#012        else#012            echo "$service.service is masked, could not start it!"#012        fi#012#011fi#012#012#011# restore sed modified configuration files#012#011mv 88-tar1090.conf.orig 88-tar1090.conf#012#011mv nginx.conf.orig nginx.conf#012#011mv tar1090.service.orig
+Feb  6 06:15:08 raspberrypi sudo:       <user> : (command continued) tar1090.service#012done < <(echo "$instances")#012#012#012if [ -d /etc/lighttpd/conf-enabled/ ]#012then#012#011while read -r FILE; do#012#011#011sed -i -e 's/^server.modules += ( "mod_setenv" )/#server.modules += ( "mod_setenv" )/'  "$FILE"#012#011done < <(find /etc/lighttpd/conf-available/* | grep -v dump1090-fa)#012#012    # add mod_setenv to lighttpd modules, check if it's one too much#012    if [ -f /etc/lighttpd/conf-enabled/87-mod_setenv.conf ]; then#012        setenv_file="present"#012    fi#012    echo 'server.modules += ( "mod_setenv" )' > /etc/lighttpd/conf-available/87-mod_setenv.conf#012    ln -s -f /etc/lighttpd/conf-available/87-mod_setenv.conf /etc/lighttpd/conf-enabled/87-mod_setenv.conf#012    if lighttpd -tt -f /etc/lighttpd/lighttpd.conf 2>&1 | grep mod_setenv >/dev/null#012    then#012        rm /etc/lighttpd/conf-enabled/87-mod_setenv.conf#012        if [[ "$setenv_file" == "present" ]]; then#012            changed_lighttpd=yes#012        fi#012    else#012        if [[
+Feb  6 06:15:08 raspberrypi sudo:       <user> : (command continued) "$setenv_file" != "present" ]]; then#012            changed_lighttpd=yes#012        fi#012    fi#012fi#012#012if [[ $changed_lighttpd == yes ]] && systemctl status lighttpd >/dev/null; then#012#011echo "Restarting lighttpd ..."#012#011systemctl restart lighttpd#012fi#012#012echo --------------#012#012#012if [[ $nginx == yes ]]; then#012#011echo#012#011echo "To configure nginx for <user>, please add the following line(s) in the server {} section:"#012#011echo#012#011for service in $services; do#012#011#011echo "include /usr/local/share/tar1090/nginx-$service.conf;"#012#011done#012    if [[ "$1" == "test" ]]#012    then#012        if [ -d /run/readsb ]; then#012            sed -i -e 's/dump1090-fa/readsb/g' /usr/local/share/tar1090/nginx_webroot.conf#012        fi#012    fi#012fi#012#012echo --------------#012#012if [[ $lighttpd == yes ]]; then#012#011for name in $names; do#012#011#011echo "All done! Webinterface available at http://$(ip route | grep -m1 -o -P 'src \K[0-9,.]*')/$name"#012#011done#012elif [[ $nginx == yes ]]; then#012#011for name in $names; do#012#011#011echo
+Feb  6 06:15:08 raspberrypi sudo:       <user> : (command continued) "All done! Webinterface once nginx is configured will be available at http://$(ip route | grep -m1 -o -P 'src \K[0-9,.]*')/$name"#012#011done#012else#012#011echo "All done! You'll need to configure your webserver yourself, see /usr/local/share/tar1090/nginx-tar1090.conf for <user> reference nginx configuration"#012fi
+Feb  6 06:15:08 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:15:08 raspberrypi user<user>[13954]: new user: name=tar1090, UID=119, GID=65534, home=/usr/local/share/tar1090, shell=/usr/sbin/nologin
+Feb  6 06:15:08 raspberrypi user<user>[13961]: change user 'tar1090' password
+Feb  6 06:15:08 raspberrypi chage[13967]: changed password expiry for <user>
+Feb  6 06:15:47 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:17:01 raspberrypi CRON[15700]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  6 06:17:01 raspberrypi CRON[15700]: pam_unix(cron:session): session closed for <user> root
+Feb  6 06:17:02 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/rm /etc/lighttpd/conf-enabled/88-tar1090.conf
+Feb  6 06:17:02 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:17:02 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:17:37 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/bash -c #!/bin/bash#012set -e#012#012srcdir=/run/dump1090-fa#012repo="https://github.com/wiedehopf/tar1090"#012db_repo="https://github.com/wiedehopf/tar1090-db"#012ipath=/usr/local/share/tar1090#012lighttpd=no#012nginx=no#012#012mkdir -p $ipath#012#012if ! id -u tar1090 &>/dev/null#012then#012#011adduser --system --home $ipath --no-create-home --quiet tar1090#012fi#012#012command_package="git git/jq jq/7za p7zip-full/"#012packages=""#012#012while read -r -d '/' CMD PKG#012do#012#011if ! command -v "$CMD" &>/dev/null#012#011then#012#011#011echo "command $CMD not found, will try to install package $PKG"#012#011#011packages+="$PKG "#012#011fi#012done < <(echo "$command_package")#012#012if [[ -n "$packages" ]]#012then#012#011echo "Installing required packages: $packages"#012#011apt-get update || true#012#011if ! apt-get install -y $packages#012#011then#012#011#011echo "Failed to install required packages: $packages"#012#011#011echo "Exiting ..."#012#011#011exit 1#012#011fi#012#011hash -r || true#012fi#012#012if [ -d /etc/lighttpd/conf.d/ ] && ! [ -d
+Feb  6 06:17:37 raspberrypi sudo:       <user> : (command continued) /etc/lighttpd/conf-enabled/ ] && ! [ -d /etc/lighttpd/conf-available ] && command -v lighttpd &>/dev/null#012then#012    ln -s /etc/lighttpd/conf.d /etc/lighttpd/conf-enabled#012    mkdir -p /etc/lighttpd/conf-available#012fi#012#012if [ -d /etc/lighttpd/conf-enabled/ ] && [ -d /etc/lighttpd/conf-available ] && command -v lighttpd &>/dev/null#012then#012#011lighttpd=yes#012fi#012#012if command -v nginx &>/dev/null#012then#012#011nginx=yes#012fi#012#012dir=$(pwd)#012#012if { ! [ -d "$ipath/git-db" ] && git clone --depth 1 $db_repo $ipath/git-db; } || { cd $ipath/git-db && ! [[ "$1" == "test" ]] ; }#012then#012#011cd $ipath/git-db#012#011git fetch --depth 1 origin master#012#011git reset --hard origin/master#012fi#012#012cd "$dir"#012#012if [[ "$1" == "test" ]]#012then#012#011rm -r /tmp/tar1090-test 2>/dev/null || true#012#011mkdir -p /tmp/tar1090-test#012#011cp -r ./* /tmp/tar1090-test#012#011cd /tmp/tar1090-test#012#012elif { ! [ -d "$ipath/git" ] && git clone --single-branch -b master --depth 1 $repo $ipath/git; } || cd $ipath/git#012then#012#011cd
+Feb  6 06:17:37 raspberrypi sudo:       <user> : (command continued) $ipath/git#012#011git fetch origin master#012#011git reset --hard origin/master#012#012elif wget --timeout=30 -q -O /tmp/master.zip $repo/archive/master.zip && unzip -q -o master.zip#012then#012#011cd /tmp/tar1090-master#012else#012#011echo "Unable to download files, exiting! (Maybe try again?)"#012#011exit 1#012fi#012#012if [[ -n $1 ]] && [ "$1" != "test" ] ; then#012#011srcdir=$1#012elif ! [[ -d /run/dump1090-fa ]] ; then#012#011if [[ -d /run/readsb ]]; then#012#011#011srcdir=/run/readsb#012#011elif [[ -d /run/dump1090 ]]; then#012#011#011srcdir=/run/dump1090#012#011elif [[ -d /run/dump1090-mutability ]]; then#012#011#011srcdir=/run/dump1090-mutability#012#011elif [[ -d /run/skyaware978 ]]; then#012#011#011srcdir=/run/skyaware978#012#011fi#012fi#012#012if [ -f /etc/default/tar1090_instances ]; then#012#011instances=$(</etc/default/tar1090_instances)#011#012else#012#011instances="$srcdir tar1090"#012fi#012#012if ! diff tar1090.sh /usr/local/share/tar1090/tar1090.sh &>/dev/null; then#012#011changed=yes#012#011while read -r srcdir instance; do#012#011#011if [[ "$instance" != "tar1090" ]];
+Feb  6 06:17:37 raspberrypi sudo:       <user> : (command continued) then#012#011#011#011service="tar1090-$instance"#012#011#011else#012#011#011#011service="tar1090"#012#011#011fi#012#011#011systemctl stop $service 2>/dev/null || true#012#011done < <(echo "$instances")#012#011cp tar1090.sh $ipath#012fi#012#012#012# copy over base files#012cp default install.sh uninstall.sh LICENSE README.md \#012#01195-tar1090-otherport.conf $ipath#012#012#012services=""#012names=""#012while read -r srcdir instance#012do#012#011if [[ "$instance" != "tar1090" ]]; then#012#011#011html_path="$ipath/html-$instance"#012#011#011service="tar1090-$instance"#012#011else#012#011#011html_path="$ipath/html"#012#011#011service="tar1090"#012#011fi#012#011services+="$service "#012#011names+="$instance "#012#012#011# don't overwrite existing configuration#012#011cp -n default /etc/default/$service#012#011sed -i -e 's/skyview978/skyaware978/' /etc/default/$service#012#012    if [[ "$instance" == "webroot" ]]#012    then#012        sed -i.orig -e "s?SOURCE_DIR?$srcdir?g" -e "s?SERVICE?$service?g" \#012            -e "s?/INSTANCE??g" -e "s?HTMLPATH?$html_path?g" 88-tar1090.conf#012        sed -i.orig -e
+Feb  6 06:17:37 raspberrypi sudo:       <user> : (command continued) "s?SOURCE_DIR?$srcdir?g" -e "s?SERVICE?$service?g" \#012            -e "s?/INSTANCE/?/?g" -e "s?HTMLPATH?$html_path?g" nginx.conf#012        sed -i -e "s?/INSTANCE?/?g" nginx.conf#012#012    else#012#012        sed -i.orig -e "s?SOURCE_DIR?$srcdir?g" -e "s?SERVICE?$service?g" \#012            -e "s?INSTANCE?$instance?g" -e "s?HTMLPATH?$html_path?g" 88-tar1090.conf#012        sed -i.orig -e "s?SOURCE_DIR?$srcdir?g" -e "s?SERVICE?$service?g" \#012            -e "s?INSTANCE?$instance?g" -e "s?HTMLPATH?$html_path?g" nginx.conf#012#012    fi#012#012#011sed -i.orig -e "s?SOURCE_DIR?$srcdir?g" -e "s?SERVICE?$service?g" tar1090.service#012#012#011# keep some stuff around#012#011if [ -f $html_path/defaults*.js ]; then#012#011#011cp $html_path/config.js /tmp/tar1090_config.js 2>/dev/null || true#012#011fi#012#011cp $html_path/upintheair.json /tmp/tar1090_upintheair.json 2>/dev/null || true#012#011cp $html_path/color*.css /tmp/tar1090_colors.css 2>/dev/null || true#012#012#011rm -rf $html_path 2>/dev/null || true#012#011cp -r -T
+Feb  6 06:17:37 raspberrypi sudo:       <user> : (command continued) html $html_path#012    mkdir -p $html_path/db2#012    cp -r -T $ipath/git-db/db $html_path/db2#012#012#011mv /tmp/tar1090_config.js $html_path/config.js 2>/dev/null || true#012#011mv /tmp/tar1090_colors.css $html_path/colors.css 2>/dev/null || true#012#011mv /tmp/tar1090_upintheair.json $html_path/upintheair.json 2>/dev/null || true#012#012#011epoch=$(date +%s)#012#011# bust cache for <user> css and js files#012#012#011dir=$(pwd)#012#011cd $html_path#012#012#011sed -i \#012#011#011-e "s/dbloader.js/dbloader_$epoch.js/" \#012#011#011-e "s/defaults.js/defaults_$epoch.js/" \#012#011#011-e "s/early.js/early_$epoch.js/" \#012#011#011-e "s/flags.js/flags_$epoch.js/" \#012#011#011-e "s/for<user>/for<user>$epoch.js/" \#012#011#011-e "s/layers.js/layers_$epoch.js/" \#012#011#011-e "s/markers.js/markers_$epoch.js/" \#012#011#011-e "s/planeObject.js/planeObject_$epoch.js/" \#012#011#011-e "s/registrations.js/registrations_$epoch.js/" \#012#011#011-e "s/script.js/script_$epoch.js/" \#012#011#011-e "s/colors.css/colors_$epoch.css/" \#012#011#011-e "s/style.css/style_$epoch.css/" \#012#011#011index.html#012#012    sed
+Feb  6 06:17:37 raspberrypi sudo:       <user> : (command continued) -i -e "s/tar1090 on github/tar1090 on github ($(date +%y%m%d))/" index.html#012#012#011mv dbloader.js dbloader_$epoch.js#012#011mv defaults.js defaults_$epoch.js#012#011mv early.js early_$epoch.js#012#011mv flags.js flags_$epoch.js#012#011mv for<user> for<user>$epoch.js#012#011mv layers.js layers_$epoch.js#012#011mv markers.js markers_$epoch.js#012#011mv planeObject.js planeObject_$epoch.js#012#011mv registrations.js registrations_$epoch.js#012#011mv script.js script_$epoch.js#012#011mv colors.css colors_$epoch.css#012#011mv style.css style_$epoch.css#012#012    if [[ $nginx == yes ]]; then#012        gzip -k -9 dbloader_$epoch.js#012        gzip -k -9 defaults_$epoch.js#012        gzip -k -9 early_$epoch.js#012        gzip -k -9 flags_$epoch.js#012        gzip -k -9 for<user>$epoch.js#012        gzip -k -9 layers_$epoch.js#012        gzip -k -9 markers_$epoch.js#012        gzip -k -9 planeObject_$epoch.js#012        gzip -k -9 registrations_$epoch.js#012        gzip -k -9 script_$epoch.js#012        gzip -k -9
+Feb  6 06:17:37 raspberrypi sudo:       <user> : (command continued) colors_$epoch.css#012        gzip -k -9 style_$epoch.css#012#012        gzip -k -9 jquery/*.js#012        gzip -k -9 ol/*.js#012        #gzip -k -9 db2/*.json .... already exists compressed#012    fi#012#012#011cd "$dir"#012#012#011cp nginx.conf $ipath/nginx-$service.conf#012#012#011if [[ $lighttpd == yes ]] && diff 88-tar1090.conf /etc/lighttpd/conf-enabled/99-$service.conf &>/dev/null#012    then#012        true#012#011elif [[ $lighttpd == yes ]] && ! diff 88-tar1090.conf /etc/lighttpd/conf-enabled/88-$service.conf &>/dev/null#012#011then#012#011#011changed_lighttpd=yes#012        if [ -f /etc/lighttpd/conf.d/69-skybup.conf ] && [[ "$instance" == "webroot" ]]; then#012            true#012        elif [[ "$instance" == "webroot" ]]#012        then#012            cp 88-tar1090.conf /etc/lighttpd/conf-available/99-$service.conf#012            ln -f -s /etc/lighttpd/conf-available/99-$service.conf /etc/lighttpd/conf-enabled/99-$service.conf#012        else#012            cp 88-tar1090.conf
+Feb  6 06:17:37 raspberrypi sudo:       <user> : (command continued) /etc/lighttpd/conf-available/88-$service.conf#012            if [ -f /etc/lighttpd/conf.d/69-skybup.conf ]; then#012                ln -f -s /etc/lighttpd/conf-available/88-$service.conf /etc/lighttpd/conf-enabled/66-$service.conf#012            else#012                ln -f -s /etc/lighttpd/conf-available/88-$service.conf /etc/lighttpd/conf-enabled/88-$service.conf#012            fi#012        fi#012#011fi#012#012#011if [[ $changed == yes ]] || ! diff tar1090.service /lib/systemd/system/$service.service &>/dev/null#012#011then#012#011#011cp tar1090.service /lib/systemd/system/$service.service#012#011#011if systemctl enable $service#012        then#012            echo "Restarting $service ..."#012            systemctl restart $service#012        else#012            echo "$service.service is masked, could not start it!"#012        fi#012#011fi#012#012#011# restore sed modified configuration files#012#011mv 88-tar1090.conf.orig 88-tar1090.conf#012#011mv nginx.conf.orig nginx.conf#012#011mv tar1090.service.orig
+Feb  6 06:17:37 raspberrypi sudo:       <user> : (command continued) tar1090.service#012done < <(echo "$instances")#012#012#012if [ -d /etc/lighttpd/conf-enabled/ ]#012then#012#011while read -r FILE; do#012#011#011sed -i -e 's/^server.modules += ( "mod_setenv" )/#server.modules += ( "mod_setenv" )/'  "$FILE"#012#011done < <(find /etc/lighttpd/conf-available/* | grep -v dump1090-fa)#012#012    # add mod_setenv to lighttpd modules, check if it's one too much#012    if [ -f /etc/lighttpd/conf-enabled/87-mod_setenv.conf ]; then#012        setenv_file="present"#012    fi#012    echo 'server.modules += ( "mod_setenv" )' > /etc/lighttpd/conf-available/87-mod_setenv.conf#012    ln -s -f /etc/lighttpd/conf-available/87-mod_setenv.conf /etc/lighttpd/conf-enabled/87-mod_setenv.conf#012    if lighttpd -tt -f /etc/lighttpd/lighttpd.conf 2>&1 | grep mod_setenv >/dev/null#012    then#012        rm /etc/lighttpd/conf-enabled/87-mod_setenv.conf#012        if [[ "$setenv_file" == "present" ]]; then#012            changed_lighttpd=yes#012        fi#012    else#012        if [[
+Feb  6 06:17:37 raspberrypi sudo:       <user> : (command continued) "$setenv_file" != "present" ]]; then#012            changed_lighttpd=yes#012        fi#012    fi#012fi#012#012if [[ $changed_lighttpd == yes ]] && systemctl status lighttpd >/dev/null; then#012#011echo "Restarting lighttpd ..."#012#011systemctl restart lighttpd#012fi#012#012echo --------------#012#012#012if [[ $nginx == yes ]]; then#012#011echo#012#011echo "To configure nginx for <user>, please add the following line(s) in the server {} section:"#012#011echo#012#011for service in $services; do#012#011#011echo "include /usr/local/share/tar1090/nginx-$service.conf;"#012#011done#012    if [[ "$1" == "test" ]]#012    then#012        if [ -d /run/readsb ]; then#012            sed -i -e 's/dump1090-fa/readsb/g' /usr/local/share/tar1090/nginx_webroot.conf#012        fi#012    fi#012fi#012#012echo --------------#012#012if [[ $lighttpd == yes ]]; then#012#011for name in $names; do#012#011#011echo "All done! Webinterface available at http://$(ip route | grep -m1 -o -P 'src \K[0-9,.]*')/$name"#012#011done#012elif [[ $nginx == yes ]]; then#012#011for name in $names; do#012#011#011echo
+Feb  6 06:17:37 raspberrypi sudo:       <user> : (command continued) "All done! Webinterface once nginx is configured will be available at http://$(ip route | grep -m1 -o -P 'src \K[0-9,.]*')/$name"#012#011done#012else#012#011echo "All done! You'll need to configure your webserver yourself, see /usr/local/share/tar1090/nginx-tar1090.conf for <user> reference nginx configuration"#012fi
+Feb  6 06:17:37 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:17:40 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:17:52 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/lighttpd/conf-enabled/88-tar1090.conf
+Feb  6 06:17:52 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:18:11 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:21:01 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/lighttpd/lighttpd.conf
+Feb  6 06:21:01 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:22:05 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:22:06 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/lighttpd/lighttpd.conf
+Feb  6 06:22:06 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:22:11 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:22:12 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/lighttpd/lighttpd.conf
+Feb  6 06:22:12 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:22:21 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:23:09 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /var/www/html/index.htm
+Feb  6 06:23:09 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:23:11 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:23:26 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/lighttpd/lighttpd.conf
+Feb  6 06:23:26 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:23:44 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:23:56 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl reload lighttpd.service
+Feb  6 06:23:56 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:23:56 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:24:12 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /var/www/html/index.htm
+Feb  6 06:24:12 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:24:33 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:25:01 raspberrypi CRON[19815]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  6 06:25:02 raspberrypi su: (to www-data) root on none
+Feb  6 06:25:02 raspberrypi su: pam_unix(su:session): session opened for <user> www-data by (<user>=0)
+Feb  6 06:25:02 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> www-data by (<user>=0)
+Feb  6 06:25:02 raspberrypi su: pam_unix(su:session): session closed for <user> www-data
+Feb  6 06:25:02 raspberrypi su: (to www-data) root on none
+Feb  6 06:25:02 raspberrypi su: pam_unix(su:session): session opened for <user> www-data by (<user>=0)
+Feb  6 06:25:02 raspberrypi su: pam_unix(su:session): session closed for <user> www-data
+Feb  6 06:25:02 raspberrypi CRON[19815]: pam_unix(cron:session): session closed for <user> root
+Feb  6 06:25:11 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /var/www/html/index.htm
+Feb  6 06:25:11 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:25:13 raspberrypi systemd: pam_unix(systemd-user:session): session closed for <user> www-data
+Feb  6 06:25:39 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:26:32 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /var/www/html/index.htm
+Feb  6 06:26:32 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:26:49 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:30:30 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/grafana
+Feb  6 06:30:30 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:30:39 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:30:52 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/grafana/grafana.ini
+Feb  6 06:30:52 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:31:45 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:32:00 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status grafana
+Feb  6 06:32:00 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:32:00 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:32:10 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl reload grafana
+Feb  6 06:32:10 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:32:10 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:32:16 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart grafana
+Feb  6 06:32:16 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:32:16 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:32:18 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status grafana
+Feb  6 06:32:18 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:32:18 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:34:06 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/apt remove --purge grafna
+Feb  6 06:34:06 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:34:08 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:34:10 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/apt remove --purge grafana
+Feb  6 06:34:10 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:34:25 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:34:52 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/apt-get install -y adduser libfontconfig1
+Feb  6 06:34:52 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:34:55 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:35:16 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/dpkg -i grafana_6.6.0_arm64.deb
+Feb  6 06:35:16 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:35:17 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:35:48 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/dpkg -i grafana_6.6.0_armhf.deb
+Feb  6 06:35:48 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:35:53 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:36:01 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/dpkg -i grafana_6.6.0_armhf.deb
+Feb  6 06:36:01 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:36:05 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:36:10 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/apt remove --purge grafana
+Feb  6 06:36:10 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:36:13 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:36:15 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/apt remove --purge grafana-data
+Feb  6 06:36:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:36:23 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:36:42 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/apt autoremove
+Feb  6 06:36:42 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:37:27 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:37:32 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/usr/bin/dpkg -i grafana_6.6.0_armhf.deb
+Feb  6 06:37:32 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:37:42 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:38:09 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl daemon-reload
+Feb  6 06:38:09 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:38:10 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:38:15 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl enable grafana-server
+Feb  6 06:38:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:38:17 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:38:19 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl start grafana-server
+Feb  6 06:38:19 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:38:19 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:45:59 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/prometheus-dump1090-exporter.service
+Feb  6 06:45:59 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:48:26 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:48:40 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/prometheus-dump1090-exporter.service
+Feb  6 06:48:40 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:48:49 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:49:02 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl deamonrealod
+Feb  6 06:49:02 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:49:02 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:49:05 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl deamon reload
+Feb  6 06:49:05 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:49:05 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:49:50 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl daemon-reload
+Feb  6 06:49:50 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:49:51 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:50:02 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl enable prometheus-dump1090-exporter.service
+Feb  6 06:50:02 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:50:02 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:50:11 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl start prometheus-dump1090-exporter.service
+Feb  6 06:50:11 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:50:12 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:50:19 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus-dump1090-exporter.service
+Feb  6 06:50:19 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:50:19 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:50:32 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/prometheus-dump1090-exporter.service
+Feb  6 06:50:32 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:50:46 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:50:50 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl daemon-reload
+Feb  6 06:50:50 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:50:51 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:50:58 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus-dump1090-exporter.service
+Feb  6 06:50:58 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:50:58 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:51:01 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status prometheus-dump1090-exporter.service
+Feb  6 06:51:01 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:51:01 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:51:35 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/prometheus/prometheus.yml
+Feb  6 06:51:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:51:45 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:51:47 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/prometheus/prometheus.yml
+Feb  6 06:51:47 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:51:57 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 06:52:14 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart prometheus.service
+Feb  6 06:52:14 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 06:52:14 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:08:44 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/sbin/swapoff -a
+Feb  6 07:08:44 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:08:46 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:09:11 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status logrotate.
+Feb  6 07:09:11 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:09:11 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:09:15 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status logrotate.service
+Feb  6 07:09:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:09:15 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:09:53 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl reload logrotate.service
+Feb  6 07:09:53 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:09:53 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:09:58 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart logrotate.service
+Feb  6 07:09:58 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:09:59 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:13:01 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/logrotate.d/mlat-client
+Feb  6 07:13:01 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:13:17 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:15:06 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status adsbexchange-mlat.service
+Feb  6 07:15:06 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:15:37 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:17:02 raspberrypi CRON[13816]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  6 07:17:02 raspberrypi CRON[13816]: pam_unix(cron:session): session closed for <user> root
+Feb  6 07:18:33 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/logrotate.d/mlat-client
+Feb  6 07:18:33 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:18:42 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:19:15 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl restart logrotate.service
+Feb  6 07:19:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:19:15 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:19:21 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status logrotate.service
+Feb  6 07:19:21 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:19:21 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:32:12 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  6 07:32:12 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:32:12 raspberrypi sshd[950]: pam_unix(sshd:session): session closed for <user> pi
+Feb  6 07:32:12 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:32:12 raspberrypi sshd[5489]: pam_unix(sshd:session): session closed for <user> pi
+Feb  6 07:32:22 raspberrypi systemd-logind[335]: New seat seat0.
+Feb  6 07:32:31 raspberrypi sshd[857]: Server listening on 0.0.0.0 port 22.
+Feb  6 07:32:31 raspberrypi sshd[857]: Server listening on :: port 22.
+Feb  6 07:32:34 raspberrypi systemd-logind[335]: Failed to open /dev/input/event0: No such file or directory
+Feb  6 07:32:50 raspberrypi sshd[915]: Accepted password for <user> from <lan-ip> port 46332 ssh2
+Feb  6 07:32:50 raspberrypi sshd[915]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  6 07:32:50 raspberrypi systemd-logind[335]: New session c1 of user <user>
+Feb  6 07:32:50 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  6 07:33:11 raspberrypi passwd[1145]: pam_unix(passwd:chauthtok): password changed for <user>
+Feb  6 07:33:20 raspberrypi systemd-logind[335]: Failed to open /dev/input/event0: No such file or directory
+Feb  6 07:35:53 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/systemctl status adsb-exchange-978
+Feb  6 07:35:53 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:36:15 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:39:47 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/share/adsb-exchange-978 ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/adsb-exchange-978.service
+Feb  6 07:39:47 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:40:29 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:46:16 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/share/adsb-exchange-978 ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/adsb-exchange-978.service
+Feb  6 07:46:16 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:46:22 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:46:30 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/share/adsb-exchange-978 ; USER=<user> ; COMMAND=/bin/nano /etc/default/adsb-exchange-978
+Feb  6 07:46:30 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:46:37 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:46:53 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/share/adsb-exchange-978 ; USER=<user> ; COMMAND=/bin/nano /boot/adsb-config.txt
+Feb  6 07:46:53 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:48:02 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:48:40 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/share/adsb-exchange-978 ; USER=<user> ; COMMAND=/bin/nano /boot/adsb-config.txt
+Feb  6 07:48:40 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:51:34 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:51:52 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/share/adsb-exchange-978 ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/adsbexchange-mlat.service
+Feb  6 07:51:52 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:52:27 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:52:47 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/share/adsb-exchange-978 ; USER=<user> ; COMMAND=/bin/systemctl daemon-reload
+Feb  6 07:52:47 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:52:48 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:52:51 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/usr/local/share/adsb-exchange-978 ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  6 07:52:51 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:53:01 raspberrypi systemd-logind[306]: New seat seat0.
+Feb  6 07:53:09 raspberrypi sshd[775]: Server listening on 0.0.0.0 port 22.
+Feb  6 07:53:09 raspberrypi sshd[775]: Server listening on :: port 22.
+Feb  6 07:53:12 raspberrypi systemd-logind[306]: Failed to open /dev/input/event0: No such file or directory
+Feb  6 07:53:27 raspberrypi sshd[949]: Accepted password for <user> from <lan-ip> port 46674 ssh2
+Feb  6 07:53:27 raspberrypi sshd[949]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  6 07:53:27 raspberrypi systemd-logind[306]: New session c1 of user <user>
+Feb  6 07:53:27 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  6 07:53:58 raspberrypi systemd-logind[306]: Failed to open /dev/input/event0: No such device
+Feb  6 07:55:01 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /boot/adsb-config.txt
+Feb  6 07:55:01 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:56:22 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:56:24 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  6 07:56:24 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:56:24 raspberrypi sshd[949]: pam_unix(sshd:session): session closed for <user> pi
+Feb  6 07:56:24 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:56:24 raspberrypi sshd[949]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Feb  6 07:56:25 raspberrypi sshd[775]: Received signal 15; terminating.
+Feb  6 07:56:35 raspberrypi systemd-logind[300]: New seat seat0.
+Feb  6 07:56:42 raspberrypi sshd[641]: Server listening on 0.0.0.0 port 22.
+Feb  6 07:56:42 raspberrypi sshd[641]: Server listening on :: port 22.
+Feb  6 07:56:45 raspberrypi systemd-logind[300]: Failed to open /dev/input/event0: No such device
+Feb  6 07:56:52 raspberrypi sshd[916]: Accepted password for <user> from <lan-ip> port 46680 ssh2
+Feb  6 07:56:52 raspberrypi sshd[916]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  6 07:56:52 raspberrypi systemd-logind[300]: New session c1 of user <user>
+Feb  6 07:57:02 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  6 07:57:34 raspberrypi systemd-logind[300]: Failed to open /dev/input/event0: No such file or directory
+Feb  6 07:57:35 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl status readsb.service
+Feb  6 07:57:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:57:45 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:57:49 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/systemd/system/readsb.service
+Feb  6 07:57:49 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:58:16 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:58:20 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /boot/adsb-config.txt
+Feb  6 07:58:20 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:58:37 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 07:58:40 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  6 07:58:40 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 07:58:51 raspberrypi systemd-logind[307]: New seat seat0.
+Feb  6 07:58:59 raspberrypi sshd[774]: Server listening on 0.0.0.0 port 22.
+Feb  6 07:58:59 raspberrypi sshd[774]: Server listening on :: port 22.
+Feb  6 07:59:02 raspberrypi systemd-logind[307]: Failed to open /dev/input/event0: No such device
+Feb  6 07:59:31 raspberrypi sshd[1084]: Accepted password for <user> from <lan-ip> port 46686 ssh2
+Feb  6 07:59:31 raspberrypi sshd[1084]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  6 07:59:31 raspberrypi systemd-logind[307]: New session c1 of user <user>
+Feb  6 07:59:31 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  6 07:59:50 raspberrypi systemd-logind[307]: Failed to open /dev/input/event0: No such device
+Feb  6 08:00:10 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /boot/adsb-config.txt
+Feb  6 08:00:10 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:01:06 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:01:20 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /boot/adsbx-env
+Feb  6 08:01:20 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:01:24 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:01:35 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/systemd/system/readsb.service
+Feb  6 08:01:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:01:47 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:02:02 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/adsbexchange-mlat.service
+Feb  6 08:02:02 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:02:12 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:02:15 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /lib/systemd/system/adsbexchange-feed.service
+Feb  6 08:02:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:02:25 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:02:39 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  6 08:02:39 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:02:39 raspberrypi sshd[1084]: pam_unix(sshd:session): session closed for <user> pi
+Feb  6 08:02:39 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:02:39 raspberrypi sshd[774]: Received signal 15; terminating.
+Feb  6 08:02:48 raspberrypi systemd-logind[309]: New seat seat0.
+Feb  6 08:02:55 raspberrypi sshd[631]: Server listening on 0.0.0.0 port 22.
+Feb  6 08:02:55 raspberrypi sshd[631]: Server listening on :: port 22.
+Feb  6 08:02:59 raspberrypi systemd-logind[309]: Failed to open /dev/input/event0: No such device
+Feb  6 08:03:15 raspberrypi sshd[951]: Accepted password for <user> from <lan-ip> port 46756 ssh2
+Feb  6 08:03:15 raspberrypi sshd[951]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  6 08:03:15 raspberrypi systemd-logind[309]: New session c1 of user <user>
+Feb  6 08:03:15 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  6 08:03:46 raspberrypi systemd-logind[309]: Failed to open /dev/input/event0: No such file or directory
+Feb  6 08:03:52 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/systemd/system/readsb.service
+Feb  6 08:03:52 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:03:55 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:04:37 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/systemd/system/readsb.service
+Feb  6 08:04:37 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:04:49 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:09:24 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl disable dump978-fa.service
+Feb  6 08:09:24 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:09:25 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:10:02 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl disable adsb-exchange-978.service
+Feb  6 08:10:02 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:10:02 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:10:12 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl disable adsb-exchange-978-convert.service
+Feb  6 08:10:12 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:10:13 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:10:28 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl enable adsb-exchange-978.service
+Feb  6 08:10:28 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:10:29 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:11:14 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl disable adsb-exchange-978.service
+Feb  6 08:11:14 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:11:15 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:11:29 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/reboot now
+Feb  6 08:11:29 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:11:40 raspberrypi systemd-logind[351]: New seat seat0.
+Feb  6 08:11:47 raspberrypi sshd[692]: Server listening on 0.0.0.0 port 22.
+Feb  6 08:11:47 raspberrypi sshd[692]: Server listening on :: port 22.
+Feb  6 08:12:09 raspberrypi sshd[918]: Accepted password for <user> from <lan-ip> port 47062 ssh2
+Feb  6 08:12:09 raspberrypi sshd[918]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  6 08:12:09 raspberrypi systemd-logind[351]: New session c1 of user <user>
+Feb  6 08:12:09 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  6 08:16:38 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/swapoff -a
+Feb  6 08:16:38 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:16:38 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:17:01 raspberrypi CRON[3243]: pam_unix(cron:session): session opened for <user> root by (<user>=0)
+Feb  6 08:17:01 raspberrypi CRON[3243]: pam_unix(cron:session): session closed for <user> root
+Feb  6 08:17:13 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/fstab
+Feb  6 08:17:13 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:17:27 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:17:41 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  6 08:17:41 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:17:47 raspberrypi systemd-logind[339]: New seat seat0.
+Feb  6 08:17:54 raspberrypi sshd[745]: Server listening on 0.0.0.0 port 22.
+Feb  6 08:17:54 raspberrypi sshd[745]: Server listening on :: port 22.
+Feb  6 08:18:20 raspberrypi sshd[934]: Accepted password for <user> from <lan-ip> port 47174 ssh2
+Feb  6 08:18:20 raspberrypi sshd[934]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  6 08:18:20 raspberrypi systemd-logind[339]: New session c1 of user <user>
+Feb  6 08:18:20 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  6 08:19:51 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/swapoff -a
+Feb  6 08:19:51 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:19:51 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:20:26 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/fstab
+Feb  6 08:20:26 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:20:43 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:20:55 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/dphys-swapfile swapoff
+Feb  6 08:20:55 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:20:55 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:20:59 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/dphys-swapfile uninstall
+Feb  6 08:20:59 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:20:59 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:21:05 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/usr/sbin/update-rc.d dphys-swapfile remove
+Feb  6 08:21:05 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:21:06 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:21:27 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  6 08:21:27 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  6 08:21:27 raspberrypi sudo: <user> session closed for <user> root
+Feb  6 08:21:27 raspberrypi sshd[934]: pam_unix(sshd:session): session closed for <user> pi
+Feb  7 03:44:40 raspberrypi systemd-logind[314]: New seat seat0.
+Feb  7 03:44:47 raspberrypi sshd[729]: Server listening on 0.0.0.0 port 22.
+Feb  7 03:44:47 raspberrypi sshd[729]: Server listening on :: port 22.
+Feb  7 03:44:51 raspberrypi sshd[830]: Accepted password for <user> from <lan-ip> port 35472 ssh2
+Feb  7 03:44:51 raspberrypi sshd[830]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  7 03:44:51 raspberrypi systemd-logind[314]: New session c1 of user <user>
+Feb  7 03:44:51 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  7 03:49:35 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/bin/nano /etc/default/grafana-server
+Feb  7 03:49:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:50:25 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:50:30 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi/adsbexchange ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  7 03:50:30 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:50:30 raspberrypi sshd[830]: pam_unix(sshd:session): session closed for <user> pi
+Feb  7 03:50:30 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:52:05 raspberrypi systemd-logind[311]: New seat seat0.
+Feb  7 03:52:13 raspberrypi sshd[690]: Server listening on 0.0.0.0 port 22.
+Feb  7 03:52:13 raspberrypi sshd[690]: Server listening on :: port 22.
+Feb  7 03:52:40 raspberrypi sshd[1003]: Accepted password for <user> from <lan-ip> port 36886 ssh2
+Feb  7 03:52:41 raspberrypi sshd[1003]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  7 03:52:41 raspberrypi systemd-logind[311]: New session c1 of user <user>
+Feb  7 03:52:41 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  7 03:53:19 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl status grafana-server.service
+Feb  7 03:53:19 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:53:23 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:53:37 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /usr/lib/systemd/system/grafana-server.service
+Feb  7 03:53:37 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:53:49 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:53:51 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  7 03:53:51 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:53:52 raspberrypi sshd[1003]: pam_unix(sshd:session): session closed for <user> pi
+Feb  7 03:53:52 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:53:52 raspberrypi sshd[690]: Received signal 15; terminating.
+Feb  7 03:53:57 raspberrypi systemd-logind[351]: New seat seat0.
+Feb  7 03:54:04 raspberrypi sshd[616]: Server listening on 0.0.0.0 port 22.
+Feb  7 03:54:04 raspberrypi sshd[616]: Server listening on :: port 22.
+Feb  7 03:54:30 raspberrypi sshd[993]: Accepted password for <user> from <lan-ip> port 37220 ssh2
+Feb  7 03:54:30 raspberrypi sshd[993]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  7 03:54:30 raspberrypi systemd-logind[351]: New session c1 of user <user>
+Feb  7 03:54:30 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  7 03:54:42 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /usr/lib/systemd/system/grafana-server.service
+Feb  7 03:54:42 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:55:34 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:55:39 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/default/grafana-server
+Feb  7 03:55:39 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:56:05 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:56:47 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  7 03:56:47 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:56:47 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:56:47 raspberrypi sshd[993]: pam_unix(sshd:session): session closed for <user> pi
+Feb  7 03:56:53 raspberrypi systemd-logind[301]: New seat seat0.
+Feb  7 03:57:00 raspberrypi sshd[636]: Server listening on 0.0.0.0 port 22.
+Feb  7 03:57:00 raspberrypi sshd[636]: Server listening on :: port 22.
+Feb  7 03:57:49 raspberrypi sshd[1138]: Accepted password for <user> from <lan-ip> port 37498 ssh2
+Feb  7 03:57:49 raspberrypi sshd[1138]: pam_unix(sshd:session): session opened for <user> pi by (<user>=0)
+Feb  7 03:57:49 raspberrypi systemd-logind[301]: New session c1 of user <user>
+Feb  7 03:57:49 raspberrypi systemd: pam_unix(systemd-user:session): session opened for <user> pi by (<user>=0)
+Feb  7 03:57:55 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/default/grafana-server
+Feb  7 03:57:55 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:57:56 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:58:15 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl status grafana-server.service
+Feb  7 03:58:15 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:58:17 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:58:23 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl resatr grafana-server.service
+Feb  7 03:58:23 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:58:23 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:58:29 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl restart grafana-server.service
+Feb  7 03:58:29 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:58:29 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:58:31 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl status grafana-server.service
+Feb  7 03:58:31 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:58:34 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:58:35 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl resatr grafana-server.service
+Feb  7 03:58:35 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:58:35 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:58:37 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl restart grafana-server.service
+Feb  7 03:58:37 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:58:37 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:58:48 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/systemctl status grafana-server.service
+Feb  7 03:58:49 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:59:06 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 03:59:14 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/fstab
+Feb  7 03:59:14 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 03:59:25 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 04:00:12 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/bin/nano /etc/default/grafana-server
+Feb  7 04:00:12 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)
+Feb  7 04:00:30 raspberrypi sudo: <user> session closed for <user> root
+Feb  7 04:00:32 raspberrypi sudo:       <user> : TTY=pts/0 ; PWD=/home/pi ; USER=<user> ; COMMAND=/sbin/reboot
+Feb  7 04:00:32 raspberrypi sudo: <user> session opened for <user> root by <user>(uid=0)

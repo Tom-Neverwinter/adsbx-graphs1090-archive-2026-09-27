@@ -1,0 +1,243 @@
+Sep 26 01:24:27 raspberrypi thd[302]: Found socket passed from systemd
+Sep 26 01:24:27 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Sep 26 01:24:27 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Sep 26 01:24:27 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Sep 26 01:24:27 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Sep 26 01:24:27 raspberrypi kernel: [    0.000000] pcpu-alloc: s39488 r8192 d21952 u69632 alloc=17*4096
+Sep 26 01:24:27 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Sep 26 01:24:27 raspberrypi kernel: [    0.778834] dwc_otg: Microframe scheduler enabled
+Sep 26 01:24:27 raspberrypi kernel: [    0.816901] dwc_otg: FIQ enabled
+Sep 26 01:24:27 raspberrypi kernel: [    0.816907] dwc_otg: NAK holdoff enabled
+Sep 26 01:24:27 raspberrypi kernel: [    0.816912] dwc_otg: FIQ split-transaction FSM enabled
+Sep 26 01:24:27 raspberrypi kernel: [    0.816923] Module dwc_common_port init
+Sep 26 01:24:27 raspberrypi kernel: [    5.252137] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  3 23:23:04 raspberrypi PackageKit: daemon start
+Feb  3 23:34:20 raspberrypi PackageKit: daemon quit
+Feb  3 23:38:25 raspberrypi PackageKit: daemon start
+Feb  3 23:43:31 raspberrypi PackageKit: daemon quit
+Feb  3 23:51:45 raspberrypi PackageKit: daemon start
+Feb  3 23:56:50 raspberrypi PackageKit: daemon quit
+Feb  4 00:05:54 raspberrypi PackageKit: daemon start
+Feb  4 00:08:19 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  4 00:08:19 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  4 00:08:19 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  4 00:08:19 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  4 00:08:19 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  4 00:08:19 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  4 00:08:19 raspberrypi kernel: [    0.778038] dwc_otg: Microframe scheduler enabled
+Feb  4 00:08:19 raspberrypi kernel: [    0.816138] dwc_otg: FIQ enabled
+Feb  4 00:08:19 raspberrypi kernel: [    0.816144] dwc_otg: NAK holdoff enabled
+Feb  4 00:08:19 raspberrypi kernel: [    0.816149] dwc_otg: FIQ split-transaction FSM enabled
+Feb  4 00:08:19 raspberrypi kernel: [    0.816160] Module dwc_common_port init
+Feb  4 00:08:19 raspberrypi kernel: [    5.617495] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  4 00:08:19 raspberrypi thd[367]: Found socket passed from systemd
+Feb  4 00:13:16 raspberrypi PackageKit: daemon start
+Feb  4 00:20:17 raspberrypi PackageKit: daemon quit
+Feb  4 00:24:35 raspberrypi PackageKit: daemon start
+Feb  4 00:32:20 raspberrypi PackageKit: daemon quit
+Feb  4 00:52:52 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  4 00:52:52 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  4 00:52:52 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  4 00:52:52 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  4 00:52:52 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  4 00:52:52 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  4 00:52:52 raspberrypi kernel: [    0.778082] dwc_otg: Microframe scheduler enabled
+Feb  4 00:52:52 raspberrypi kernel: [    0.816191] dwc_otg: FIQ enabled
+Feb  4 00:52:52 raspberrypi kernel: [    0.816197] dwc_otg: NAK holdoff enabled
+Feb  4 00:52:52 raspberrypi kernel: [    0.816202] dwc_otg: FIQ split-transaction FSM enabled
+Feb  4 00:52:52 raspberrypi kernel: [    0.816213] Module dwc_common_port init
+Feb  4 00:52:52 raspberrypi thd[347]: Found socket passed from systemd
+Feb  4 00:52:52 raspberrypi kernel: [    5.712493] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  4 00:53:07 raspberrypi ntpd[584]: new interface(s) found: waking up resolver
+Feb  4 14:47:49 raspberrypi PackageKit: daemon start
+Feb  4 14:52:55 raspberrypi PackageKit: daemon quit
+Feb  5 01:59:19 raspberrypi PackageKit: daemon start
+Feb  5 02:04:24 raspberrypi PackageKit: daemon quit
+Feb  5 14:54:29 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  5 14:54:29 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  5 14:54:29 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  5 14:54:29 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  5 14:54:29 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  5 14:54:29 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  5 14:54:29 raspberrypi thd[297]: Found socket passed from systemd
+Feb  5 14:54:29 raspberrypi kernel: [    0.778185] dwc_otg: Microframe scheduler enabled
+Feb  5 14:54:29 raspberrypi kernel: [    0.816248] dwc_otg: FIQ enabled
+Feb  5 14:54:29 raspberrypi kernel: [    0.816254] dwc_otg: NAK holdoff enabled
+Feb  5 14:54:29 raspberrypi kernel: [    0.816260] dwc_otg: FIQ split-transaction FSM enabled
+Feb  5 14:54:29 raspberrypi kernel: [    0.816271] Module dwc_common_port init
+Feb  5 14:54:29 raspberrypi kernel: [    5.534220] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  5 14:54:44 raspberrypi ntpd[600]: new interface(s) found: waking up resolver
+Feb  5 23:05:28 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  5 23:05:28 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  5 23:05:28 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  5 23:05:28 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  5 23:05:28 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  5 23:05:28 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  5 23:05:28 raspberrypi kernel: [    0.778064] dwc_otg: Microframe scheduler enabled
+Feb  5 23:05:28 raspberrypi kernel: [    0.816128] dwc_otg: FIQ enabled
+Feb  5 23:05:28 raspberrypi kernel: [    0.816133] dwc_otg: NAK holdoff enabled
+Feb  5 23:05:28 raspberrypi kernel: [    0.816139] dwc_otg: FIQ split-transaction FSM enabled
+Feb  5 23:05:28 raspberrypi kernel: [    0.816150] Module dwc_common_port init
+Feb  5 23:05:28 raspberrypi thd[330]: Found socket passed from systemd
+Feb  5 23:05:28 raspberrypi kernel: [    5.649354] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  5 23:05:44 raspberrypi ntpd[601]: new interface(s) found: waking up resolver
+Feb  5 23:12:56 raspberrypi PackageKit: daemon start
+Feb  5 23:18:31 raspberrypi PackageKit: daemon quit
+Feb  6 06:15:11 raspberrypi PackageKit: daemon start
+Feb  6 06:20:31 raspberrypi PackageKit: daemon quit
+Feb  6 06:34:25 raspberrypi PackageKit: daemon start
+Feb  6 06:42:35 raspberrypi PackageKit: daemon quit
+Feb  6 07:32:22 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  6 07:32:22 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  6 07:32:22 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  6 07:32:22 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  6 07:32:22 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  6 07:32:22 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  6 07:32:22 raspberrypi kernel: [    0.777856] dwc_otg: Microframe scheduler enabled
+Feb  6 07:32:22 raspberrypi kernel: [    0.815938] dwc_otg: FIQ enabled
+Feb  6 07:32:22 raspberrypi kernel: [    0.815943] dwc_otg: NAK holdoff enabled
+Feb  6 07:32:22 raspberrypi kernel: [    0.815949] dwc_otg: FIQ split-transaction FSM enabled
+Feb  6 07:32:22 raspberrypi kernel: [    0.815959] Module dwc_common_port init
+Feb  6 07:32:22 raspberrypi thd[336]: Found socket passed from systemd
+Feb  6 07:32:22 raspberrypi kernel: [    5.516841] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  6 07:32:37 raspberrypi ntpd[663]: new interface(s) found: waking up resolver
+Feb  6 07:53:01 raspberrypi thd[288]: Found socket passed from systemd
+Feb  6 07:53:01 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  6 07:53:01 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  6 07:53:01 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  6 07:53:01 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  6 07:53:01 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  6 07:53:01 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  6 07:53:01 raspberrypi kernel: [    0.777939] dwc_otg: Microframe scheduler enabled
+Feb  6 07:53:01 raspberrypi kernel: [    0.815944] dwc_otg: FIQ enabled
+Feb  6 07:53:01 raspberrypi kernel: [    0.815950] dwc_otg: NAK holdoff enabled
+Feb  6 07:53:01 raspberrypi kernel: [    0.815955] dwc_otg: FIQ split-transaction FSM enabled
+Feb  6 07:53:01 raspberrypi kernel: [    0.815965] Module dwc_common_port init
+Feb  6 07:53:01 raspberrypi kernel: [    5.586800] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  6 07:53:17 raspberrypi ntpd[612]: new interface(s) found: waking up resolver
+Feb  6 07:56:35 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  6 07:56:35 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  6 07:56:35 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  6 07:56:35 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  6 07:56:35 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  6 07:56:35 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  6 07:56:35 raspberrypi kernel: [    0.778041] dwc_otg: Microframe scheduler enabled
+Feb  6 07:56:35 raspberrypi kernel: [    0.816056] dwc_otg: FIQ enabled
+Feb  6 07:56:35 raspberrypi kernel: [    0.816062] dwc_otg: NAK holdoff enabled
+Feb  6 07:56:35 raspberrypi kernel: [    0.816067] dwc_otg: FIQ split-transaction FSM enabled
+Feb  6 07:56:35 raspberrypi kernel: [    0.816078] Module dwc_common_port init
+Feb  6 07:56:35 raspberrypi thd[348]: Found socket passed from systemd
+Feb  6 07:56:35 raspberrypi kernel: [    5.528702] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  6 07:56:51 raspberrypi ntpd[597]: new interface(s) found: waking up resolver
+Feb  6 07:58:51 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  6 07:58:51 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  6 07:58:51 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  6 07:58:51 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  6 07:58:51 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  6 07:58:51 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  6 07:58:51 raspberrypi kernel: [    0.778147] dwc_otg: Microframe scheduler enabled
+Feb  6 07:58:51 raspberrypi kernel: [    0.816241] dwc_otg: FIQ enabled
+Feb  6 07:58:51 raspberrypi kernel: [    0.816247] dwc_otg: NAK holdoff enabled
+Feb  6 07:58:51 raspberrypi kernel: [    0.816253] dwc_otg: FIQ split-transaction FSM enabled
+Feb  6 07:58:51 raspberrypi kernel: [    0.816263] Module dwc_common_port init
+Feb  6 07:58:51 raspberrypi thd[313]: Found socket passed from systemd
+Feb  6 07:58:51 raspberrypi kernel: [    5.770285] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  6 07:59:07 raspberrypi ntpd[651]: new interface(s) found: waking up resolver
+Feb  6 08:02:48 raspberrypi thd[333]: Found socket passed from systemd
+Feb  6 08:02:48 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  6 08:02:48 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  6 08:02:48 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  6 08:02:48 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  6 08:02:48 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  6 08:02:48 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  6 08:02:48 raspberrypi kernel: [    0.778170] dwc_otg: Microframe scheduler enabled
+Feb  6 08:02:48 raspberrypi kernel: [    0.816162] dwc_otg: FIQ enabled
+Feb  6 08:02:48 raspberrypi kernel: [    0.816167] dwc_otg: NAK holdoff enabled
+Feb  6 08:02:48 raspberrypi kernel: [    0.816173] dwc_otg: FIQ split-transaction FSM enabled
+Feb  6 08:02:48 raspberrypi kernel: [    0.816183] Module dwc_common_port init
+Feb  6 08:02:48 raspberrypi kernel: [    5.652704] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  6 08:03:04 raspberrypi ntpd[583]: new interface(s) found: waking up resolver
+Feb  6 08:11:40 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  6 08:11:40 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  6 08:11:40 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  6 08:11:40 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  6 08:11:40 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  6 08:11:40 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  6 08:11:40 raspberrypi kernel: [    0.778120] dwc_otg: Microframe scheduler enabled
+Feb  6 08:11:40 raspberrypi kernel: [    0.816168] dwc_otg: FIQ enabled
+Feb  6 08:11:40 raspberrypi kernel: [    0.816174] dwc_otg: NAK holdoff enabled
+Feb  6 08:11:40 raspberrypi kernel: [    0.816180] dwc_otg: FIQ split-transaction FSM enabled
+Feb  6 08:11:40 raspberrypi kernel: [    0.816190] Module dwc_common_port init
+Feb  6 08:11:40 raspberrypi kernel: [    5.675074] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  6 08:11:40 raspberrypi thd[349]: Found socket passed from systemd
+Feb  6 08:12:05 raspberrypi ntpd[613]: new interface(s) found: waking up resolver
+Feb  6 08:17:46 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  6 08:17:46 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  6 08:17:46 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  6 08:17:46 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  6 08:17:46 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  6 08:17:46 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  6 08:17:46 raspberrypi kernel: [    0.777941] dwc_otg: Microframe scheduler enabled
+Feb  6 08:17:46 raspberrypi kernel: [    0.816043] dwc_otg: FIQ enabled
+Feb  6 08:17:46 raspberrypi kernel: [    0.816049] dwc_otg: NAK holdoff enabled
+Feb  6 08:17:46 raspberrypi kernel: [    0.816054] dwc_otg: FIQ split-transaction FSM enabled
+Feb  6 08:17:46 raspberrypi kernel: [    0.816065] Module dwc_common_port init
+Feb  6 08:17:46 raspberrypi thd[346]: Found socket passed from systemd
+Feb  6 08:17:46 raspberrypi kernel: [    5.537320] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  6 08:18:02 raspberrypi ntpd[593]: new interface(s) found: waking up resolver
+Feb  7 03:44:40 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  7 03:44:40 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  7 03:44:40 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  7 03:44:40 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  7 03:44:40 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  7 03:44:40 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  7 03:44:40 raspberrypi kernel: [    0.774275] dwc_otg: Microframe scheduler enabled
+Feb  7 03:44:40 raspberrypi kernel: [    0.812356] dwc_otg: FIQ enabled
+Feb  7 03:44:40 raspberrypi kernel: [    0.812361] dwc_otg: NAK holdoff enabled
+Feb  7 03:44:40 raspberrypi kernel: [    0.812367] dwc_otg: FIQ split-transaction FSM enabled
+Feb  7 03:44:40 raspberrypi kernel: [    0.812377] Module dwc_common_port init
+Feb  7 03:44:40 raspberrypi thd[320]: Found socket passed from systemd
+Feb  7 03:44:40 raspberrypi kernel: [    5.499846] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  7 03:44:54 raspberrypi ntpd[573]: new interface(s) found: waking up resolver
+Feb  7 03:52:05 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  7 03:52:05 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  7 03:52:05 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  7 03:52:05 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  7 03:52:05 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  7 03:52:05 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  7 03:52:05 raspberrypi kernel: [    0.774235] dwc_otg: Microframe scheduler enabled
+Feb  7 03:52:05 raspberrypi kernel: [    0.812323] dwc_otg: FIQ enabled
+Feb  7 03:52:05 raspberrypi kernel: [    0.812329] dwc_otg: NAK holdoff enabled
+Feb  7 03:52:05 raspberrypi kernel: [    0.812335] dwc_otg: FIQ split-transaction FSM enabled
+Feb  7 03:52:05 raspberrypi kernel: [    0.812345] Module dwc_common_port init
+Feb  7 03:52:05 raspberrypi thd[310]: Found socket passed from systemd
+Feb  7 03:52:05 raspberrypi kernel: [    5.575854] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  7 03:52:20 raspberrypi ntpd[580]: new interface(s) found: waking up resolver
+Feb  7 03:53:57 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  7 03:53:57 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  7 03:53:57 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  7 03:53:57 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  7 03:53:57 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  7 03:53:57 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  7 03:53:57 raspberrypi kernel: [    0.773803] dwc_otg: Microframe scheduler enabled
+Feb  7 03:53:57 raspberrypi kernel: [    0.811832] dwc_otg: FIQ enabled
+Feb  7 03:53:57 raspberrypi kernel: [    0.811838] dwc_otg: NAK holdoff enabled
+Feb  7 03:53:57 raspberrypi kernel: [    0.811844] dwc_otg: FIQ split-transaction FSM enabled
+Feb  7 03:53:57 raspberrypi kernel: [    0.811854] Module dwc_common_port init
+Feb  7 03:53:57 raspberrypi thd[334]: Found socket passed from systemd
+Feb  7 03:53:57 raspberrypi kernel: [    5.542768] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  7 03:54:10 raspberrypi ntpd[578]: new interface(s) found: waking up resolver
+Feb  7 03:56:53 raspberrypi kernel: [    0.000000] On node 0 totalpages: 242688
+Feb  7 03:56:53 raspberrypi kernel: [    0.000000]   Normal zone: 2133 pages used for <user>
+Feb  7 03:56:53 raspberrypi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Feb  7 03:56:53 raspberrypi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:63
+Feb  7 03:56:53 raspberrypi kernel: [    0.000000] pcpu-alloc: s36864 r8192 d20480 u65536 alloc=16*4096
+Feb  7 03:56:53 raspberrypi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Feb  7 03:56:53 raspberrypi thd[329]: Found socket passed from systemd
+Feb  7 03:56:53 raspberrypi kernel: [    0.774151] dwc_otg: Microframe scheduler enabled
+Feb  7 03:56:53 raspberrypi kernel: [    0.812232] dwc_otg: FIQ enabled
+Feb  7 03:56:53 raspberrypi kernel: [    0.812239] dwc_otg: NAK holdoff enabled
+Feb  7 03:56:53 raspberrypi kernel: [    0.812244] dwc_otg: FIQ split-transaction FSM enabled
+Feb  7 03:56:53 raspberrypi kernel: [    0.812254] Module dwc_common_port init
+Feb  7 03:56:53 raspberrypi kernel: [    5.546016] brcmfmac: F1 signature read @0x18000000=0x15264345
+Feb  7 03:57:07 raspberrypi ntpd[582]: new interface(s) found: waking up resolver

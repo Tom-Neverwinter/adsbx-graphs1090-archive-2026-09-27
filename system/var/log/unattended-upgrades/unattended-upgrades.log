@@ -1,0 +1,28 @@
+2020-02-04 06:01:59,435 INFO Checking if system is running on battery is skipped. Please install powermgmt-base package to check power status and skip installing updates when the system is running on battery.
+2020-02-04 06:01:59,447 INFO Initial blacklist : 
+2020-02-04 06:01:59,449 INFO Initial whitelist: 
+2020-02-04 06:01:59,450 INFO Starting unattended upgrades script
+2020-02-04 06:01:59,450 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2020-02-04 06:02:04,947 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2020-02-04 14:47:56,847 INFO Checking if system is running on battery is skipped. Please install powermgmt-base package to check power status and skip installing updates when the system is running on battery.
+2020-02-04 14:47:56,861 INFO Initial blacklist : 
+2020-02-04 14:47:56,862 INFO Initial whitelist: 
+2020-02-04 14:47:56,862 INFO Starting unattended upgrades script
+2020-02-04 14:47:56,863 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2020-02-05 01:59:26,059 INFO Checking if system is running on battery is skipped. Please install powermgmt-base package to check power status and skip installing updates when the system is running on battery.
+2020-02-05 01:59:26,074 INFO Initial blacklist : 
+2020-02-05 01:59:26,075 INFO Initial whitelist: 
+2020-02-05 01:59:26,076 INFO Starting unattended upgrades script
+2020-02-05 01:59:26,076 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2020-02-05 06:21:34,289 INFO Checking if system is running on battery is skipped. Please install powermgmt-base package to check power status and skip installing updates when the system is running on battery.
+2020-02-05 06:21:34,302 INFO Initial blacklist : 
+2020-02-05 06:21:34,303 INFO Initial whitelist: 
+2020-02-05 06:21:34,304 INFO Starting unattended upgrades script
+2020-02-05 06:21:34,304 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2020-02-05 06:21:39,529 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2020-02-06 06:15:49,738 INFO Checking if system is running on battery is skipped. Please install powermgmt-base package to check power status and skip installing updates when the system is running on battery.
+2020-02-06 06:15:49,760 INFO Initial blacklist : 
+2020-02-06 06:15:49,769 INFO Initial whitelist: 
+2020-02-06 06:15:49,770 INFO Starting unattended upgrades script
+2020-02-06 06:15:49,771 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2020-02-06 06:15:55,527 INFO No packages found that can be upgraded unattended and no pending auto-removals

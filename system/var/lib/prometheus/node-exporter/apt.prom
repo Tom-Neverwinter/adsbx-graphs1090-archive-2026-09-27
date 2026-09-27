@@ -1,0 +1,6 @@
+# HELP apt_upgrades_pending Apt package pending updates by origin.
+# TYPE apt_upgrades_pending gauge
+apt_upgrades_pending{origin="",arch=""} 0
+# HELP node_reboot_required Node reboot is required for software updates.
+# TYPE node_reboot_required gauge
+node_reboot_required 0

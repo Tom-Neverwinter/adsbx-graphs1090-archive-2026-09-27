@@ -1,0 +1,29 @@
+/usr/share/fonts: skipping, existing cache is valid: 0 fonts, 5 dirs
+/usr/share/fonts/eot: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/eot/font-awesome: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/opentype: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/opentype/font-awesome: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/share/fonts/svg: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/svg/font-awesome: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/truetype: skipping, existing cache is valid: 0 fonts, 3 dirs
+/usr/share/fonts/truetype/dejavu: skipping, existing cache is valid: 6 fonts, 0 dirs
+/usr/share/fonts/truetype/font-awesome: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/share/fonts/truetype/glyphicons: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/share/fonts/woff: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/woff/font-awesome: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/X11R6/lib/X11/fonts: skipping, no such directory
+/usr/local/share/fonts: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/eot: skipping, looped directory detected
+/usr/share/fonts/opentype: skipping, looped directory detected
+/usr/share/fonts/svg: skipping, looped directory detected
+/usr/share/fonts/truetype: skipping, looped directory detected
+/usr/share/fonts/woff: skipping, looped directory detected
+/usr/share/fonts/eot/font-awesome: skipping, looped directory detected
+/usr/share/fonts/opentype/font-awesome: skipping, looped directory detected
+/usr/share/fonts/svg/font-awesome: skipping, looped directory detected
+/usr/share/fonts/truetype/dejavu: skipping, looped directory detected
+/usr/share/fonts/truetype/font-awesome: skipping, looped directory detected
+/usr/share/fonts/truetype/glyphicons: skipping, looped directory detected
+/usr/share/fonts/woff/font-awesome: skipping, looped directory detected
+/var/cache/fontconfig: cleaning cache directory
+fc-cache: succeeded

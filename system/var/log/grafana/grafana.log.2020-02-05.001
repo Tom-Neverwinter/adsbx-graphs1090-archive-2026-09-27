@@ -1,0 +1,36 @@
+2020/02/04 00:08:13 [I] Received signal terminated. shutting down
+2020/02/04 00:08:27 [I] Starting Grafana
+2020/02/04 00:08:27 [I] Version: master, Commit: NA, Build date: 1970-01-01 01:00:00 +0100 BST
+2020/02/04 00:08:27 [I] Configuration Info
+Config files:
+  [0]: /usr/share/grafana/conf/defaults.ini
+  [1]: /etc/grafana/grafana.ini
+Command lines overrides:
+  [0]: default.paths.data=/var/lib/grafana
+  [1]: default.paths.logs=/var/log/grafana
+Paths:
+  home: /usr/share/grafana
+  data: /var/lib/grafana
+  logs: /var/log/grafana
+
+2020/02/04 00:08:27 [I] Database: sqlite3
+2020/02/04 00:08:27 [I] Migrator: Starting DB migration
+2020/02/04 00:08:27 [I] Listen: http://0.0.0.0:3000
+2020/02/04 00:52:45 [I] Received signal terminated. shutting down
+2020/02/04 00:53:01 [I] Starting Grafana
+2020/02/04 00:53:01 [I] Version: master, Commit: NA, Build date: 1970-01-01 01:00:00 +0100 BST
+2020/02/04 00:53:01 [I] Configuration Info
+Config files:
+  [0]: /usr/share/grafana/conf/defaults.ini
+  [1]: /etc/grafana/grafana.ini
+Command lines overrides:
+  [0]: default.paths.data=/var/lib/grafana
+  [1]: default.paths.logs=/var/log/grafana
+Paths:
+  home: /usr/share/grafana
+  data: /var/lib/grafana
+  logs: /var/log/grafana
+
+2020/02/04 00:53:01 [I] Database: sqlite3
+2020/02/04 00:53:01 [I] Migrator: Starting DB migration
+2020/02/04 00:53:01 [I] Listen: http://0.0.0.0:3000

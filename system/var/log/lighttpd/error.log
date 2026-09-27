@@ -1,0 +1,23 @@
+2020-02-04 00:15:11: (server.c.1464) server started (lighttpd/1.4.53) 
+2020-02-04 00:18:30: (server.c.958) [note] graceful shutdown started 
+2020-02-04 00:18:30: (server.c.2059) server stopped by UID = 0 PID = 4412 
+2020-02-04 00:18:30: (server.c.1464) server started (lighttpd/1.4.53) 
+2020-02-04 00:18:30: (server.c.1493) WARNING: unknown config-key: setenv.add-response-header (ignored) 
+2020-02-04 00:18:30: (server.c.2059) server stopped by UID = 0 PID = 1 
+2020-02-04 00:18:31: (server.c.1464) server started (lighttpd/1.4.53) 
+2020-02-04 00:18:31: (server.c.1493) WARNING: unknown config-key: setenv.add-response-header (ignored) 
+2020-02-04 00:52:45: (server.c.2059) server stopped by UID = 0 PID = 1 
+2020-02-04 00:53:01: (server.c.1464) server started (lighttpd/1.4.53) 
+2020-02-04 00:53:01: (server.c.1493) WARNING: unknown config-key: setenv.add-response-header (ignored) 
+2020-02-05 14:54:23: (server.c.2059) server stopped by UID = 0 PID = 1 
+2020-02-05 14:54:40: (server.c.1464) server started (lighttpd/1.4.53) 
+2020-02-05 14:54:40: (server.c.1493) WARNING: unknown config-key: setenv.add-response-header (ignored) 
+2020-02-05 23:05:22: (server.c.2059) server stopped by UID = 0 PID = 1 
+2020-02-05 23:05:38: (server.c.1464) server started (lighttpd/1.4.53) 
+2020-02-05 23:05:38: (server.c.1493) WARNING: unknown config-key: setenv.add-response-header (ignored) 
+2020-02-06 06:15:46: (server.c.2059) server stopped by UID = 0 PID = 1 
+2020-02-06 06:15:47: (server.c.1464) server started (lighttpd/1.4.53) 
+2020-02-06 06:17:39: (server.c.2059) server stopped by UID = 0 PID = 1 
+2020-02-06 06:17:40: (server.c.1464) server started (lighttpd/1.4.53) 
+2020-02-06 06:23:56: (server.c.958) [note] graceful shutdown started 
+2020-02-06 06:23:58: (server.c.2059) server stopped by UID = 0 PID = 19288 
